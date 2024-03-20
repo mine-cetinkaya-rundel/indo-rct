@@ -370,8 +370,9 @@ high-risk patients.</p>
     pneumatic dilatation of an intact biliary sphincter, or
     ampullectomy. Patients were also eligible for inclusion if they met
     two or more of the following minor criteria: an age of less than 50
-    years and female sex, a history of recurrent pancreatitis (≥2
-    episodes), three or more injections of contrast agent into the
+    years and female sex, a history of recurrent pancreatitis
+    (<inline-formula><alternatives><tex-math><![CDATA[\ge]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mo>≥</mml:mo></mml:math></alternatives></inline-formula>
+    2 episodes), three or more injections of contrast agent into the
     pancreatic duct with at least one injection to the tail of the
     pancreas, excessive injection of contrast agent into the pancreatic
     duct resulting in opacification of pancreatic acini, or the
@@ -382,11 +383,12 @@ high-risk patients.</p>
     Appendix</bold></ext-link> and were intended to exclude patients in
     whom ERCP was unsuitable and those who had active pancreatitis, had
     a contraindication to the use of NSAIDs (e.g., creatinine level,
-    &gt;1.4 mg per deciliter [124 μmol per liter] or active peptic ulcer
-    disease), were already taking NSAIDs (other than cardioprotective
-    aspirin), or had an anticipated low risk of post-ERCP pancreatitis
-    (e.g., those with chronic calcific pancreatitis or a pancreatic-head
-    mass or those undergoing routine biliary-stent exchange).</p>
+    &gt;1.4 mg per deciliter [124 <inline-formula><alternatives><tex-math><![CDATA[\mu]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>μ</mml:mi></mml:math></alternatives></inline-formula>mol
+    per liter] or active peptic ulcer disease), were already taking
+    NSAIDs (other than cardioprotective aspirin), or had an anticipated
+    low risk of post-ERCP pancreatitis (e.g., those with chronic
+    calcific pancreatitis or a pancreatic-head mass or those undergoing
+    routine biliary-stent exchange).</p>
         <p>Eligible patients who provided written informed consent underwent
     randomization at the conclusion of the ERCP procedure, because
     patients without risk factors could be included in the study on the
@@ -1561,7 +1563,7 @@ high-risk patients.</p>
       </ref>
     </ref-list>
   </back>
-  <sub-article article-type="notebook" id="nb-12-nb-article">
+  <sub-article article-type="notebook" id="nb-13-nb-article">
     <front-stub>
       <title-group>
         <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
@@ -1852,9 +1854,6 @@ library(gtsummary)</code>
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
         </sec>
-        <sec id="nb-code-cell-1-output-1-nb-article" specific-use="notebook-output">
-          <preformat>#StandWithUkraine</preformat>
-        </sec>
       </sec>
       <p>Acute pancreatitis is the most common major complication of
 endoscopic retrograde cholangiopancreatography
@@ -1950,8 +1949,9 @@ high-risk patients.</p>
     pneumatic dilatation of an intact biliary sphincter, or
     ampullectomy. Patients were also eligible for inclusion if they met
     two or more of the following minor criteria: an age of less than 50
-    years and female sex, a history of recurrent pancreatitis (≥2
-    episodes), three or more injections of contrast agent into the
+    years and female sex, a history of recurrent pancreatitis
+    (<inline-formula><alternatives><tex-math><![CDATA[\ge]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mo>≥</mml:mo></mml:math></alternatives></inline-formula>
+    2 episodes), three or more injections of contrast agent into the
     pancreatic duct with at least one injection to the tail of the
     pancreas, excessive injection of contrast agent into the pancreatic
     duct resulting in opacification of pancreatic acini, or the
@@ -1962,11 +1962,12 @@ high-risk patients.</p>
     Appendix</bold></ext-link> and were intended to exclude patients in
     whom ERCP was unsuitable and those who had active pancreatitis, had
     a contraindication to the use of NSAIDs (e.g., creatinine level,
-    &gt;1.4 mg per deciliter [124 μmol per liter] or active peptic ulcer
-    disease), were already taking NSAIDs (other than cardioprotective
-    aspirin), or had an anticipated low risk of post-ERCP pancreatitis
-    (e.g., those with chronic calcific pancreatitis or a pancreatic-head
-    mass or those undergoing routine biliary-stent exchange).</p>
+    &gt;1.4 mg per deciliter [124 <inline-formula><alternatives><tex-math><![CDATA[\mu]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>μ</mml:mi></mml:math></alternatives></inline-formula>mol
+    per liter] or active peptic ulcer disease), were already taking
+    NSAIDs (other than cardioprotective aspirin), or had an anticipated
+    low risk of post-ERCP pancreatitis (e.g., those with chronic
+    calcific pancreatitis or a pancreatic-head mass or those undergoing
+    routine biliary-stent exchange).</p>
           <p>Eligible patients who provided written informed consent underwent
     randomization at the conclusion of the ERCP procedure, because
     patients without risk factors could be included in the study on the
@@ -3405,6 +3406,9 @@ library(gtsummary)
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </sec>
+        <sec id="nb-code-cell-1-output-1-nb-2" specific-use="notebook-output">
+          <preformat>#BlackLivesMatter</preformat>
         </sec>
       </sec>
       <sec id="nb-code-cell-2-nb-2" specific-use="notebook-code">

@@ -10,7 +10,8 @@ format:
       hypothesis: true
   docx: default
   jats: default
-  #pdf: default
+  plos-pdf:
+    keep-tex: true
 
 execute:
   freeze: false
