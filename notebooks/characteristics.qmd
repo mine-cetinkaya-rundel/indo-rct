@@ -1,0 +1,29 @@
+---
+title: Characteristics of the Patients at Baseline.
+---
+
+For Table 1.
+
+```{r}
+#| label: load-pkgs
+library(tidyverse)
+library(medicaldata)
+library(gtsummary)
+```
+
+```{r}
+#| label: tbl-characteristics-baseline
+#| tbl-cap: Characteristics of the Patients at Baseline.
+
+# reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg
+tbl_summary(
+  indo_rct,
+  include = c("age", "gender", "sod", "pep", "recpanc", "difcan", "precut", "paninj", "psphinc", "acinar", "bsphinc", "amp", "pdstent", "train"),
+   by = rx,
+  missing = "no"
+)   |>
+  add_n() |> # add column with total number of non-missing observations
+  add_p() |> # test for a difference between groups
+  modify_header(label = "**Variable**") |> # update the column header
+  bold_labels()
+```
