@@ -3,7 +3,13 @@ project:
 
 manuscript:
   article: index.qmd
-  code-links: binder
+  code-links:
+    - text: GitHub
+      icon: github
+      href: https://github.com/mine-cetinkaya-rundel/indo-rct
+    - text: Binder
+      icon: journal
+      href: https://mybinder.org/v2/gh/mine-cetinkaya-rundel/indo-rct/HEAD
 
 format:
   html:
