@@ -1563,7 +1563,7 @@ high-risk patients.</p>
       </ref>
     </ref-list>
   </back>
-  <sub-article article-type="notebook" id="nb-6-nb-article">
+  <sub-article article-type="notebook" id="nb-9-nb-article">
     <front-stub>
       <title-group>
         <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
@@ -1840,7 +1840,6 @@ ClinicalTrials.gov number, NCT00820612. opens in new tab.)</p>
       <sec id="nb-code-cell-1-nb-article" specific-use="notebook-code">
         <code language="r script">library(tidyverse)</code>
         <code language="r script">library(medicaldata)
-library(consort)
 library(gtsummary)</code>
         <sec id="nb-code-cell-1-output-0-nb-article" specific-use="notebook-output">
           <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
@@ -3266,7 +3265,7 @@ plot_a + plot_b</code>
       </ref-list>
     </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-2-nb-1">
+  <sub-article article-type="notebook" id="nb-3-nb-1">
     <front-stub>
       <title-group>
         <article-title>Incidence of the Primary and Secondary End Points and
@@ -3380,7 +3379,7 @@ plot_a + plot_b
     <back>
 </back>
   </sub-article>
-  <sub-article article-type="notebook" id="nb-4-nb-2">
+  <sub-article article-type="notebook" id="nb-6-nb-2">
     <front-stub>
       <title-group>
         <article-title>Enrollment and Outcomes</article-title>

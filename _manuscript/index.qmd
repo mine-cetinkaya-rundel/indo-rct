@@ -82,7 +82,6 @@ Some of the reproduction code was provided by Peter Higgins.
 #| include: false
 library(tidyverse)
 library(medicaldata)
-library(consort)
 library(gtsummary)
 ```
 

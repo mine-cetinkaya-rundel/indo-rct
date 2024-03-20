@@ -6,7 +6,6 @@ Consort diagram.
 
 ```{r}
 #| label: load-pkgs
-
 library(consort)
 ```
 

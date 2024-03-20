@@ -14,4 +14,4 @@ format:
     keep-tex: true
 
 execute:
-  freeze: false
+  freeze: auto
