@@ -1563,7 +1563,7 @@ high-risk patients.</p>
       </ref>
     </ref-list>
   </back>
-  <sub-article article-type="notebook" id="nb-13-nb-article">
+  <sub-article article-type="notebook" id="nb-12-nb-article">
     <front-stub>
       <title-group>
         <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
@@ -3406,9 +3406,6 @@ library(gtsummary)
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-        </sec>
-        <sec id="nb-code-cell-1-output-1-nb-2" specific-use="notebook-output">
-          <preformat>#BlackLivesMatter</preformat>
         </sec>
       </sec>
       <sec id="nb-code-cell-2-nb-2" specific-use="notebook-code">
