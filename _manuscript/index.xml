@@ -1563,7 +1563,7 @@ high-risk patients.</p>
       </ref>
     </ref-list>
   </back>
-  <sub-article article-type="notebook" id="nb-9-nb-article">
+  <sub-article article-type="notebook" id="nb-10-nb-article">
     <front-stub>
       <title-group>
         <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
@@ -1852,6 +1852,9 @@ library(gtsummary)</code>
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </sec>
+        <sec id="nb-code-cell-1-output-1-nb-article" specific-use="notebook-output">
+          <preformat>#BlackLivesMatter</preformat>
         </sec>
       </sec>
       <p>Acute pancreatitis is the most common major complication of
@@ -3388,8 +3391,7 @@ plot_a + plot_b
     <body>
       <p>Consort diagram.</p>
       <sec id="nb-code-cell-1-nb-2" specific-use="notebook-code">
-        <code language="r script">
-library(consort)
+        <code language="r script">library(consort)
 </code>
       </sec>
       <sec id="cell-fig-enrollment-outcomes-nb-2" specific-use="notebook-code">

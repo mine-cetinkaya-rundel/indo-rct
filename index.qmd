@@ -68,8 +68,6 @@ abstract: |
   **CONCLUSIONS**
   Among patients at high risk for post-ERCP pancreatitis, rectal indomethacin significantly reduced the incidence of the condition. (Funded by the National Institutes of Health; ClinicalTrials.gov number, NCT00820612. opens in new tab.)
 html-table-processing: none
-editor_options: 
-  chunk_output_type: console
 ---
 
 ::: callout-important
