@@ -8,19 +8,17 @@ Bar plots.
 #| label: load-pkgs
 library(tidyverse)
 library(medicaldata)
+library(patchwork)
 ```
 
 ```{r}
 #| label: fig-incidences-adverse-events
 #| fig-cap: Incidence of the Primary and Secondary End Points and Adverse Events
-#| fig-subcap:
-#|   - Post-ERCP Pancreatitis
-#|   - Adverse Events
-#| fig-width: 5
+#| fig-width: 4
 #| fig-asp: 0.681
 
 # A - moderate to severe missing
-indo_rct |> 
+plot_a <- indo_rct |> 
   count(rx, outcome) |>
   group_by(rx) |>
   mutate(p = n / sum(n)) |>
@@ -57,7 +55,7 @@ indo_rct |>
   )
 
 # renal failure missing
-indo_rct |>
+plot_b <- indo_rct |>
   filter(bleed == 1) |>
   mutate(
     rx = case_match(
@@ -88,4 +86,6 @@ indo_rct |>
     y = "No. of Adverse Events",
     fill = NULL
   )
+
+plot_a + plot_b
 ```
