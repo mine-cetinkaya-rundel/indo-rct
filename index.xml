@@ -2759,16 +2759,14 @@ plot_a + plot_b
 </code>
 </sec>
 <sec id="cell-fig-enrollment-outcomes-nb-2" specific-use="notebook-code">
-<code language="r script">
-# use https://github.com/adayim/consort 
+<code language="r script"># use https://github.com/adayim/consort 
 # use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below
 N &lt;- 799
 trialno &lt;- sample(c(1000:2000), N)
 exc1 &lt;- rep(NA, N)
 exc1[sample(1:N, 197)] &lt;- sample(c(&quot;Did not meet inclusion criteria&quot;, &quot;Met exclusion criteria&quot;, &quot;Did not undergo ERCP&quot;),  15, replace = TRUE, prob = c(0.858, 0.0558, 0.086))
 </code>
-<code language="r script">
-induc &lt;- rep(NA, N)
+<code language="r script">induc &lt;- rep(NA, N)
 induc[is.na(exc1)] &lt;- trialno[is.na(exc1)]
 
 exc2 &lt;- rep(NA, N)
@@ -2783,8 +2781,7 @@ arm3[is.na(arm)] &lt;- NA
 df_consort &lt;- data.frame(trialno, exc1, induc, exc2, exc1, arm, arm3)
 rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N)
 </code>
-<code language="r script">
-consort_plot(
+<code language="r script">consort_plot(
   data = df_consort,
   order = list(
   trialno = &quot;Population&quot;,
