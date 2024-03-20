@@ -3,6 +3,7 @@ project:
 
 manuscript:
   article: index.qmd
+  code-links: binder
 
 format:
   html:
