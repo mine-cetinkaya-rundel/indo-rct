@@ -1,6 +1,6 @@
 ---
 title: A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis
-subtitle: Reproduction
+subtitle: Reproduction with Quarto Manuscripts
 authors:
   - name: B. Joseph Elmunzer, M.D.
     affiliation: University of Michigan Medical Center
