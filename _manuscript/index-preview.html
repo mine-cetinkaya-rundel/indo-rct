@@ -550,6 +550,9 @@ Important
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(medicaldata)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtsummary)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>#BlackLivesMatter</code></pre>
+</div>
 </div></div>
 <p>Acute pancreatitis is the most common major complication of endoscopic retrograde cholangiopancreatography (ERCP),<span class="citation" data-cites="freeman2004">(<a href="#ref-freeman2004" role="doc-biblioref">Martin L. Freeman and Guda 2004</a>)</span> accounting for substantial morbidity, occasional death, and estimated health care expenditures of approximately $150 million annually in the United States.<span class="citation" data-cites="freeman1996 hcupnet2019utilization">(<a href="#ref-freeman1996" role="doc-biblioref">Martin L. Freeman et al. 1996</a>; <a href="#ref-hcupnet2019utilization" role="doc-biblioref">HCUPnet 2019</a>)</span> Given the magnitude of this problem, more than 35 pharmacologic agents have been studied for the prophylaxis of post-ERCP pancreatitis, and many prospective clinical trials addressing chemoprevention have been conducted. To date, however, no medication has proved to be consistently effective in preventing post-ERCP pancreatitis on the basis of data from high-quality clinical trials, and no pharmacologic prophylaxis for post-ERCP pancreatitis is in widespread clinical use.</p>
 <p>Nonsteroidal antiinflammatory drugs (NSAIDs) are potent inhibitors of phospholipase A2, cyclooxygenase, and neutrophil–endothelial interactions, all believed to play an important role in the pathogenesis of acute pancreatitis.<span class="citation" data-cites="gross1993inflammatory makela1997inhibition">(<a href="#ref-gross1993inflammatory" role="doc-biblioref">Gross et al. 1993</a>; <a href="#ref-makela1997inhibition" role="doc-biblioref">Mäkelä, Kuusi, and Schröder 1997</a>)</span> NSAIDs are inexpensive and easily administered and have a favorable risk profile when given as a single dose, making them an attractive option in the prevention of post-ERCP pancreatitis. Preliminary studies evaluating the protective effects of single-dose rectal indomethacin or diclofenac in post-ERCP pancreatitis have been conducted,<span class="citation" data-cites="murray2003diclofenac sotoudehmanesh2007indomethacin khoshbaten2008role je2007effect">(<a href="#ref-murray2003diclofenac" role="doc-biblioref">Murray et al. 2003</a>; <a href="#ref-sotoudehmanesh2007indomethacin" role="doc-biblioref">Sotoudehmanesh et al. 2007</a>; <a href="#ref-khoshbaten2008role" role="doc-biblioref">Khoshbaten et al. 2008</a>; <a href="#ref-je2007effect" role="doc-biblioref">JE et al. 2007</a>)</span> and a meta-analysis suggests benefit.<span class="citation" data-cites="elmunzer2008">(<a href="#ref-elmunzer2008" role="doc-biblioref">Elmunzer et al. 2008</a>)</span></p>
@@ -598,12 +601,12 @@ Important
 <p>From February 2009 through July 2011, a total of 602 subjects were enrolled (<a href="#fig-enrollment-outcomes" class="quarto-xref">Figure&nbsp;1</a>). In July 2011, the data and safety monitoring board performed an interim analysis to assess the outcomes of the first 600 patients and recommended that the study be terminated early on the basis of the benefit of indomethacin as compared with placebo. Thus, we terminated the study according to the a priori stopping rule.</p>
 <div class="quarto-embed-nb-cell" data-notebook="/Users/mine/Desktop/talks/2024-quarto-manuscripts-rmed/indo-rct/notebooks/consort.qmd" data-notebook-title="Enrollment and Outcomes" data-notebook-cellid="cell-fig-enrollment-outcomes">
 <div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="cell-fig-enrollment-outcomes" class="cell" data-fig-width="10" data-fig-asp="1" data-fig-dpi="300">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use https://github.com/adayim/consort </span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">&lt;-</span> <span class="dv">799</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>trialno <span class="op">&lt;-</span> sample(c(<span class="dv">1000</span>:<span class="dv">2000</span>), N)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>exc1 <span class="op">&lt;-</span> rep(NA, N)</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>exc1[sample(<span class="dv">1</span>:N, <span class="dv">197</span>)] <span class="op">&lt;-</span> sample(c(<span class="st">"Did not meet inclusion criteria"</span>, <span class="st">"Met exclusion criteria"</span>, <span class="st">"Did not undergo ERCP"</span>),  <span class="dv">15</span>, replace <span class="op">=</span> TRUE, prob <span class="op">=</span> c(<span class="fl">0.858</span>, <span class="fl">0.0558</span>, <span class="fl">0.086</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use https://github.com/adayim/consort </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">&lt;-</span> <span class="dv">799</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>trialno <span class="op">&lt;-</span> sample(c(<span class="dv">1000</span>:<span class="dv">2000</span>), N)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>exc1 <span class="op">&lt;-</span> rep(NA, N)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>exc1[sample(<span class="dv">1</span>:N, <span class="dv">197</span>)] <span class="op">&lt;-</span> sample(c(<span class="st">"Did not meet inclusion criteria"</span>, <span class="st">"Met exclusion criteria"</span>, <span class="st">"Did not undergo ERCP"</span>),  <span class="dv">15</span>, replace <span class="op">=</span> TRUE, prob <span class="op">=</span> c(<span class="fl">0.858</span>, <span class="fl">0.0558</span>, <span class="fl">0.086</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning in exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion
 criteria", : number of items to replace is not a multiple of replacement lengthWarning in rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N): object 'exc1'
@@ -624,62 +627,62 @@ Figure&nbsp;1: Enrollment and Outcomes.
 </div></div>
 </div>
 <div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>indo_rct_rx <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(rx)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>n_indomethacin <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"1_indomethacin"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>n_placebo <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"0_placebo"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>indo_rct_rx <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(rx)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>n_indomethacin <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"1_indomethacin"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>n_placebo <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"0_placebo"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 <div class="cell-container"><div class="cell-decorator"><pre>In [4]:</pre></div><div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>p_oddi <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span> </span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">type =</span> <span class="fu">if_else</span>(type <span class="sc">!=</span> <span class="st">"0_no SOD"</span>, <span class="st">"oddi"</span>, <span class="st">"no oddi"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(type) <span class="sc">|&gt;</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">p =</span> <span class="fu">round</span>(n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(type <span class="sc">==</span> <span class="st">"oddi"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(p)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>p_oddi <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">type =</span> <span class="fu">if_else</span>(type <span class="sc">!=</span> <span class="st">"0_no SOD"</span>, <span class="st">"oddi"</span>, <span class="st">"no oddi"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(type) <span class="sc">|&gt;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">p =</span> <span class="fu">round</span>(n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(type <span class="sc">==</span> <span class="st">"oddi"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(p)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 <p>A total of 295 patients received indomethacin, and 307 patients received placebo. One patient in the indomethacin group could not retain the suppositories but was included in the intention-to-treat analysis. Follow-up of all patients for the primary and secondary end points was complete (<a href="#fig-enrollment-outcomes" class="quarto-xref">Figure&nbsp;1</a>). Baseline characteristics were similar in the two study groups (<a href="#tbl-characteristics-baseline" class="quarto-xref">Table&nbsp;1</a>). Notably, 82.2% of patients had a clinical suspicion of sphincter of Oddi dysfunction.</p>
 <div class="cell-container"><div class="cell-decorator"><pre>In [5]:</pre></div><div class="cell">
 
-<div class="cell-container"><div class="cell-decorator"><pre>In [6]:</pre></div><div><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tbl_summary</span>(</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  indo_rct,</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">include =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"gender"</span>, <span class="st">"sod"</span>, <span class="st">"pep"</span>, <span class="st">"recpanc"</span>, <span class="st">"difcan"</span>, <span class="st">"precut"</span>, <span class="st">"paninj"</span>, <span class="st">"psphinc"</span>, <span class="st">"acinar"</span>, <span class="st">"bsphinc"</span>, <span class="st">"amp"</span>, <span class="st">"pdstent"</span>, <span class="st">"train"</span>),</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>   <span class="at">by =</span> rx,</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing =</span> <span class="st">"no"</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>)   <span class="sc">|&gt;</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_n</span>() <span class="sc">|&gt;</span> <span class="co"># add column with total number of non-missing observations</span></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_p</span>() <span class="sc">|&gt;</span> <span class="co"># test for a difference between groups</span></span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">modify_header</span>(<span class="at">label =</span> <span class="st">"**Variable**"</span>) <span class="sc">|&gt;</span> <span class="co"># update the column header</span></span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bold_labels</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-characteristics-baseline" class="cell quarto-float anchored">
+<div class="cell-container"><div class="cell-decorator"><pre>In [6]:</pre></div><div><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tbl_summary</span>(</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  indo_rct,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">include =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"gender"</span>, <span class="st">"sod"</span>, <span class="st">"pep"</span>, <span class="st">"recpanc"</span>, <span class="st">"difcan"</span>, <span class="st">"precut"</span>, <span class="st">"paninj"</span>, <span class="st">"psphinc"</span>, <span class="st">"acinar"</span>, <span class="st">"bsphinc"</span>, <span class="st">"amp"</span>, <span class="st">"pdstent"</span>, <span class="st">"train"</span>),</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>   <span class="at">by =</span> rx,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing =</span> <span class="st">"no"</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>)   <span class="sc">|&gt;</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_n</span>() <span class="sc">|&gt;</span> <span class="co"># add column with total number of non-missing observations</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_p</span>() <span class="sc">|&gt;</span> <span class="co"># test for a difference between groups</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">modify_header</span>(<span class="at">label =</span> <span class="st">"**Variable**"</span>) <span class="sc">|&gt;</span> <span class="co"># update the column header</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bold_labels</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-characteristics-baseline" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-characteristics-baseline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Characteristics of the Patients at Baseline.
 </figcaption>
 <div aria-describedby="tbl-characteristics-baseline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="dmycrvqssi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#dmycrvqssi table {
+<div id="tugnscfnzc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#tugnscfnzc table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dmycrvqssi thead, #dmycrvqssi tbody, #dmycrvqssi tfoot, #dmycrvqssi tr, #dmycrvqssi td, #dmycrvqssi th {
+#tugnscfnzc thead, #tugnscfnzc tbody, #tugnscfnzc tfoot, #tugnscfnzc tr, #tugnscfnzc td, #tugnscfnzc th {
   border-style: none;
 }
 
-#dmycrvqssi p {
+#tugnscfnzc p {
   margin: 0;
   padding: 0;
 }
 
-#dmycrvqssi .gt_table {
+#tugnscfnzc .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -705,12 +708,12 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-left-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_caption {
+#tugnscfnzc .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dmycrvqssi .gt_title {
+#tugnscfnzc .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -722,7 +725,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-bottom-width: 0;
 }
 
-#dmycrvqssi .gt_subtitle {
+#tugnscfnzc .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -734,7 +737,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-top-width: 0;
 }
 
-#dmycrvqssi .gt_heading {
+#tugnscfnzc .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -746,13 +749,13 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-right-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_bottom_border {
+#tugnscfnzc .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_col_headings {
+#tugnscfnzc .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -767,7 +770,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-right-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_col_heading {
+#tugnscfnzc .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -787,7 +790,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   overflow-x: hidden;
 }
 
-#dmycrvqssi .gt_column_spanner_outer {
+#tugnscfnzc .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -799,15 +802,15 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 4px;
 }
 
-#dmycrvqssi .gt_column_spanner_outer:first-child {
+#tugnscfnzc .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dmycrvqssi .gt_column_spanner_outer:last-child {
+#tugnscfnzc .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dmycrvqssi .gt_column_spanner {
+#tugnscfnzc .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -819,11 +822,11 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   width: 100%;
 }
 
-#dmycrvqssi .gt_spanner_row {
+#tugnscfnzc .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dmycrvqssi .gt_group_heading {
+#tugnscfnzc .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -849,7 +852,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   text-align: left;
 }
 
-#dmycrvqssi .gt_empty_group_heading {
+#tugnscfnzc .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -864,15 +867,15 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   vertical-align: middle;
 }
 
-#dmycrvqssi .gt_from_md > :first-child {
+#tugnscfnzc .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dmycrvqssi .gt_from_md > :last-child {
+#tugnscfnzc .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dmycrvqssi .gt_row {
+#tugnscfnzc .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -891,7 +894,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   overflow-x: hidden;
 }
 
-#dmycrvqssi .gt_stub {
+#tugnscfnzc .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -904,7 +907,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 5px;
 }
 
-#dmycrvqssi .gt_stub_row_group {
+#tugnscfnzc .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -918,15 +921,15 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   vertical-align: top;
 }
 
-#dmycrvqssi .gt_row_group_first td {
+#tugnscfnzc .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dmycrvqssi .gt_row_group_first th {
+#tugnscfnzc .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dmycrvqssi .gt_summary_row {
+#tugnscfnzc .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -936,16 +939,16 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 5px;
 }
 
-#dmycrvqssi .gt_first_summary_row {
+#tugnscfnzc .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_first_summary_row.thick {
+#tugnscfnzc .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dmycrvqssi .gt_last_summary_row {
+#tugnscfnzc .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -955,7 +958,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-bottom-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_grand_summary_row {
+#tugnscfnzc .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -965,7 +968,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 5px;
 }
 
-#dmycrvqssi .gt_first_grand_summary_row {
+#tugnscfnzc .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -975,7 +978,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-top-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_last_grand_summary_row_top {
+#tugnscfnzc .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -985,11 +988,11 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-bottom-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_striped {
+#tugnscfnzc .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dmycrvqssi .gt_table_body {
+#tugnscfnzc .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -998,7 +1001,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-bottom-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_footnotes {
+#tugnscfnzc .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1012,7 +1015,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-right-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_footnote {
+#tugnscfnzc .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1021,7 +1024,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 5px;
 }
 
-#dmycrvqssi .gt_sourcenotes {
+#tugnscfnzc .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1035,7 +1038,7 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   border-right-color: #D3D3D3;
 }
 
-#dmycrvqssi .gt_sourcenote {
+#tugnscfnzc .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1043,63 +1046,63 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
   padding-right: 5px;
 }
 
-#dmycrvqssi .gt_left {
+#tugnscfnzc .gt_left {
   text-align: left;
 }
 
-#dmycrvqssi .gt_center {
+#tugnscfnzc .gt_center {
   text-align: center;
 }
 
-#dmycrvqssi .gt_right {
+#tugnscfnzc .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dmycrvqssi .gt_font_normal {
+#tugnscfnzc .gt_font_normal {
   font-weight: normal;
 }
 
-#dmycrvqssi .gt_font_bold {
+#tugnscfnzc .gt_font_bold {
   font-weight: bold;
 }
 
-#dmycrvqssi .gt_font_italic {
+#tugnscfnzc .gt_font_italic {
   font-style: italic;
 }
 
-#dmycrvqssi .gt_super {
+#tugnscfnzc .gt_super {
   font-size: 65%;
 }
 
-#dmycrvqssi .gt_footnote_marks {
+#tugnscfnzc .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dmycrvqssi .gt_asterisk {
+#tugnscfnzc .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dmycrvqssi .gt_indent_1 {
+#tugnscfnzc .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dmycrvqssi .gt_indent_2 {
+#tugnscfnzc .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dmycrvqssi .gt_indent_3 {
+#tugnscfnzc .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dmycrvqssi .gt_indent_4 {
+#tugnscfnzc .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dmycrvqssi .gt_indent_5 {
+#tugnscfnzc .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1337,77 +1340,77 @@ Table&nbsp;1: Characteristics of the Patients at Baseline.
 <p>The primary outcome of post-ERCP pancreatitis occurred in 79 of 602 patients (13.1%). Of these events, 27 of 295 (9.2%) occurred in the indomethacin group and 52 of 307 (16.9%) occurred in the placebo group (P=0.005), corresponding to an absolute risk reduction of 7.7 percentage points (number needed to treat [NNT] to prevent one episode of post-ERCP pancreatitis, 13) and a relative risk reduction of 46% (<a href="#fig-incidences-adverse-events" class="quarto-xref">Figure&nbsp;2</a>).</p>
 <div class="quarto-embed-nb-cell" data-notebook="/Users/mine/Desktop/talks/2024-quarto-manuscripts-rmed/indo-rct/notebooks/incidences.qmd" data-notebook-title="Incidence of the Primary and Secondary End Points and Adverse Events" data-notebook-cellid="cell-fig-incidences-adverse-events">
 <div class="cell-container"><div class="cell-decorator"><pre>In [7]:</pre></div><div id="cell-fig-incidences-adverse-events" class="cell" data-fig-width="4" data-fig-asp="0.681">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A - moderate to severe missing</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span> </span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  count(rx, outcome) <span class="op">|&gt;</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  group_by(rx) <span class="op">|&gt;</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  mutate(p <span class="op">=</span> n <span class="op">/</span> <span class="bu">sum</span>(n)) <span class="op">|&gt;</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(outcome <span class="op">==</span> <span class="st">"1_yes"</span>) <span class="op">|&gt;</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  ungroup() <span class="op">|&gt;</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>      rx, </span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>),</span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    p <span class="op">=</span> p<span class="op">*</span><span class="dv">100</span></span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> p, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
-<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
-<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
-<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
-<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>  theme(</span>
-<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
-<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
-<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
-<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
-<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">20</span>) <span class="op">+</span></span>
-<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>  labs(</span>
-<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"All Post-ERCP</span><span class="ch">\n</span><span class="st">Pancreatitis"</span>,</span>
-<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"Patients (%)"</span>,</span>
-<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
-<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="co"># renal failure missing</span></span>
-<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>plot_b <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span></span>
-<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(bleed <span class="op">==</span> <span class="dv">1</span>) <span class="op">|&gt;</span></span>
-<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
-<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
-<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>      rx, </span>
-<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
-<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
-<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>      ),</span>
-<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>)</span>
-<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
-<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>  count(rx, bleed) <span class="op">|&gt;</span></span>
-<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> n, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
-<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
-<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
-<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
-<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
-<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
-<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
-<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
-<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a>  theme(</span>
-<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
-<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
-<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
-<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
-<span id="cb9-64"><a href="#cb9-64" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">8</span>) <span class="op">+</span></span>
-<span id="cb9-65"><a href="#cb9-65" aria-hidden="true" tabindex="-1"></a>  labs(</span>
-<span id="cb9-66"><a href="#cb9-66" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"Gastrointestinal</span><span class="ch">\n</span><span class="st">Bleeding"</span>,</span>
-<span id="cb9-67"><a href="#cb9-67" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"No. of Adverse Events"</span>,</span>
-<span id="cb9-68"><a href="#cb9-68" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
-<span id="cb9-69"><a href="#cb9-69" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">+</span> plot_b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A - moderate to severe missing</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span> </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  count(rx, outcome) <span class="op">|&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  group_by(rx) <span class="op">|&gt;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  mutate(p <span class="op">=</span> n <span class="op">/</span> <span class="bu">sum</span>(n)) <span class="op">|&gt;</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(outcome <span class="op">==</span> <span class="st">"1_yes"</span>) <span class="op">|&gt;</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  ungroup() <span class="op">|&gt;</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>      rx, </span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>),</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    p <span class="op">=</span> p<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> p, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>  theme(</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">20</span>) <span class="op">+</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>  labs(</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"All Post-ERCP</span><span class="ch">\n</span><span class="st">Pancreatitis"</span>,</span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"Patients (%)"</span>,</span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a><span class="co"># renal failure missing</span></span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>plot_b <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span></span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(bleed <span class="op">==</span> <span class="dv">1</span>) <span class="op">|&gt;</span></span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>      rx, </span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>)</span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
+<span id="cb10-49"><a href="#cb10-49" aria-hidden="true" tabindex="-1"></a>  count(rx, bleed) <span class="op">|&gt;</span></span>
+<span id="cb10-50"><a href="#cb10-50" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> n, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
+<span id="cb10-51"><a href="#cb10-51" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
+<span id="cb10-52"><a href="#cb10-52" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
+<span id="cb10-53"><a href="#cb10-53" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
+<span id="cb10-54"><a href="#cb10-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
+<span id="cb10-55"><a href="#cb10-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
+<span id="cb10-56"><a href="#cb10-56" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb10-57"><a href="#cb10-57" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
+<span id="cb10-58"><a href="#cb10-58" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
+<span id="cb10-59"><a href="#cb10-59" aria-hidden="true" tabindex="-1"></a>  theme(</span>
+<span id="cb10-60"><a href="#cb10-60" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
+<span id="cb10-61"><a href="#cb10-61" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
+<span id="cb10-62"><a href="#cb10-62" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
+<span id="cb10-63"><a href="#cb10-63" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
+<span id="cb10-64"><a href="#cb10-64" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">8</span>) <span class="op">+</span></span>
+<span id="cb10-65"><a href="#cb10-65" aria-hidden="true" tabindex="-1"></a>  labs(</span>
+<span id="cb10-66"><a href="#cb10-66" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"Gastrointestinal</span><span class="ch">\n</span><span class="st">Bleeding"</span>,</span>
+<span id="cb10-67"><a href="#cb10-67" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"No. of Adverse Events"</span>,</span>
+<span id="cb10-68"><a href="#cb10-68" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
+<span id="cb10-69"><a href="#cb10-69" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb10-70"><a href="#cb10-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-71"><a href="#cb10-71" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">+</span> plot_b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="fig-incidences-adverse-events" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -1955,7 +1958,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
+</script>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
