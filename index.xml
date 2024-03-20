@@ -13,7 +13,7 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 <title-group>
 <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
 Post-ERCP Pancreatitis</article-title>
-<subtitle>Reproduction</subtitle>
+<subtitle>Reproduction with Quarto Manuscripts</subtitle>
 </title-group>
 
 <contrib-group>
@@ -1259,7 +1259,7 @@ high-risk patients.</p>
 <title-group>
 <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
 Post-ERCP Pancreatitis</article-title>
-<subtitle>Reproduction</subtitle>
+<subtitle>Reproduction with Quarto Manuscripts</subtitle>
 </title-group>
 <contrib-group>
 <contrib contrib-type="author" corresp="yes">
@@ -1602,9 +1602,6 @@ library(gtsummary)</code>
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-1-nb-article" specific-use="notebook-output">
-<preformat>#BlackLivesMatter</preformat>
 </sec>
 </sec>
 <p>Acute pancreatitis is the most common major complication of
