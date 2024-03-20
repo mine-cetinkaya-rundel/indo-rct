@@ -1,0 +1,3461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
+Post-ERCP Pancreatitis</article-title>
+        <subtitle>Reproduction</subtitle>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>B. Joseph Elmunzer</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>B. Joseph Elmunzer, M.D.</string-name>
+          <role vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>James M. Scheiman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>James M. Scheiman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Glen A. Lehman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Glen A. Lehman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amitabh Chak</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Amitabh Chak, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Patrick Mosler</surname>
+            <given-names>Ph.D.</given-names>
+          </name>
+          <string-name>Patrick Mosler, M.D., Ph.D.</string-name>
+          <xref ref-type="aff" rid="aff-4">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-1602-4341</contrib-id>
+          <name>
+            <surname>Peter D. R. Higgins</surname>
+            <given-names>Ph.D.</given-names>
+          </name>
+          <string-name>Peter D.R. Higgins, M.D., Ph.D.</string-name>
+          <email>phiggins@umich.edu</email>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rodney A. Hayward</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Rodney A. Hayward, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joseph Romagnuolo</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Joseph Romagnuolo, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-5">e</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grace H. Elta</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Grace H. Elta, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stuart Sherman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Stuart Sherman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akbar K. Waljee</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Akbar K. Waljee, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aparna Repaka</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Aparna Repaka, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matthew R. Atkinson</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Matthew R. Atkinson, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gregory A. Cote</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Gregory A. Cote, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Richard S. Kwon</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Richard S. Kwon, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee McHenry</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Lee McHenry, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cyrus R. Piraka</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Cyrus R. Piraka, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Erik J. Wamsteker</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Erik J. Wamsteker, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>James L. Watkins</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>James L. Watkins, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sheryl J. Korsnes</surname>
+            <given-names>M. A.</given-names>
+          </name>
+          <string-name>Sheryl J. Korsnes, M.A.</string-name>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suzette E. Schmidt</surname>
+            <given-names>C. C. R. P.</given-names>
+          </name>
+          <string-name>Suzette E. Schmidt, B.S.N., C.C.R.P.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sarah M. Turner</surname>
+            <given-names>B. S.</given-names>
+          </name>
+          <string-name>Sarah M. Turner, B.S.</string-name>
+          <xref ref-type="aff" rid="aff-4">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sylvia Nicholson</surname>
+            <given-names>C. C. R. C.</given-names>
+          </name>
+          <string-name>Sylvia Nicholson, C.C.R.C.</string-name>
+          <xref ref-type="aff" rid="aff-4">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Evan L. Fogel</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Evan L. Fogel, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>University of Michigan Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2">
+        <institution-wrap>
+          <institution>Indiana University Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-3">
+        <institution-wrap>
+          <institution>University Hospitals Case Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-4">
+        <institution-wrap>
+          <institution>University of Kentucky Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-5">
+        <institution-wrap>
+          <institution>Medical University of South Carolina</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1"/>
+      </author-notes>
+      <history/>
+      <abstract>
+        <p><bold>BACKGROUND</bold> Preliminary research suggests that rectally
+administered nonsteroidal antiinflammatory drugs may reduce the
+incidence of pancreatitis after endoscopic retrograde
+cholangiopancreatography (ERCP).</p>
+        <p><bold>METHODS</bold> In this multicenter, randomized,
+placebo-controlled, double-blind clinical trial, we assigned patients at
+elevated risk for post-ERCP pancreatitis to receive a single dose of
+rectal indomethacin or placebo immediately after ERCP. Patients were
+determined to be at high risk on the basis of validated patient- and
+procedure-related risk factors. The primary outcome was post-ERCP
+pancreatitis, which was defined as new upper abdominal pain, an
+elevation in pancreatic enzymes to at least three times the upper limit
+of the normal range 24 hours after the procedure, and hospitalization
+for at least 2 nights.</p>
+        <p><bold>RESULTS</bold> A total of 602 patients were enrolled and
+completed follow-up. The majority of patients (82%) had a clinical
+suspicion of sphincter of Oddi dysfunction. Post-ERCP pancreatitis
+developed in 27 of 295 patients (9.2%) in the indomethacin group and in
+52 of 307 patients (16.9%) in the placebo group (P=0.005).
+Moderate-to-severe pancreatitis developed in 13 patients (4.4%) in the
+indomethacin group and in 27 patients (8.8%) in the placebo group
+(P=0.03).</p>
+        <p><bold>CONCLUSIONS</bold> Among patients at high risk for post-ERCP
+pancreatitis, rectal indomethacin significantly reduced the incidence of
+the condition. (Funded by the National Institutes of Health;
+ClinicalTrials.gov number, NCT00820612. opens in new tab.)</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <boxed-text>
+      <p>
+        <bold>Important</bold>
+      </p>
+      <p>This is a Quarto reproduction of a paper published in the New England
+Journal of Medicine in 2012, which you can find at
+<ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/full/10.1056/NEJMoa1111103">https://www.nejm.org/doi/full/10.1056/NEJMoa1111103</ext-link>.
+Some of the reproduction code was provided by Peter Higgins.</p>
+    </boxed-text>
+    <p>Acute pancreatitis is the most common major complication of
+endoscopic retrograde cholangiopancreatography
+(ERCP),(<xref alt="Martin L. Freeman and Guda 2004" rid="ref-freeman2004" ref-type="bibr">Martin
+L. Freeman and Guda 2004</xref>) accounting for substantial morbidity,
+occasional death, and estimated health care expenditures of
+approximately $150 million annually in the United
+States.(<xref alt="Martin L. Freeman et al. 1996" rid="ref-freeman1996" ref-type="bibr">Martin
+L. Freeman et al. 1996</xref>;
+<xref alt="HCUPnet 2019" rid="ref-hcupnet2019utilization" ref-type="bibr">HCUPnet
+2019</xref>) Given the magnitude of this problem, more than 35
+pharmacologic agents have been studied for the prophylaxis of post-ERCP
+pancreatitis, and many prospective clinical trials addressing
+chemoprevention have been conducted. To date, however, no medication has
+proved to be consistently effective in preventing post-ERCP pancreatitis
+on the basis of data from high-quality clinical trials, and no
+pharmacologic prophylaxis for post-ERCP pancreatitis is in widespread
+clinical use.</p>
+    <p>Nonsteroidal antiinflammatory drugs (NSAIDs) are potent inhibitors of
+phospholipase A2, cyclooxygenase, and neutrophil–endothelial
+interactions, all believed to play an important role in the pathogenesis
+of acute
+pancreatitis.(<xref alt="Gross et al. 1993" rid="ref-gross1993inflammatory" ref-type="bibr">Gross
+et al. 1993</xref>;
+<xref alt="Mäkelä, Kuusi, and Schröder 1997" rid="ref-makela1997inhibition" ref-type="bibr">Mäkelä,
+Kuusi, and Schröder 1997</xref>) NSAIDs are inexpensive and easily
+administered and have a favorable risk profile when given as a single
+dose, making them an attractive option in the prevention of post-ERCP
+pancreatitis. Preliminary studies evaluating the protective effects of
+single-dose rectal indomethacin or diclofenac in post-ERCP pancreatitis
+have been
+conducted,(<xref alt="Murray et al. 2003" rid="ref-murray2003diclofenac" ref-type="bibr">Murray
+et al. 2003</xref>;
+<xref alt="Sotoudehmanesh et al. 2007" rid="ref-sotoudehmanesh2007indomethacin" ref-type="bibr">Sotoudehmanesh
+et al. 2007</xref>;
+<xref alt="Khoshbaten et al. 2008" rid="ref-khoshbaten2008role" ref-type="bibr">Khoshbaten
+et al. 2008</xref>;
+<xref alt="JE et al. 2007" rid="ref-je2007effect" ref-type="bibr">JE et
+al. 2007</xref>) and a meta-analysis suggests
+benefit.(<xref alt="Elmunzer et al. 2008" rid="ref-elmunzer2008" ref-type="bibr">Elmunzer
+et al. 2008</xref>)</p>
+    <p>Despite these data, rectal NSAIDs are seldom used in clinical
+practice because there is no conclusive evidence from randomized,
+controlled
+trials(<xref alt="Dumonceau et al. 2010" rid="ref-dumonceau2010" ref-type="bibr">Dumonceau
+et al. 2010</xref>) and because previous positive meta-analyses of other
+agents for the prevention of post-ERCP pancreatitis have been disproved
+by further
+investigation.(<xref alt="Andriulli et al. 2000" rid="ref-andriulli2000" ref-type="bibr">Andriulli
+et al. 2000</xref>,
+<xref alt="2007" rid="ref-andriulli2007" ref-type="bibr">2007</xref>)
+Moreover, it remains unclear whether NSAIDs provide incremental benefit
+over temporary pancreatic stents, the only proven prophylactic
+intervention for post-ERCP
+pancreatitis.(<xref alt="Tarnasky et al. 1998" rid="ref-tarnasky1998" ref-type="bibr">Tarnasky
+et al. 1998</xref>;
+<xref alt="Fazel et al. 2003" rid="ref-fazel2003" ref-type="bibr">Fazel
+et al. 2003</xref>;
+<xref alt="Singh et al. 2004" rid="ref-singh2004" ref-type="bibr">Singh
+et al. 2004</xref>) Therefore, we conducted a multicenter, randomized,
+controlled clinical trial to evaluate the efficacy of prophylactic
+rectal indomethacin for the prevention of post-ERCP pancreatitis in
+high-risk patients.</p>
+    <sec id="methods">
+      <title>Methods</title>
+      <sec id="study-design">
+        <title>Study design</title>
+        <p>We enrolled patients at four university-affiliated medical
+    centers in the United States after approval from the human studies
+    review committee at each institution. An independent data and safety
+    monitoring board provided regulatory oversight by reviewing blinded
+    subject data quarterly and conducting the a priori scheduled interim
+    analysis. The complete study
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_protocol.pdf"><bold>protocol</bold></ext-link>
+    is available with the full text of this article at NEJM.org.</p>
+      </sec>
+      <sec id="patients">
+        <title>Patients</title>
+        <p>The inclusion criteria selected patients with an elevated
+    baseline risk of post-ERCP pancreatitis on the basis of
+    prospectively validated patient- and procedure-related independent
+    risk
+    factors.(<xref alt="Martin L. Freeman 2007" rid="ref-freeman2007" ref-type="bibr">Martin
+    L. Freeman 2007</xref>) Patients were eligible if they met one or
+    more of the following major criteria: clinical suspicion of
+    sphincter of Oddi dysfunction (as defined in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>, available at NEJM.org), a history of
+    post-ERCP pancreatitis, pancreatic sphincterotomy, precut
+    sphincterotomy (a procedure performed to facilitate biliary access
+    when standard cannulation techniques are unsuccessful), more than
+    eight cannulation attempts (as determined by the endoscopist),
+    pneumatic dilatation of an intact biliary sphincter, or
+    ampullectomy. Patients were also eligible for inclusion if they met
+    two or more of the following minor criteria: an age of less than 50
+    years and female sex, a history of recurrent pancreatitis
+    (<inline-formula><alternatives><tex-math><![CDATA[\ge]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mo>≥</mml:mo></mml:math></alternatives></inline-formula>
+    2 episodes), three or more injections of contrast agent into the
+    pancreatic duct with at least one injection to the tail of the
+    pancreas, excessive injection of contrast agent into the pancreatic
+    duct resulting in opacification of pancreatic acini, or the
+    acquisition of a cytologic specimen from the pancreatic duct with
+    the use of a brush.</p>
+        <p>The exclusion criteria are listed in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link> and were intended to exclude patients in
+    whom ERCP was unsuitable and those who had active pancreatitis, had
+    a contraindication to the use of NSAIDs (e.g., creatinine level,
+    &gt;1.4 mg per deciliter [124 <inline-formula><alternatives><tex-math><![CDATA[\mu]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>μ</mml:mi></mml:math></alternatives></inline-formula>mol
+    per liter] or active peptic ulcer disease), were already taking
+    NSAIDs (other than cardioprotective aspirin), or had an anticipated
+    low risk of post-ERCP pancreatitis (e.g., those with chronic
+    calcific pancreatitis or a pancreatic-head mass or those undergoing
+    routine biliary-stent exchange).</p>
+        <p>Eligible patients who provided written informed consent underwent
+    randomization at the conclusion of the ERCP procedure, because
+    patients without risk factors could be included in the study on the
+    basis of procedure-related factors alone.</p>
+      </sec>
+      <sec id="intervention">
+        <title>Intervention</title>
+        <p>All procedure-related interventions were dictated by the
+    performing endoscopist. Immediately after the procedure, if the
+    endoscopist and research coordinator determined that inclusion
+    criteria had been met, patients were randomly assigned to receive
+    either two 50-mg indomethacin suppositories or two
+    identical-appearing placebo suppositories. The randomization
+    schedule, which was stratified according to study center, was
+    generated centrally at the University of Michigan.</p>
+        <p>The suppositories were administered immediately after ERCP while
+    the patient was still in the procedure room. The rectal route was
+    selected on the basis of available pilot data suggesting that only
+    rectal NSAIDs are effective in preventing post-ERCP pancreatitis,
+    perhaps owing to more rapid and complete bioavailability than with
+    oral
+    administration.(<xref alt="Elmunzer et al. 2008" rid="ref-elmunzer2008" ref-type="bibr">Elmunzer
+    et al. 2008</xref>;
+    <xref alt="Marel et al. 2004" rid="ref-vandermarel2004" ref-type="bibr">Marel
+    et al. 2004</xref>) The indomethacin suppositories were purchased
+    from two vendors: G&amp;W Laboratories and Custom Med Apothecary.
+    Formal potency testing confirmed that the vendors provided
+    indomethacin suppositories that were pharmacodynamically equivalent
+    (Analytic Research Laboratories).</p>
+      </sec>
+      <sec id="outcomes">
+        <title>Outcomes</title>
+        <p>The primary outcome of the study was the development of post-ERCP
+    pancreatitis, which was defined according to consensus
+    criteria(<xref alt="Cotton et al. 1991" rid="ref-cotton1991" ref-type="bibr">Cotton
+    et al. 1991</xref>) (details are provided in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>). Briefly, post-ERCP pancreatitis was
+    diagnosed if there was a new onset of pain in the upper abdomen, an
+    elevation in pancreatic enzymes of at least three times the upper
+    limit of the normal range 24 hours after the procedure, and
+    hospitalization for at least 2 nights. The secondary outcome was the
+    development of moderate or severe post-ERCP pancreatitis (see the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>). Data regarding the length of hospital
+    stay for patients with post-ERCP pancreatitis were collected
+    prospectively, but the duration of hospitalization was not a
+    prespecified outcome measure and was therefore analyzed post
+    hoc.</p>
+        <p>Patients were observed in the recovery area for at least 90
+    minutes after the procedure. Patients in whom abdominal pain
+    developed during this observation period were admitted to the
+    hospital (or for current inpatients, kept in the hospital).
+    Decisions regarding evaluation of complications after the procedure
+    and in-hospital care were left to the discretion of the endoscopist
+    and clinical-service staff members, who were unaware of study-group
+    assignments. Serum amylase and lipase were measured in hospitalized
+    patients at least once 24 hours after the procedure and subsequently
+    at clinical discretion.</p>
+        <p>Patients who were discharged after an uneventful ERCP were
+    contacted by telephone within 5 days to capture delayed occurrence
+    of the primary end point. Patients were again contacted at 30 days
+    to assess for delayed adverse events and to determine the severity
+    of post-ERCP pancreatitis, which was defined in part by the length
+    of hospitalization for pancreatitis. The original study protocol
+    stated that the primary end point would be assessed within 48 hours
+    after the procedure. Although post-ERCP pancreatitis generally
+    occurs within this period, we contacted patients up to 5 days after
+    ERCP to ensure capture of delayed cases of the primary end
+    point.</p>
+        <p>Patient demographics, risk factors, ERCP procedural elements, and
+    follow-up data were recorded on standardized data-collection forms
+    by an investigator or coordinator who was unaware of study-group
+    assignments. All data were subsequently entered into a Web-based
+    database, Velos eResearch, and managed by an independent
+    data-management service.</p>
+      </sec>
+      <sec id="adverse-events">
+        <title>Adverse events</title>
+        <p>Adverse events were defined as reported
+    previously.(<xref alt="Cotton et al. 1991" rid="ref-cotton1991" ref-type="bibr">Cotton
+    et al. 1991</xref>;
+    <xref alt="Mallery et al. 2003" rid="ref-mallery2003" ref-type="bibr">Mallery
+    et al. 2003</xref>) Any cases of post-ERCP pancreatitis, other
+    complications of the procedure, and adverse events that were
+    potentially attributable to the study drug were reported to the
+    local institutional review board and the data and safety monitoring
+    board. These reportable adverse events were gastrointestinal
+    bleeding, perforation, infection, renal failure, allergic reaction,
+    myocardial infarction, cerebrovascular accident, and death.</p>
+      </sec>
+      <sec id="statistical-analysis">
+        <title>Statistical analysis</title>
+        <p>The prophylactic placement of pancreatic stents has been shown to
+    reduce the rate of post-ERCP pancreatitis to 5 to 10% among
+    high-risk
+    patients.(<xref alt="Tarnasky et al. 1998" rid="ref-tarnasky1998" ref-type="bibr">Tarnasky
+    et al. 1998</xref>;
+    <xref alt="Fazel et al. 2003" rid="ref-fazel2003" ref-type="bibr">Fazel
+    et al. 2003</xref>;
+    <xref alt="Singh et al. 2004" rid="ref-singh2004" ref-type="bibr">Singh
+    et al. 2004</xref>) An internal audit of high-risk ERCPs at
+    participating institutions revealed a post-ERCP rate of pancreatitis
+    of approximately 10%, despite routine prophylactic stent placement
+    in appropriate patients. We estimated that 948 patients (474 per
+    study group) would provide a power of at least 80% to detect a 50%
+    reduction in the incidence of post-ERCP pancreatitis, from 10% in
+    the placebo group to 5% in the indomethacin group, on the basis of
+    Fisher’s exact test, with a two-sided significance level of
+    0.05.</p>
+        <p>For the analysis of the primary end point, we used a two-tailed
+    Fisher’s exact test to analyze the difference in the proportion of
+    patients with post-ERCP pancreatitis in the indomethacin group and
+    the placebo group, with a final two-sided P value of less than 0.041
+    indicating statistical significance. This P value reflects the
+    partial spending of degrees of freedom of statistical testing that
+    resulted from conducting two interim analyses on the basis of the
+    O’Brien–Fleming approach and the Lan–DeMets alpha spending function.
+    Results for the primary end point were reported in terms of absolute
+    and relative risk reduction. The secondary end point, the proportion
+    of patients with moderate or severe post-ERCP pancreatitis in each
+    study group, was similarly calculated, with a P value of less than
+    0.05 indicating statistical significance. Hospital length of stay
+    was found to have a skewed distribution, and therefore we used the
+    Kruskal–Wallis equality-of-populations rank test to compare median
+    values.</p>
+        <p>When information for the first 400 patients could be evaluated,
+    an ad hoc rule was used to trigger an interim analysis by the data
+    and safety monitoring board: if more than 66% of cases of
+    pancreatitis or bleeding were in a particular study group, a formal
+    comparison between groups would be performed with the use of a
+    two-sided stopping boundary of 0.005. On the basis of the results of
+    the first analysis, the data and safety monitoring board recommended
+    a second interim analysis after an additional 200 patients were
+    enrolled.</p>
+        <p>According to a previously proposed framework for evaluating the
+    heterogeneity in treatment effects on the primary end
+    point,(<xref alt="Kent et al. 2010" rid="ref-kent2010" ref-type="bibr">Kent
+    et al. 2010</xref>) a post hoc analysis (not described in the
+    protocol) was performed on data from enrolled patients according to
+    their pretreatment risk of post-ERCP pancreatitis. In this analysis,
+    we assessed whether the relative treatment effect was consistent
+    across the spectrum of risk of post-ERCP pancreatitis. Individual
+    patient risk scores were determined by assigning one point for each
+    major inclusion criterion and 0.5 points for each minor inclusion
+    criterion.</p>
+        <p>We performed additional exploratory subgroup analyses on the
+    following prespecified characteristics: age, sex, suspicion of
+    sphincter of Oddi dysfunction, a history of post-ERCP pancreatitis,
+    a history of recurrent pancreatitis, sphincter of Oddi dysfunction
+    as documented on manometry, more than eight cannulation attempts,
+    precut sphincterotomy, pancreatic sphincterotomy, pancreatic
+    acinarization, biliary sphincterotomy, ampullectomy, placement of a
+    pancreatic stent, and trainee involvement in the ERCP. We performed
+    additional post hoc subgroup analyses on the type of sphincter of
+    Oddi dysfunction, inpatient versus outpatient status, and
+    participating medical center. All subgroup statistical analyses were
+    evaluated for interaction effects with indomethacin by testing for
+    significance of a corresponding interaction term in a multiple
+    logistic-regression
+    model.(<xref alt="Kent et al. 2010" rid="ref-kent2010" ref-type="bibr">Kent
+    et al. 2010</xref>)</p>
+      </sec>
+    </sec>
+    <sec id="results">
+      <title>Results</title>
+      <sec id="patients-1">
+        <title>Patients</title>
+        <p>From February 2009 through July 2011, a total of 602 subjects
+    were enrolled
+    (<xref alt="Figure 1" rid="fig-enrollment-outcomes">Figure 1</xref>).
+    In July 2011, the data and safety monitoring board performed an
+    interim analysis to assess the outcomes of the first 600 patients
+    and recommended that the study be terminated early on the basis of
+    the benefit of indomethacin as compared with placebo. Thus, we
+    terminated the study according to the a priori stopping rule.</p>
+        <fig id="fig-enrollment-outcomes">
+          <caption>
+            <p>Figure 1: Enrollment and Outcomes.</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-consort-fig-enrollment-outcomes-output-2.png"/>
+        </fig>
+        <p>A total of 295 patients received indomethacin, and 307 patients
+    received placebo. One patient in the indomethacin group could not
+    retain the suppositories but was included in the intention-to-treat
+    analysis. Follow-up of all patients for the primary and secondary
+    end points was complete
+    (<xref alt="Figure 1" rid="fig-enrollment-outcomes">Figure 1</xref>).
+    Baseline characteristics were similar in the two study groups
+    (<xref alt="Table 1" rid="tbl-characteristics-baseline">Table 1</xref>).
+    Notably, 82.2% of patients had a clinical suspicion of sphincter of
+    Oddi dysfunction.</p>
+        <fig id="tbl-characteristics-baseline">
+          <caption>
+            <p>Table 1: Characteristics of the Patients at
+      Baseline.</p>
+          </caption>
+        </fig>
+      </sec>
+      <sec id="study-outcomes">
+        <title>Study outcomes</title>
+        <p>The primary outcome of post-ERCP pancreatitis occurred in 79 of
+    602 patients (13.1%). Of these events, 27 of 295 (9.2%) occurred in
+    the indomethacin group and 52 of 307 (16.9%) occurred in the placebo
+    group (P=0.005), corresponding to an absolute risk reduction of 7.7
+    percentage points (number needed to treat [NNT] to prevent one
+    episode of post-ERCP pancreatitis, 13) and a relative risk reduction
+    of 46%
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events">Figure 2</xref>).</p>
+        <fig id="fig-incidences-adverse-events">
+          <caption>
+            <p>Figure 2: Incidence of the Primary and Secondary End
+      Points and Adverse Events</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-incidences-fig-incidences-adverse-events-output-1.png"/>
+        </fig>
+        <p>All 79 patients with post-ERCP pancreatitis completed the 30-day
+    follow-up necessary to determine the severity of post-ERCP
+    pancreatitis. The secondary outcome of moderate or severe post-ERCP
+    pancreatitis occurred in 40 patients: 13 (4.4%) in the indomethacin
+    group and 27 (8.8%) in the placebo group (P=0.03)
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events">Figure 2</xref>).
+    Three patients in each group had severe post-ERCP pancreatitis, and
+    one patient in the placebo group had pancreatic necrosis.</p>
+        <p>Among patients with post-ERCP pancreatitis, the median length of
+    hospital stay was 0.5 days shorter in the indomethacin group than in
+    the placebo group (3.5 vs. 4.0 days, P&lt;0.001).</p>
+        <sec id="heterogeneity-in-treatment-effects">
+          <title>Heterogeneity in Treatment Effects</title>
+          <p>The relative benefit of indomethacin did not vary significantly
+      according to patients’ pretreatment risk score, although the
+      absolute risk reduction varied from an NNT of 21 for those with a
+      risk score of 1 (one major or two minor inclusion criteria) to an
+      NNT of 6 for those with a risk score of 5 (e.g., four major and
+      two minor inclusion criteria)
+      (<xref alt="Figure 3" rid="fig-heterogeneity">Figure 3</xref>).</p>
+          <fig id="fig-heterogeneity">
+            <caption>
+              <p>Figure 3: Analysis of the Heterogeneity in Treatment
+        Effects.</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="images/clipboard-2828008318.png"/>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="exploratory-subgroup-analyses">
+        <title>Exploratory Subgroup Analyses</title>
+        <p>The beneficial effect of indomethacin on the primary outcome was
+    also consistent across the other prespecified and post hoc secondary
+    subgroups
+    (<xref alt="Figure 4" rid="fig-exploratory-subgroup">Figure 4</xref>).
+    In particular, indomethacin appeared to be protective regardless of
+    whether patients had undergone pancreatic stenting or had a clinical
+    suspicion of sphincter of Oddi dysfunction; indomethacin was also
+    protective in all three subtypes of sphincter of Oddi dysfunction
+    and in the two study sites enrolling the largest number of
+    patients.</p>
+        <fig id="fig-exploratory-subgroup">
+          <caption>
+            <p>Figure 4: Exploratory Subgroup Analyses</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="images/clipboard-1822931444.png"/>
+        </fig>
+      </sec>
+      <sec id="adverse-events-1">
+        <title>Adverse Events</title>
+        <p>There were 13 adverse events that were potentially attributable
+    to the study intervention
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events">Figure 2</xref>).
+    Clinically significant bleeding occurred in 11 patients (1.8%): 4 in
+    the indomethacin group and 7 in the placebo group (P=0.72). None of
+    the bleeding events resulted in transfusion of more than 2 units of
+    packed red cells or required angiography or surgery for treatment.
+    Two cases of acute renal failure occurred, both in the placebo
+    group. There were no myocardial infarctions, strokes, or deaths at
+    30-day follow-up.</p>
+      </sec>
+    </sec>
+    <sec id="discussion">
+      <title>Discussion</title>
+      <p>Our findings showed that one dose of rectal indomethacin given
+  immediately after ERCP significantly reduced the incidence of
+  post-ERCP pancreatitis in patients at elevated risk for this
+  complication. Moreover, we found that prophylactic indomethacin
+  decreased the severity of post-ERCP pancreatitis and was associated
+  with a shorter hospital stay. In this trial, the number of high-risk
+  ERCP patients who would need to be treated to prevent one episode of
+  pancreatitis was 13.</p>
+      <p>The majority of patients in this study had a clinical suspicion of
+  sphincter of Oddi dysfunction, and more than half had sphincter
+  hypertension, as documented on manometry, which suggests that the
+  results are particularly applicable to this challenging patient
+  population. However, among patients who received indomethacin, there
+  was a trend toward benefit with respect to rates of post-ERCP
+  pancreatitis for those who did not have a clinical suspicion of
+  sphincter of Oddi dysfunction (8.5% vs. 20.0%, P=0.11). Moreover, in a
+  subgroup analysis, the relative treatment effect of indomethacin was
+  consistent across the spectrum of patients’ risk of post-ERCP
+  pancreatitis. Additional studies will be necessary to reproduce our
+  results in different patient populations and to determine whether
+  indomethacin is effective in low-risk patients, as suggested by our
+  previous
+  meta-analysis.(<xref alt="Andriulli et al. 2007" rid="ref-andriulli2007" ref-type="bibr">Andriulli
+  et al. 2007</xref>)</p>
+      <p>Although more than 80% of the patients in this clinical trial
+  underwent pancreatic stenting on the basis of their elevated risk of
+  post-ERCP pancreatitis, certain patients did not receive stents,
+  either because the endoscopist did not deem it indicated (e.g.,
+  difficult cannulation not requiring a precut sphincterotomy) or
+  because placement was not technically feasible (failed pancreatic
+  access). Among patients who received a pancreatic stent, indomethacin
+  reduced the risk of post-ERCP pancreatitis from 16.1% to 9.7%
+  (P=0.04). Indomethacin conferred similar benefit in patients who did
+  not receive a pancreatic stent, reducing the risk of post-ERCP
+  pancreatitis from 20.6% to 6.3% (P=0.049).</p>
+      <p>Congruent with previous clinical trials evaluating NSAIDs in the
+  prevention of post-ERCP pancreatitis, the risk of adverse events that
+  were potentially attributable to indomethacin in this study was
+  similar in the two study groups. Specifically, there was no
+  significant between-group difference in the frequency or severity of
+  bleeding events. This finding is consistent with previously published
+  data suggesting that NSAIDs in standard doses do not increase the risk
+  of bleeding after biliary
+  sphincterotomy.(<xref alt="Martin L. Freeman et al. 1996" rid="ref-freeman1996" ref-type="bibr">Martin
+  L. Freeman et al. 1996</xref>;
+  <xref alt="Nelson and Freeman 1994" rid="ref-nelson1994major" ref-type="bibr">Nelson
+  and Freeman 1994</xref>) Of note, patients with contraindications to
+  NSAIDs, such as renal failure and active peptic-ulcer disease, were
+  excluded from this study.</p>
+      <p>The rate of post-ERCP pancreatitis in the placebo group (16.9%)
+  exceeded that revealed by the internal audit of high-risk ERCP
+  patients at participating institutions (16.9% vs. 10%). (These audit
+  results had been used to calculate the sample size.) This difference
+  may be due to the increased capture of complications that occurs in
+  randomized, controlled trials. Nevertheless, the incidence of
+  post-ERCP pancreatitis in the placebo group of this trial was similar
+  to that in previous studies of NSAID pharmacoprevention in high-risk
+  subjects, in which the mean rate of post-ERCP pancreatitis was
+  18.8%.(<xref alt="Andriulli et al. 2007" rid="ref-andriulli2007" ref-type="bibr">Andriulli
+  et al. 2007</xref>)</p>
+      <p>In summary, prophylactic rectal indomethacin significantly reduced
+  the incidence and severity of post-ERCP pancreatitis in patients at
+  elevated risk for this complication, particularly in those with a
+  clinical suspicion of sphincter of Oddi dysfunction.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title/>
+      <ref id="ref-freeman2004">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freeman</surname>
+              <given-names>Martin L</given-names>
+            </name>
+            <name>
+              <surname>Guda</surname>
+              <given-names>Nalini M</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevention of post-ERCP pancreatitis: a comprehensive review</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2004-06">2004</year>
+          <month>06</month>
+          <volume>59</volume>
+          <issue>7</issue>
+          <uri>http://dx.doi.org/10.1016/S0016-5107(04)00353-0</uri>
+          <pub-id pub-id-type="doi">10.1016/s0016-5107(04)00353-0</pub-id>
+          <fpage>845</fpage>
+          <lpage>864</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-freeman1996">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freeman</surname>
+              <given-names>Martin L.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>Douglas B.</given-names>
+            </name>
+            <name>
+              <surname>Sherman</surname>
+              <given-names>Stuart</given-names>
+            </name>
+            <name>
+              <surname>Haber</surname>
+              <given-names>Gregory B.</given-names>
+            </name>
+            <name>
+              <surname>Herman</surname>
+              <given-names>Mary E.</given-names>
+            </name>
+            <name>
+              <surname>Dorsher</surname>
+              <given-names>Paul J.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>Joseph P.</given-names>
+            </name>
+            <name>
+              <surname>Fennerty</surname>
+              <given-names>M. Brian</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>Michael E.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>Michael J.</given-names>
+            </name>
+            <name>
+              <surname>Lande</surname>
+              <given-names>Jeffrey D.</given-names>
+            </name>
+            <name>
+              <surname>Pheley</surname>
+              <given-names>Alfred M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complications of Endoscopic Biliary Sphincterotomy</article-title>
+          <source>New England Journal of Medicine</source>
+          <year iso-8601-date="1996-09-26">1996</year>
+          <month>09</month>
+          <day>26</day>
+          <volume>335</volume>
+          <issue>13</issue>
+          <uri>http://dx.doi.org/10.1056/NEJM199609263351301</uri>
+          <pub-id pub-id-type="doi">10.1056/nejm199609263351301</pub-id>
+          <fpage>909</fpage>
+          <lpage>919</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-hcupnet2019utilization">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>HCUPnet</surname>
+              <given-names>Healthcare Cost</given-names>
+            </name>
+          </person-group>
+          <article-title>Utilization project. Rockville, MD: Agency for healthcare research and quality, 2016</article-title>
+          <year iso-8601-date="2019">2019</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-gross1993inflammatory">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gross</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Leser</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>Heinisch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schölmerich</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammatory mediators and cytokines–new aspects of the pathophysiology and assessment of severity of acute pancreatitis?</article-title>
+          <source>Hepato-gastroenterology</source>
+          <year iso-8601-date="1993">1993</year>
+          <volume>40</volume>
+          <issue>6</issue>
+          <fpage>522</fpage>
+          <lpage>530</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-makela1997inhibition">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mäkelä</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kuusi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Schröder</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of serum phospholipase-A2 in acute pancreatitis by pharmacological agents in vitro</article-title>
+          <source>Scandinavian journal of clinical and laboratory investigation</source>
+          <publisher-name>Taylor &amp; Francis</publisher-name>
+          <year iso-8601-date="1997">1997</year>
+          <volume>57</volume>
+          <issue>5</issue>
+          <fpage>401</fpage>
+          <lpage>407</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-murray2003diclofenac">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murray</surname>
+              <given-names>Bill</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>Ross</given-names>
+            </name>
+            <name>
+              <surname>Imrie</surname>
+              <given-names>Clem</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>Susan</given-names>
+            </name>
+            <name>
+              <surname>O’suilleabhain</surname>
+              <given-names>Criostoir</given-names>
+            </name>
+          </person-group>
+          <article-title>Diclofenac reduces the incidence of acute pancreatitis after endoscopic retrograde cholangiopancreatography</article-title>
+          <source>Gastroenterology</source>
+          <publisher-name>Elsevier</publisher-name>
+          <year iso-8601-date="2003">2003</year>
+          <volume>124</volume>
+          <issue>7</issue>
+          <fpage>1786</fpage>
+          <lpage>1791</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-sotoudehmanesh2007indomethacin">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sotoudehmanesh</surname>
+              <given-names>Rasoul</given-names>
+            </name>
+            <name>
+              <surname>Khatibian</surname>
+              <given-names>Morteza</given-names>
+            </name>
+            <name>
+              <surname>Kolahdoozan</surname>
+              <given-names>Shadi</given-names>
+            </name>
+            <name>
+              <surname>Ainechi</surname>
+              <given-names>Sanaz</given-names>
+            </name>
+            <name>
+              <surname>Malboosbaf</surname>
+              <given-names>Ramin</given-names>
+            </name>
+            <name>
+              <surname>Nouraie</surname>
+              <given-names>Mehdi</given-names>
+            </name>
+          </person-group>
+          <article-title>Indomethacin may reduce the incidence and severity of acute pancreatitis after ERCP</article-title>
+          <source>Official journal of the American College of Gastroenterology| ACG</source>
+          <publisher-name>LWW</publisher-name>
+          <year iso-8601-date="2007">2007</year>
+          <volume>102</volume>
+          <issue>5</issue>
+          <fpage>978</fpage>
+          <lpage>983</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-khoshbaten2008role">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoshbaten</surname>
+              <given-names>Manouchehr</given-names>
+            </name>
+            <name>
+              <surname>Khorram</surname>
+              <given-names>Homayoun</given-names>
+            </name>
+            <name>
+              <surname>Madad</surname>
+              <given-names>Leili</given-names>
+            </name>
+            <name>
+              <surname>Ehsani Ardakani</surname>
+              <given-names>Mohammad Javad</given-names>
+            </name>
+            <name>
+              <surname>Farzin</surname>
+              <given-names>Haleh</given-names>
+            </name>
+            <name>
+              <surname>Zali</surname>
+              <given-names>Mohammmad Reza</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of diclofenac in reducing post-endoscopic retrograde cholangiopancreatography pancreatitis</article-title>
+          <source>Journal of gastroenterology and hepatology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2008">2008</year>
+          <volume>23</volume>
+          <issue>7pt2</issue>
+          <fpage>e11</fpage>
+          <lpage>e16</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-je2007effect">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>JE</surname>
+              <given-names>Garcı́a Correa</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effect of the administration of rectal indomethacin on amylase serum levels after endoscopic retrograde cholangiopancreatography, and its impact on the development of secondary pancreatitis episodes</article-title>
+          <source>Revista espanola de enfermedades digestivas: organo oficial de la Sociedad Espanola de Patologia Digestiva</source>
+          <year iso-8601-date="2007">2007</year>
+          <volume>99</volume>
+          <issue>6</issue>
+          <fpage>330</fpage>
+          <lpage>336</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-elmunzer2008">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elmunzer</surname>
+              <given-names>B J</given-names>
+            </name>
+            <name>
+              <surname>Waljee</surname>
+              <given-names>A K</given-names>
+            </name>
+            <name>
+              <surname>Elta</surname>
+              <given-names>G H</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J R</given-names>
+            </name>
+            <name>
+              <surname>Fehmi</surname>
+              <given-names>S M A</given-names>
+            </name>
+            <name>
+              <surname>Higgins</surname>
+              <given-names>P D R</given-names>
+            </name>
+          </person-group>
+          <article-title>A meta-analysis of rectal NSAIDs in the prevention of post-ERCP pancreatitis</article-title>
+          <source>Gut</source>
+          <year iso-8601-date="2008-03-28">2008</year>
+          <month>03</month>
+          <day>28</day>
+          <volume>57</volume>
+          <issue>9</issue>
+          <uri>http://dx.doi.org/10.1136/gut.2007.140756</uri>
+          <pub-id pub-id-type="doi">10.1136/gut.2007.140756</pub-id>
+          <fpage>1262</fpage>
+          <lpage>1267</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-tarnasky1998">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tarnasky</surname>
+              <given-names>Paul R.</given-names>
+            </name>
+            <name>
+              <surname>Palesch</surname>
+              <given-names>Yuko Y.</given-names>
+            </name>
+            <name>
+              <surname>Cunningham</surname>
+              <given-names>John T.</given-names>
+            </name>
+            <name>
+              <surname>Mauldin</surname>
+              <given-names>Patrick D.</given-names>
+            </name>
+            <name>
+              <surname>Cotton</surname>
+              <given-names>Peter B.</given-names>
+            </name>
+            <name>
+              <surname>Hawes</surname>
+              <given-names>Robert H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pancreatic stenting prevents pancreatitis after biliary sphincterotomy in patients with sphincter of Oddi dysfunction</article-title>
+          <source>Gastroenterology</source>
+          <year iso-8601-date="1998-12">1998</year>
+          <month>12</month>
+          <volume>115</volume>
+          <issue>6</issue>
+          <uri>http://dx.doi.org/10.1016/S0016-5085(98)70031-9</uri>
+          <pub-id pub-id-type="doi">10.1016/s0016-5085(98)70031-9</pub-id>
+          <fpage>1518</fpage>
+          <lpage>1524</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-fazel2003">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fazel</surname>
+              <given-names>Ali</given-names>
+            </name>
+            <name>
+              <surname>Quadri</surname>
+              <given-names>Affan</given-names>
+            </name>
+            <name>
+              <surname>Catalano</surname>
+              <given-names>Marc F.</given-names>
+            </name>
+            <name>
+              <surname>Meyerson</surname>
+              <given-names>Scott M.</given-names>
+            </name>
+            <name>
+              <surname>Geenen</surname>
+              <given-names>Joseph E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does a pancreatic duct stent prevent post-ERCP pancreatitis? A prospective randomized study</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2003-03">2003</year>
+          <month>03</month>
+          <volume>57</volume>
+          <issue>3</issue>
+          <uri>http://dx.doi.org/10.1067/mge.2003.124</uri>
+          <pub-id pub-id-type="doi">10.1067/mge.2003.124</pub-id>
+          <fpage>291</fpage>
+          <lpage>294</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-singh2004">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>Pankaj</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>Ananya</given-names>
+            </name>
+            <name>
+              <surname>Isenberg</surname>
+              <given-names>Gerard</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>Richard C. K.</given-names>
+            </name>
+            <name>
+              <surname>Sivak</surname>
+              <given-names>Michael V.</given-names>
+            </name>
+            <name>
+              <surname>Agrawal</surname>
+              <given-names>Deepak</given-names>
+            </name>
+            <name>
+              <surname>Chak</surname>
+              <given-names>Amitabh</given-names>
+            </name>
+          </person-group>
+          <article-title>Does prophylactic pancreatic stent placement reduce the risk of post-ERCP acute pancreatitis? A meta-analysis of controlled trials</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2004-10">2004</year>
+          <month>10</month>
+          <volume>60</volume>
+          <issue>4</issue>
+          <uri>http://dx.doi.org/10.1016/S0016-5107(04)02013-9</uri>
+          <pub-id pub-id-type="doi">10.1016/s0016-5107(04)02013-9</pub-id>
+          <fpage>544</fpage>
+          <lpage>550</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-dumonceau2010">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dumonceau</surname>
+              <given-names>Jean-Marc</given-names>
+            </name>
+            <name>
+              <surname>Rigaux</surname>
+              <given-names>Johanne</given-names>
+            </name>
+            <name>
+              <surname>Kahaleh</surname>
+              <given-names>Michel</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>Carlos Macias</given-names>
+            </name>
+            <name>
+              <surname>Vandermeeren</surname>
+              <given-names>Alain</given-names>
+            </name>
+            <name>
+              <surname>Devière</surname>
+              <given-names>Jacques</given-names>
+            </name>
+          </person-group>
+          <article-title>Prophylaxis of post-ERCP pancreatitis: a practice survey</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2010-05">2010</year>
+          <month>05</month>
+          <volume>71</volume>
+          <issue>6</issue>
+          <uri>http://dx.doi.org/10.1016/j.gie.2009.10.055</uri>
+          <pub-id pub-id-type="doi">10.1016/j.gie.2009.10.055</pub-id>
+          <fpage>934</fpage>
+          <lpage>939.e2</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-andriulli2000">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andriulli</surname>
+              <given-names>Angelo</given-names>
+            </name>
+            <name>
+              <surname>Leandro</surname>
+              <given-names>Gioacchino</given-names>
+            </name>
+            <name>
+              <surname>Niro</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name>
+              <surname>Mangia</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name>
+              <surname>Festa</surname>
+              <given-names>Virginia</given-names>
+            </name>
+            <name>
+              <surname>Gambassi</surname>
+              <given-names>Giovanni</given-names>
+            </name>
+            <name>
+              <surname>Villani</surname>
+              <given-names>Maria Rosaria</given-names>
+            </name>
+            <name>
+              <surname>Facciorusso</surname>
+              <given-names>Domenico</given-names>
+            </name>
+            <name>
+              <surname>Conoscitore</surname>
+              <given-names>Pasquale</given-names>
+            </name>
+            <name>
+              <surname>Spirito</surname>
+              <given-names>Fulvio</given-names>
+            </name>
+            <name>
+              <surname>De Maio</surname>
+              <given-names>Giovanni</given-names>
+            </name>
+          </person-group>
+          <article-title>Pharmacologic treatment can prevent pancreatic injury after ERCP: a meta-analysis</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2000-01">2000</year>
+          <month>01</month>
+          <volume>51</volume>
+          <issue>1</issue>
+          <uri>http://dx.doi.org/10.1016/S0016-5107(00)70377-4</uri>
+          <pub-id pub-id-type="doi">10.1016/s0016-5107(00)70377-4</pub-id>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-andriulli2007">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andriulli</surname>
+              <given-names>Angelo</given-names>
+            </name>
+            <name>
+              <surname>Leandro</surname>
+              <given-names>Gioacchino</given-names>
+            </name>
+            <name>
+              <surname>Federici</surname>
+              <given-names>Telemaco</given-names>
+            </name>
+            <name>
+              <surname>Ippolito</surname>
+              <given-names>Antonio</given-names>
+            </name>
+            <name>
+              <surname>Forlano</surname>
+              <given-names>Rosario</given-names>
+            </name>
+            <name>
+              <surname>Iacobellis</surname>
+              <given-names>Angelo</given-names>
+            </name>
+            <name>
+              <surname>Annese</surname>
+              <given-names>Vito</given-names>
+            </name>
+          </person-group>
+          <article-title>Prophylactic administration of somatostatin or gabexate does not prevent pancreatitis after ERCP: an updated meta-analysis</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2007-04">2007</year>
+          <month>04</month>
+          <volume>65</volume>
+          <issue>4</issue>
+          <uri>http://dx.doi.org/10.1016/j.gie.2006.10.030</uri>
+          <pub-id pub-id-type="doi">10.1016/j.gie.2006.10.030</pub-id>
+          <fpage>624</fpage>
+          <lpage>632</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-freeman2007">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freeman</surname>
+              <given-names>Martin L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pancreatic Stents for Prevention of PostEndoscopic Retrograde Cholangiopancreatography Pancreatitis</article-title>
+          <source>Clinical Gastroenterology and Hepatology</source>
+          <year iso-8601-date="2007-11">2007</year>
+          <month>11</month>
+          <volume>5</volume>
+          <issue>11</issue>
+          <uri>http://dx.doi.org/10.1016/j.cgh.2007.09.007</uri>
+          <pub-id pub-id-type="doi">10.1016/j.cgh.2007.09.007</pub-id>
+          <fpage>1354</fpage>
+          <lpage>1365</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-vandermarel2004">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marel</surname>
+              <given-names>Caroline D. van der</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>Brian J.</given-names>
+            </name>
+            <name>
+              <surname>Rømsing</surname>
+              <given-names>Janne</given-names>
+            </name>
+            <name>
+              <surname>Jacqz-Aigrain</surname>
+              <given-names>Evelyne</given-names>
+            </name>
+            <name>
+              <surname>Tibboel</surname>
+              <given-names>Dick</given-names>
+            </name>
+          </person-group>
+          <article-title>Diclofenac and metabolite pharmacokinetics in children</article-title>
+          <source>Pediatric Anesthesia</source>
+          <year iso-8601-date="2004-05-20">2004</year>
+          <month>05</month>
+          <day>20</day>
+          <volume>14</volume>
+          <issue>6</issue>
+          <uri>http://dx.doi.org/10.1111/j.1460-9592.2004.01232.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1460-9592.2004.01232.x</pub-id>
+          <fpage>443</fpage>
+          <lpage>451</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-cotton1991">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cotton</surname>
+              <given-names>P. B.</given-names>
+            </name>
+            <name>
+              <surname>Lehman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Vennes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Geenen</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>R. C. G.</given-names>
+            </name>
+            <name>
+              <surname>Meyers</surname>
+              <given-names>W. C.</given-names>
+            </name>
+            <name>
+              <surname>Liguory</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nickl</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endoscopic sphincterotomy complications and their management: an attempt at consensus</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="1991-05">1991</year>
+          <month>05</month>
+          <volume>37</volume>
+          <issue>3</issue>
+          <uri>http://dx.doi.org/10.1016/S0016-5107(91)70740-2</uri>
+          <pub-id pub-id-type="doi">10.1016/s0016-5107(91)70740-2</pub-id>
+          <fpage>383</fpage>
+          <lpage>393</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-mallery2003">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mallery</surname>
+              <given-names>J.Shawn</given-names>
+            </name>
+            <name>
+              <surname>Baron</surname>
+              <given-names>Todd H.</given-names>
+            </name>
+            <name>
+              <surname>Dominitz</surname>
+              <given-names>Jason A.</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>Jay L.</given-names>
+            </name>
+            <name>
+              <surname>Hirota</surname>
+              <given-names>William K.</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>Brian C.</given-names>
+            </name>
+            <name>
+              <surname>Leighton</surname>
+              <given-names>Jonathan A.</given-names>
+            </name>
+            <name>
+              <surname>Raddawi</surname>
+              <given-names>Hareth M.</given-names>
+            </name>
+            <name>
+              <surname>Varg</surname>
+              <given-names>John J.</given-names>
+            </name>
+            <name>
+              <surname>Waring</surname>
+              <given-names>J.Patrick</given-names>
+            </name>
+            <name>
+              <surname>Fanelli</surname>
+              <given-names>Robert D.</given-names>
+            </name>
+            <name>
+              <surname>Wheeler-Harbough</surname>
+              <given-names>Jo</given-names>
+            </name>
+            <name>
+              <surname>Eisen</surname>
+              <given-names>Glenn M.</given-names>
+            </name>
+            <name>
+              <surname>Faigel</surname>
+              <given-names>Douglas O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complications of ERCP</article-title>
+          <source>Gastrointestinal Endoscopy</source>
+          <year iso-8601-date="2003-05">2003</year>
+          <month>05</month>
+          <volume>57</volume>
+          <issue>6</issue>
+          <uri>http://dx.doi.org/10.1053/ge.2003.v57.amge030576633</uri>
+          <pub-id pub-id-type="doi">10.1053/ge.2003.v57.amge030576633</pub-id>
+          <fpage>633</fpage>
+          <lpage>638</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-kent2010">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kent</surname>
+              <given-names>David M</given-names>
+            </name>
+            <name>
+              <surname>Rothwell</surname>
+              <given-names>Peter M</given-names>
+            </name>
+            <name>
+              <surname>Ioannidis</surname>
+              <given-names>John PA</given-names>
+            </name>
+            <name>
+              <surname>Altman</surname>
+              <given-names>Doug G</given-names>
+            </name>
+            <name>
+              <surname>Hayward</surname>
+              <given-names>Rodney A</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing and reporting heterogeneity in treatment effects in clinical trials: a proposal</article-title>
+          <source>Trials</source>
+          <year iso-8601-date="2010-08-12">2010</year>
+          <month>08</month>
+          <day>12</day>
+          <volume>11</volume>
+          <issue>1</issue>
+          <uri>http://dx.doi.org/10.1186/1745-6215-11-85</uri>
+          <pub-id pub-id-type="doi">10.1186/1745-6215-11-85</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-nelson1994major">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelson</surname>
+              <given-names>Douglas B</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>Martin L</given-names>
+            </name>
+          </person-group>
+          <article-title>Major hemorrhage from endoscopic sphincterotomy: Risk factor analysis</article-title>
+          <source>Journal of clinical gastroenterology</source>
+          <publisher-name>LWW</publisher-name>
+          <year iso-8601-date="1994">1994</year>
+          <volume>19</volume>
+          <issue>4</issue>
+          <fpage>283</fpage>
+          <lpage>287</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-6-nb-article">
+    <front-stub>
+      <title-group>
+        <article-title>A Randomized Trial of Rectal Indomethacin to Prevent
+Post-ERCP Pancreatitis</article-title>
+        <subtitle>Reproduction</subtitle>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>B. Joseph Elmunzer</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>B. Joseph Elmunzer, M.D.</string-name>
+          <role vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>James M. Scheiman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>James M. Scheiman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Glen A. Lehman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Glen A. Lehman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amitabh Chak</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Amitabh Chak, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3-nb-article">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Patrick Mosler</surname>
+            <given-names>Ph.D.</given-names>
+          </name>
+          <string-name>Patrick Mosler, M.D., Ph.D.</string-name>
+          <xref ref-type="aff" rid="aff-4-nb-article">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0003-1602-4341</contrib-id>
+          <name>
+            <surname>Peter D. R. Higgins</surname>
+            <given-names>Ph.D.</given-names>
+          </name>
+          <string-name>Peter D.R. Higgins, M.D., Ph.D.</string-name>
+          <email>phiggins@umich.edu</email>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rodney A. Hayward</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Rodney A. Hayward, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joseph Romagnuolo</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Joseph Romagnuolo, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-5-nb-article">e</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grace H. Elta</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Grace H. Elta, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stuart Sherman</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Stuart Sherman, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akbar K. Waljee</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Akbar K. Waljee, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aparna Repaka</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Aparna Repaka, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3-nb-article">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matthew R. Atkinson</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Matthew R. Atkinson, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-3-nb-article">c</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gregory A. Cote</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Gregory A. Cote, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Richard S. Kwon</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Richard S. Kwon, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee McHenry</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Lee McHenry, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cyrus R. Piraka</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Cyrus R. Piraka, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Erik J. Wamsteker</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Erik J. Wamsteker, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>James L. Watkins</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>James L. Watkins, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sheryl J. Korsnes</surname>
+            <given-names>M. A.</given-names>
+          </name>
+          <string-name>Sheryl J. Korsnes, M.A.</string-name>
+          <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suzette E. Schmidt</surname>
+            <given-names>C. C. R. P.</given-names>
+          </name>
+          <string-name>Suzette E. Schmidt, B.S.N., C.C.R.P.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sarah M. Turner</surname>
+            <given-names>B. S.</given-names>
+          </name>
+          <string-name>Sarah M. Turner, B.S.</string-name>
+          <xref ref-type="aff" rid="aff-4-nb-article">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sylvia Nicholson</surname>
+            <given-names>C. C. R. C.</given-names>
+          </name>
+          <string-name>Sylvia Nicholson, C.C.R.C.</string-name>
+          <xref ref-type="aff" rid="aff-4-nb-article">d</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Evan L. Fogel</surname>
+            <given-names>M. D.</given-names>
+          </name>
+          <string-name>Evan L. Fogel, M.D.</string-name>
+          <xref ref-type="aff" rid="aff-2-nb-article">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1-nb-article">
+        <institution-wrap>
+          <institution>University of Michigan Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-2-nb-article">
+        <institution-wrap>
+          <institution>Indiana University Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-3-nb-article">
+        <institution-wrap>
+          <institution>University Hospitals Case Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-4-nb-article">
+        <institution-wrap>
+          <institution>University of Kentucky Medical Center</institution>
+        </institution-wrap>
+      </aff>
+      <aff id="aff-5-nb-article">
+        <institution-wrap>
+          <institution>Medical University of South Carolina</institution>
+        </institution-wrap>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1-nb-article"/>
+      </author-notes>
+      <abstract>
+        <p><bold>BACKGROUND</bold> Preliminary research suggests that rectally
+administered nonsteroidal antiinflammatory drugs may reduce the
+incidence of pancreatitis after endoscopic retrograde
+cholangiopancreatography (ERCP).</p>
+        <p><bold>METHODS</bold> In this multicenter, randomized,
+placebo-controlled, double-blind clinical trial, we assigned patients at
+elevated risk for post-ERCP pancreatitis to receive a single dose of
+rectal indomethacin or placebo immediately after ERCP. Patients were
+determined to be at high risk on the basis of validated patient- and
+procedure-related risk factors. The primary outcome was post-ERCP
+pancreatitis, which was defined as new upper abdominal pain, an
+elevation in pancreatic enzymes to at least three times the upper limit
+of the normal range 24 hours after the procedure, and hospitalization
+for at least 2 nights.</p>
+        <p><bold>RESULTS</bold> A total of 602 patients were enrolled and
+completed follow-up. The majority of patients (82%) had a clinical
+suspicion of sphincter of Oddi dysfunction. Post-ERCP pancreatitis
+developed in 27 of 295 patients (9.2%) in the indomethacin group and in
+52 of 307 patients (16.9%) in the placebo group (P=0.005).
+Moderate-to-severe pancreatitis developed in 13 patients (4.4%) in the
+indomethacin group and in 27 patients (8.8%) in the placebo group
+(P=0.03).</p>
+        <p><bold>CONCLUSIONS</bold> Among patients at high risk for post-ERCP
+pancreatitis, rectal indomethacin significantly reduced the incidence of
+the condition. (Funded by the National Institutes of Health;
+ClinicalTrials.gov number, NCT00820612. opens in new tab.)</p>
+      </abstract>
+    </front-stub>
+    <body>
+      <boxed-text>
+        <disp-quote>
+          <p>
+            <bold>Important</bold>
+          </p>
+          <p>This is a Quarto reproduction of a paper published in the New
+    England Journal of Medicine in 2012, which you can find at
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/full/10.1056/NEJMoa1111103">https://www.nejm.org/doi/full/10.1056/NEJMoa1111103</ext-link>.
+    Some of the reproduction code was provided by Peter Higgins.</p>
+        </disp-quote>
+      </boxed-text>
+      <sec id="nb-code-cell-1-nb-article" specific-use="notebook-code">
+        <code language="r script">library(tidyverse)</code>
+        <code language="r script">library(medicaldata)
+library(consort)
+library(gtsummary)</code>
+        <sec id="nb-code-cell-1-output-0-nb-article" specific-use="notebook-output">
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </sec>
+      </sec>
+      <p>Acute pancreatitis is the most common major complication of
+endoscopic retrograde cholangiopancreatography
+(ERCP),(<xref alt="Martin L. Freeman and Guda 2004" rid="ref-freeman2004-nb-article" ref-type="bibr">Martin
+L. Freeman and Guda 2004</xref>) accounting for substantial morbidity,
+occasional death, and estimated health care expenditures of
+approximately $150 million annually in the United
+States.(<xref alt="Martin L. Freeman et al. 1996" rid="ref-freeman1996-nb-article" ref-type="bibr">Martin
+L. Freeman et al. 1996</xref>;
+<xref alt="HCUPnet 2019" rid="ref-hcupnet2019utilization-nb-article" ref-type="bibr">HCUPnet
+2019</xref>) Given the magnitude of this problem, more than 35
+pharmacologic agents have been studied for the prophylaxis of post-ERCP
+pancreatitis, and many prospective clinical trials addressing
+chemoprevention have been conducted. To date, however, no medication has
+proved to be consistently effective in preventing post-ERCP pancreatitis
+on the basis of data from high-quality clinical trials, and no
+pharmacologic prophylaxis for post-ERCP pancreatitis is in widespread
+clinical use.</p>
+      <p>Nonsteroidal antiinflammatory drugs (NSAIDs) are potent inhibitors of
+phospholipase A2, cyclooxygenase, and neutrophil–endothelial
+interactions, all believed to play an important role in the pathogenesis
+of acute
+pancreatitis.(<xref alt="Gross et al. 1993" rid="ref-gross1993inflammatory-nb-article" ref-type="bibr">Gross
+et al. 1993</xref>;
+<xref alt="Mäkelä, Kuusi, and Schröder 1997" rid="ref-makela1997inhibition-nb-article" ref-type="bibr">Mäkelä,
+Kuusi, and Schröder 1997</xref>) NSAIDs are inexpensive and easily
+administered and have a favorable risk profile when given as a single
+dose, making them an attractive option in the prevention of post-ERCP
+pancreatitis. Preliminary studies evaluating the protective effects of
+single-dose rectal indomethacin or diclofenac in post-ERCP pancreatitis
+have been
+conducted,(<xref alt="Murray et al. 2003" rid="ref-murray2003diclofenac-nb-article" ref-type="bibr">Murray
+et al. 2003</xref>;
+<xref alt="Sotoudehmanesh et al. 2007" rid="ref-sotoudehmanesh2007indomethacin-nb-article" ref-type="bibr">Sotoudehmanesh
+et al. 2007</xref>;
+<xref alt="Khoshbaten et al. 2008" rid="ref-khoshbaten2008role-nb-article" ref-type="bibr">Khoshbaten
+et al. 2008</xref>;
+<xref alt="JE et al. 2007" rid="ref-je2007effect-nb-article" ref-type="bibr">JE et
+al. 2007</xref>) and a meta-analysis suggests
+benefit.(<xref alt="Elmunzer et al. 2008" rid="ref-elmunzer2008-nb-article" ref-type="bibr">Elmunzer
+et al. 2008</xref>)</p>
+      <p>Despite these data, rectal NSAIDs are seldom used in clinical
+practice because there is no conclusive evidence from randomized,
+controlled
+trials(<xref alt="Dumonceau et al. 2010" rid="ref-dumonceau2010-nb-article" ref-type="bibr">Dumonceau
+et al. 2010</xref>) and because previous positive meta-analyses of other
+agents for the prevention of post-ERCP pancreatitis have been disproved
+by further
+investigation.(<xref alt="Andriulli et al. 2000" rid="ref-andriulli2000-nb-article" ref-type="bibr">Andriulli
+et al. 2000</xref>,
+<xref alt="2007" rid="ref-andriulli2007-nb-article" ref-type="bibr">2007</xref>)
+Moreover, it remains unclear whether NSAIDs provide incremental benefit
+over temporary pancreatic stents, the only proven prophylactic
+intervention for post-ERCP
+pancreatitis.(<xref alt="Tarnasky et al. 1998" rid="ref-tarnasky1998-nb-article" ref-type="bibr">Tarnasky
+et al. 1998</xref>;
+<xref alt="Fazel et al. 2003" rid="ref-fazel2003-nb-article" ref-type="bibr">Fazel
+et al. 2003</xref>;
+<xref alt="Singh et al. 2004" rid="ref-singh2004-nb-article" ref-type="bibr">Singh
+et al. 2004</xref>) Therefore, we conducted a multicenter, randomized,
+controlled clinical trial to evaluate the efficacy of prophylactic
+rectal indomethacin for the prevention of post-ERCP pancreatitis in
+high-risk patients.</p>
+      <sec id="methods-nb-article">
+        <title>Methods</title>
+        <sec id="study-design-nb-article">
+          <title>Study design</title>
+          <p>We enrolled patients at four university-affiliated medical
+    centers in the United States after approval from the human studies
+    review committee at each institution. An independent data and safety
+    monitoring board provided regulatory oversight by reviewing blinded
+    subject data quarterly and conducting the a priori scheduled interim
+    analysis. The complete study
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_protocol.pdf"><bold>protocol</bold></ext-link>
+    is available with the full text of this article at NEJM.org.</p>
+        </sec>
+        <sec id="patients-nb-article">
+          <title>Patients</title>
+          <p>The inclusion criteria selected patients with an elevated
+    baseline risk of post-ERCP pancreatitis on the basis of
+    prospectively validated patient- and procedure-related independent
+    risk
+    factors.(<xref alt="Martin L. Freeman 2007" rid="ref-freeman2007-nb-article" ref-type="bibr">Martin
+    L. Freeman 2007</xref>) Patients were eligible if they met one or
+    more of the following major criteria: clinical suspicion of
+    sphincter of Oddi dysfunction (as defined in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>, available at NEJM.org), a history of
+    post-ERCP pancreatitis, pancreatic sphincterotomy, precut
+    sphincterotomy (a procedure performed to facilitate biliary access
+    when standard cannulation techniques are unsuccessful), more than
+    eight cannulation attempts (as determined by the endoscopist),
+    pneumatic dilatation of an intact biliary sphincter, or
+    ampullectomy. Patients were also eligible for inclusion if they met
+    two or more of the following minor criteria: an age of less than 50
+    years and female sex, a history of recurrent pancreatitis
+    (<inline-formula><alternatives><tex-math><![CDATA[\ge]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mo>≥</mml:mo></mml:math></alternatives></inline-formula>
+    2 episodes), three or more injections of contrast agent into the
+    pancreatic duct with at least one injection to the tail of the
+    pancreas, excessive injection of contrast agent into the pancreatic
+    duct resulting in opacification of pancreatic acini, or the
+    acquisition of a cytologic specimen from the pancreatic duct with
+    the use of a brush.</p>
+          <p>The exclusion criteria are listed in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link> and were intended to exclude patients in
+    whom ERCP was unsuitable and those who had active pancreatitis, had
+    a contraindication to the use of NSAIDs (e.g., creatinine level,
+    &gt;1.4 mg per deciliter [124 <inline-formula><alternatives><tex-math><![CDATA[\mu]]></tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mi>μ</mml:mi></mml:math></alternatives></inline-formula>mol
+    per liter] or active peptic ulcer disease), were already taking
+    NSAIDs (other than cardioprotective aspirin), or had an anticipated
+    low risk of post-ERCP pancreatitis (e.g., those with chronic
+    calcific pancreatitis or a pancreatic-head mass or those undergoing
+    routine biliary-stent exchange).</p>
+          <p>Eligible patients who provided written informed consent underwent
+    randomization at the conclusion of the ERCP procedure, because
+    patients without risk factors could be included in the study on the
+    basis of procedure-related factors alone.</p>
+        </sec>
+        <sec id="intervention-nb-article">
+          <title>Intervention</title>
+          <p>All procedure-related interventions were dictated by the
+    performing endoscopist. Immediately after the procedure, if the
+    endoscopist and research coordinator determined that inclusion
+    criteria had been met, patients were randomly assigned to receive
+    either two 50-mg indomethacin suppositories or two
+    identical-appearing placebo suppositories. The randomization
+    schedule, which was stratified according to study center, was
+    generated centrally at the University of Michigan.</p>
+          <p>The suppositories were administered immediately after ERCP while
+    the patient was still in the procedure room. The rectal route was
+    selected on the basis of available pilot data suggesting that only
+    rectal NSAIDs are effective in preventing post-ERCP pancreatitis,
+    perhaps owing to more rapid and complete bioavailability than with
+    oral
+    administration.(<xref alt="Elmunzer et al. 2008" rid="ref-elmunzer2008-nb-article" ref-type="bibr">Elmunzer
+    et al. 2008</xref>;
+    <xref alt="Marel et al. 2004" rid="ref-vandermarel2004-nb-article" ref-type="bibr">Marel
+    et al. 2004</xref>) The indomethacin suppositories were purchased
+    from two vendors: G&amp;W Laboratories and Custom Med Apothecary.
+    Formal potency testing confirmed that the vendors provided
+    indomethacin suppositories that were pharmacodynamically equivalent
+    (Analytic Research Laboratories).</p>
+        </sec>
+        <sec id="outcomes-nb-article">
+          <title>Outcomes</title>
+          <p>The primary outcome of the study was the development of post-ERCP
+    pancreatitis, which was defined according to consensus
+    criteria(<xref alt="Cotton et al. 1991" rid="ref-cotton1991-nb-article" ref-type="bibr">Cotton
+    et al. 1991</xref>) (details are provided in the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>). Briefly, post-ERCP pancreatitis was
+    diagnosed if there was a new onset of pain in the upper abdomen, an
+    elevation in pancreatic enzymes of at least three times the upper
+    limit of the normal range 24 hours after the procedure, and
+    hospitalization for at least 2 nights. The secondary outcome was the
+    development of moderate or severe post-ERCP pancreatitis (see the
+    <ext-link ext-link-type="uri" xlink:href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><bold>Supplementary
+    Appendix</bold></ext-link>). Data regarding the length of hospital
+    stay for patients with post-ERCP pancreatitis were collected
+    prospectively, but the duration of hospitalization was not a
+    prespecified outcome measure and was therefore analyzed post
+    hoc.</p>
+          <p>Patients were observed in the recovery area for at least 90
+    minutes after the procedure. Patients in whom abdominal pain
+    developed during this observation period were admitted to the
+    hospital (or for current inpatients, kept in the hospital).
+    Decisions regarding evaluation of complications after the procedure
+    and in-hospital care were left to the discretion of the endoscopist
+    and clinical-service staff members, who were unaware of study-group
+    assignments. Serum amylase and lipase were measured in hospitalized
+    patients at least once 24 hours after the procedure and subsequently
+    at clinical discretion.</p>
+          <p>Patients who were discharged after an uneventful ERCP were
+    contacted by telephone within 5 days to capture delayed occurrence
+    of the primary end point. Patients were again contacted at 30 days
+    to assess for delayed adverse events and to determine the severity
+    of post-ERCP pancreatitis, which was defined in part by the length
+    of hospitalization for pancreatitis. The original study protocol
+    stated that the primary end point would be assessed within 48 hours
+    after the procedure. Although post-ERCP pancreatitis generally
+    occurs within this period, we contacted patients up to 5 days after
+    ERCP to ensure capture of delayed cases of the primary end
+    point.</p>
+          <p>Patient demographics, risk factors, ERCP procedural elements, and
+    follow-up data were recorded on standardized data-collection forms
+    by an investigator or coordinator who was unaware of study-group
+    assignments. All data were subsequently entered into a Web-based
+    database, Velos eResearch, and managed by an independent
+    data-management service.</p>
+        </sec>
+        <sec id="adverse-events-nb-article">
+          <title>Adverse events</title>
+          <p>Adverse events were defined as reported
+    previously.(<xref alt="Cotton et al. 1991" rid="ref-cotton1991-nb-article" ref-type="bibr">Cotton
+    et al. 1991</xref>;
+    <xref alt="Mallery et al. 2003" rid="ref-mallery2003-nb-article" ref-type="bibr">Mallery
+    et al. 2003</xref>) Any cases of post-ERCP pancreatitis, other
+    complications of the procedure, and adverse events that were
+    potentially attributable to the study drug were reported to the
+    local institutional review board and the data and safety monitoring
+    board. These reportable adverse events were gastrointestinal
+    bleeding, perforation, infection, renal failure, allergic reaction,
+    myocardial infarction, cerebrovascular accident, and death.</p>
+        </sec>
+        <sec id="statistical-analysis-nb-article">
+          <title>Statistical analysis</title>
+          <p>The prophylactic placement of pancreatic stents has been shown to
+    reduce the rate of post-ERCP pancreatitis to 5 to 10% among
+    high-risk
+    patients.(<xref alt="Tarnasky et al. 1998" rid="ref-tarnasky1998-nb-article" ref-type="bibr">Tarnasky
+    et al. 1998</xref>;
+    <xref alt="Fazel et al. 2003" rid="ref-fazel2003-nb-article" ref-type="bibr">Fazel
+    et al. 2003</xref>;
+    <xref alt="Singh et al. 2004" rid="ref-singh2004-nb-article" ref-type="bibr">Singh
+    et al. 2004</xref>) An internal audit of high-risk ERCPs at
+    participating institutions revealed a post-ERCP rate of pancreatitis
+    of approximately 10%, despite routine prophylactic stent placement
+    in appropriate patients. We estimated that 948 patients (474 per
+    study group) would provide a power of at least 80% to detect a 50%
+    reduction in the incidence of post-ERCP pancreatitis, from 10% in
+    the placebo group to 5% in the indomethacin group, on the basis of
+    Fisher’s exact test, with a two-sided significance level of
+    0.05.</p>
+          <p>For the analysis of the primary end point, we used a two-tailed
+    Fisher’s exact test to analyze the difference in the proportion of
+    patients with post-ERCP pancreatitis in the indomethacin group and
+    the placebo group, with a final two-sided P value of less than 0.041
+    indicating statistical significance. This P value reflects the
+    partial spending of degrees of freedom of statistical testing that
+    resulted from conducting two interim analyses on the basis of the
+    O’Brien–Fleming approach and the Lan–DeMets alpha spending function.
+    Results for the primary end point were reported in terms of absolute
+    and relative risk reduction. The secondary end point, the proportion
+    of patients with moderate or severe post-ERCP pancreatitis in each
+    study group, was similarly calculated, with a P value of less than
+    0.05 indicating statistical significance. Hospital length of stay
+    was found to have a skewed distribution, and therefore we used the
+    Kruskal–Wallis equality-of-populations rank test to compare median
+    values.</p>
+          <p>When information for the first 400 patients could be evaluated,
+    an ad hoc rule was used to trigger an interim analysis by the data
+    and safety monitoring board: if more than 66% of cases of
+    pancreatitis or bleeding were in a particular study group, a formal
+    comparison between groups would be performed with the use of a
+    two-sided stopping boundary of 0.005. On the basis of the results of
+    the first analysis, the data and safety monitoring board recommended
+    a second interim analysis after an additional 200 patients were
+    enrolled.</p>
+          <p>According to a previously proposed framework for evaluating the
+    heterogeneity in treatment effects on the primary end
+    point,(<xref alt="Kent et al. 2010" rid="ref-kent2010-nb-article" ref-type="bibr">Kent
+    et al. 2010</xref>) a post hoc analysis (not described in the
+    protocol) was performed on data from enrolled patients according to
+    their pretreatment risk of post-ERCP pancreatitis. In this analysis,
+    we assessed whether the relative treatment effect was consistent
+    across the spectrum of risk of post-ERCP pancreatitis. Individual
+    patient risk scores were determined by assigning one point for each
+    major inclusion criterion and 0.5 points for each minor inclusion
+    criterion.</p>
+          <p>We performed additional exploratory subgroup analyses on the
+    following prespecified characteristics: age, sex, suspicion of
+    sphincter of Oddi dysfunction, a history of post-ERCP pancreatitis,
+    a history of recurrent pancreatitis, sphincter of Oddi dysfunction
+    as documented on manometry, more than eight cannulation attempts,
+    precut sphincterotomy, pancreatic sphincterotomy, pancreatic
+    acinarization, biliary sphincterotomy, ampullectomy, placement of a
+    pancreatic stent, and trainee involvement in the ERCP. We performed
+    additional post hoc subgroup analyses on the type of sphincter of
+    Oddi dysfunction, inpatient versus outpatient status, and
+    participating medical center. All subgroup statistical analyses were
+    evaluated for interaction effects with indomethacin by testing for
+    significance of a corresponding interaction term in a multiple
+    logistic-regression
+    model.(<xref alt="Kent et al. 2010" rid="ref-kent2010-nb-article" ref-type="bibr">Kent
+    et al. 2010</xref>)</p>
+        </sec>
+      </sec>
+      <sec id="results-nb-article">
+        <title>Results</title>
+        <sec id="patients-1-nb-article">
+          <title>Patients</title>
+          <p>From February 2009 through July 2011, a total of 602 subjects
+    were enrolled
+    (<xref alt="Figure 1" rid="fig-enrollment-outcomes-nb-article">Figure 1</xref>).
+    In July 2011, the data and safety monitoring board performed an
+    interim analysis to assess the outcomes of the first 600 patients
+    and recommended that the study be terminated early on the basis of
+    the benefit of indomethacin as compared with placebo. Thus, we
+    terminated the study according to the a priori stopping rule.</p>
+          <sec id="cell-fig-enrollment-outcomes-nb-article" specific-use="notebook-code">
+            <code language="python"># use https://github.com/adayim/consort 
+# use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below
+N &lt;- 799
+trialno &lt;- sample(c(1000:2000), N)
+exc1 &lt;- rep(NA, N)
+exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion criteria", "Met exclusion criteria", "Did not undergo ERCP"),  15, replace = TRUE, prob = c(0.858, 0.0558, 0.086))</code>
+            <sec id="cell-fig-enrollment-outcomes-output-0-nb-article" specific-use="notebook-output">
+              <preformat>Warning in exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion
+criteria", : number of items to replace is not a multiple of replacement lengthWarning in rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N): object 'exc1'
+not found</preformat>
+            </sec>
+            <sec id="cell-fig-enrollment-outcomes-output-1-nb-article" specific-use="notebook-output">
+              <fig id="fig-enrollment-outcomes-nb-article">
+                <caption>
+                  <p>Figure 1: Enrollment and Outcomes.</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-consort-fig-enrollment-outcomes-output-2.png"/>
+              </fig>
+            </sec>
+          </sec>
+          <sec id="nb-code-cell-2-nb-article" specific-use="notebook-code">
+            <code language="r script">indo_rct_rx &lt;- indo_rct |&gt;
+  count(rx)
+
+n_indomethacin &lt;- indo_rct_rx |&gt;
+  filter(rx == "1_indomethacin") |&gt;
+  pull(n)
+
+n_placebo &lt;- indo_rct_rx |&gt;
+  filter(rx == "0_placebo") |&gt;
+  pull(n)</code>
+          </sec>
+          <sec id="nb-code-cell-3-nb-article" specific-use="notebook-code">
+            <code language="r script">p_oddi &lt;- indo_rct |&gt; 
+  mutate(type = if_else(type != "0_no SOD", "oddi", "no oddi")) |&gt;
+  count(type) |&gt;
+  mutate(p = round(n / sum(n) * 100, 1)) |&gt;
+  filter(type == "oddi") |&gt;
+  pull(p)</code>
+          </sec>
+          <p>A total of 295 patients received indomethacin, and 307 patients
+    received placebo. One patient in the indomethacin group could not
+    retain the suppositories but was included in the intention-to-treat
+    analysis. Follow-up of all patients for the primary and secondary
+    end points was complete
+    (<xref alt="Figure 1" rid="fig-enrollment-outcomes-nb-article">Figure 1</xref>).
+    Baseline characteristics were similar in the two study groups
+    (<xref alt="Table 1" rid="tbl-characteristics-baseline-nb-article">Table 1</xref>).
+    Notably, 82.2% of patients had a clinical suspicion of sphincter of
+    Oddi dysfunction.</p>
+          <sec id="nb-code-cell-4-nb-article" specific-use="notebook-code">
+            <code language="r script"># reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg
+tbl_summary(
+  indo_rct,
+  include = c("age", "gender", "sod", "pep", "recpanc", "difcan", "precut", "paninj", "psphinc", "acinar", "bsphinc", "amp", "pdstent", "train"),
+   by = rx,
+  missing = "no"
+)   |&gt;
+  add_n() |&gt; # add column with total number of non-missing observations
+  add_p() |&gt; # test for a difference between groups
+  modify_header(label = "**Variable**") |&gt; # update the column header
+  bold_labels()</code>
+            <fig id="tbl-characteristics-baseline-nb-article">
+              <caption>
+                <p>Table 1: Characteristics of the Patients at
+      Baseline.</p>
+              </caption>
+            </fig>
+          </sec>
+        </sec>
+        <sec id="study-outcomes-nb-article">
+          <title>Study outcomes</title>
+          <p>The primary outcome of post-ERCP pancreatitis occurred in 79 of
+    602 patients (13.1%). Of these events, 27 of 295 (9.2%) occurred in
+    the indomethacin group and 52 of 307 (16.9%) occurred in the placebo
+    group (P=0.005), corresponding to an absolute risk reduction of 7.7
+    percentage points (number needed to treat [NNT] to prevent one
+    episode of post-ERCP pancreatitis, 13) and a relative risk reduction
+    of 46%
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events-nb-article">Figure 2</xref>).</p>
+          <sec id="cell-fig-incidences-adverse-events-nb-article" specific-use="notebook-code">
+            <code language="python"># A - moderate to severe missing
+plot_a &lt;- indo_rct |&gt; 
+  count(rx, outcome) |&gt;
+  group_by(rx) |&gt;
+  mutate(p = n / sum(n)) |&gt;
+  filter(outcome == "1_yes") |&gt;
+  ungroup() |&gt;
+  mutate(
+    rx = case_match(
+      rx, 
+      "0_placebo" ~ "Placebo",
+      "1_indomethacin" ~ "Indomethacin"
+    ),
+    rx = fct_relevel(rx, "Placebo", "Indomethacin"),
+    p = p*100
+  ) |&gt;
+  ggplot(aes(x = rx, y = p, fill = rx)) +
+  geom_col(color = "black") +
+  scale_fill_manual(
+    values = c(
+      "Placebo" = "azure2", 
+      "Indomethacin" =  "deepskyblue4"
+    )
+  ) + 
+  theme_classic() +
+  theme(
+    legend.position = "top",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  ) +
+  ylim(0, 20) +
+  labs(
+    x = "All Post-ERCP\nPancreatitis",
+    y = "Patients (%)",
+    fill = NULL
+  )
+
+# renal failure missing
+plot_b &lt;- indo_rct |&gt;
+  filter(bleed == 1) |&gt;
+  mutate(
+    rx = case_match(
+      rx, 
+      "0_placebo" ~ "Placebo",
+      "1_indomethacin" ~ "Indomethacin"
+      ),
+    rx = fct_relevel(rx, "Placebo", "Indomethacin")
+  ) |&gt;
+  count(rx, bleed) |&gt;
+  ggplot(aes(x = rx, y = n, fill = rx)) +
+  geom_col(color = "black") +
+  scale_fill_manual(
+    values = c(
+      "Placebo" = "azure2", 
+      "Indomethacin" =  "deepskyblue4"
+    )
+  ) + 
+  theme_classic() +
+  theme(
+    legend.position = "top",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  ) +
+  ylim(0, 8) +
+  labs(
+    x = "Gastrointestinal\nBleeding",
+    y = "No. of Adverse Events",
+    fill = NULL
+  )
+
+plot_a + plot_b</code>
+            <sec id="cell-fig-incidences-adverse-events-output-0-nb-article" specific-use="notebook-output">
+              <fig id="fig-incidences-adverse-events-nb-article">
+                <caption>
+                  <p>Figure 2: Incidence of the Primary and Secondary End
+      Points and Adverse Events</p>
+                </caption>
+                <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/notebooks-incidences-fig-incidences-adverse-events-output-1.png"/>
+              </fig>
+            </sec>
+          </sec>
+          <p>All 79 patients with post-ERCP pancreatitis completed the 30-day
+    follow-up necessary to determine the severity of post-ERCP
+    pancreatitis. The secondary outcome of moderate or severe post-ERCP
+    pancreatitis occurred in 40 patients: 13 (4.4%) in the indomethacin
+    group and 27 (8.8%) in the placebo group (P=0.03)
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events-nb-article">Figure 2</xref>).
+    Three patients in each group had severe post-ERCP pancreatitis, and
+    one patient in the placebo group had pancreatic necrosis.</p>
+          <p>Among patients with post-ERCP pancreatitis, the median length of
+    hospital stay was 0.5 days shorter in the indomethacin group than in
+    the placebo group (3.5 vs. 4.0 days, P&lt;0.001).</p>
+          <sec id="heterogeneity-in-treatment-effects-nb-article">
+            <title>Heterogeneity in Treatment Effects</title>
+            <p>The relative benefit of indomethacin did not vary significantly
+      according to patients’ pretreatment risk score, although the
+      absolute risk reduction varied from an NNT of 21 for those with a
+      risk score of 1 (one major or two minor inclusion criteria) to an
+      NNT of 6 for those with a risk score of 5 (e.g., four major and
+      two minor inclusion criteria)
+      (<xref alt="Figure 3" rid="fig-heterogeneity-nb-article">Figure 3</xref>).</p>
+            <fig id="fig-heterogeneity-nb-article">
+              <caption>
+                <p>Figure 3: Analysis of the Heterogeneity in Treatment
+        Effects.</p>
+              </caption>
+              <graphic mimetype="image" mime-subtype="png" xlink:href="images/clipboard-2828008318.png"/>
+            </fig>
+          </sec>
+        </sec>
+        <sec id="exploratory-subgroup-analyses-nb-article">
+          <title>Exploratory Subgroup Analyses</title>
+          <p>The beneficial effect of indomethacin on the primary outcome was
+    also consistent across the other prespecified and post hoc secondary
+    subgroups
+    (<xref alt="Figure 4" rid="fig-exploratory-subgroup-nb-article">Figure 4</xref>).
+    In particular, indomethacin appeared to be protective regardless of
+    whether patients had undergone pancreatic stenting or had a clinical
+    suspicion of sphincter of Oddi dysfunction; indomethacin was also
+    protective in all three subtypes of sphincter of Oddi dysfunction
+    and in the two study sites enrolling the largest number of
+    patients.</p>
+          <fig id="fig-exploratory-subgroup-nb-article">
+            <caption>
+              <p>Figure 4: Exploratory Subgroup Analyses</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="images/clipboard-1822931444.png"/>
+          </fig>
+        </sec>
+        <sec id="adverse-events-1-nb-article">
+          <title>Adverse Events</title>
+          <p>There were 13 adverse events that were potentially attributable
+    to the study intervention
+    (<xref alt="Figure 2" rid="fig-incidences-adverse-events-nb-article">Figure 2</xref>).
+    Clinically significant bleeding occurred in 11 patients (1.8%): 4 in
+    the indomethacin group and 7 in the placebo group (P=0.72). None of
+    the bleeding events resulted in transfusion of more than 2 units of
+    packed red cells or required angiography or surgery for treatment.
+    Two cases of acute renal failure occurred, both in the placebo
+    group. There were no myocardial infarctions, strokes, or deaths at
+    30-day follow-up.</p>
+        </sec>
+      </sec>
+      <sec id="discussion-nb-article">
+        <title>Discussion</title>
+        <p>Our findings showed that one dose of rectal indomethacin given
+  immediately after ERCP significantly reduced the incidence of
+  post-ERCP pancreatitis in patients at elevated risk for this
+  complication. Moreover, we found that prophylactic indomethacin
+  decreased the severity of post-ERCP pancreatitis and was associated
+  with a shorter hospital stay. In this trial, the number of high-risk
+  ERCP patients who would need to be treated to prevent one episode of
+  pancreatitis was 13.</p>
+        <p>The majority of patients in this study had a clinical suspicion of
+  sphincter of Oddi dysfunction, and more than half had sphincter
+  hypertension, as documented on manometry, which suggests that the
+  results are particularly applicable to this challenging patient
+  population. However, among patients who received indomethacin, there
+  was a trend toward benefit with respect to rates of post-ERCP
+  pancreatitis for those who did not have a clinical suspicion of
+  sphincter of Oddi dysfunction (8.5% vs. 20.0%, P=0.11). Moreover, in a
+  subgroup analysis, the relative treatment effect of indomethacin was
+  consistent across the spectrum of patients’ risk of post-ERCP
+  pancreatitis. Additional studies will be necessary to reproduce our
+  results in different patient populations and to determine whether
+  indomethacin is effective in low-risk patients, as suggested by our
+  previous
+  meta-analysis.(<xref alt="Andriulli et al. 2007" rid="ref-andriulli2007-nb-article" ref-type="bibr">Andriulli
+  et al. 2007</xref>)</p>
+        <p>Although more than 80% of the patients in this clinical trial
+  underwent pancreatic stenting on the basis of their elevated risk of
+  post-ERCP pancreatitis, certain patients did not receive stents,
+  either because the endoscopist did not deem it indicated (e.g.,
+  difficult cannulation not requiring a precut sphincterotomy) or
+  because placement was not technically feasible (failed pancreatic
+  access). Among patients who received a pancreatic stent, indomethacin
+  reduced the risk of post-ERCP pancreatitis from 16.1% to 9.7%
+  (P=0.04). Indomethacin conferred similar benefit in patients who did
+  not receive a pancreatic stent, reducing the risk of post-ERCP
+  pancreatitis from 20.6% to 6.3% (P=0.049).</p>
+        <p>Congruent with previous clinical trials evaluating NSAIDs in the
+  prevention of post-ERCP pancreatitis, the risk of adverse events that
+  were potentially attributable to indomethacin in this study was
+  similar in the two study groups. Specifically, there was no
+  significant between-group difference in the frequency or severity of
+  bleeding events. This finding is consistent with previously published
+  data suggesting that NSAIDs in standard doses do not increase the risk
+  of bleeding after biliary
+  sphincterotomy.(<xref alt="Martin L. Freeman et al. 1996" rid="ref-freeman1996-nb-article" ref-type="bibr">Martin
+  L. Freeman et al. 1996</xref>;
+  <xref alt="Nelson and Freeman 1994" rid="ref-nelson1994major-nb-article" ref-type="bibr">Nelson
+  and Freeman 1994</xref>) Of note, patients with contraindications to
+  NSAIDs, such as renal failure and active peptic-ulcer disease, were
+  excluded from this study.</p>
+        <p>The rate of post-ERCP pancreatitis in the placebo group (16.9%)
+  exceeded that revealed by the internal audit of high-risk ERCP
+  patients at participating institutions (16.9% vs. 10%). (These audit
+  results had been used to calculate the sample size.) This difference
+  may be due to the increased capture of complications that occurs in
+  randomized, controlled trials. Nevertheless, the incidence of
+  post-ERCP pancreatitis in the placebo group of this trial was similar
+  to that in previous studies of NSAID pharmacoprevention in high-risk
+  subjects, in which the mean rate of post-ERCP pancreatitis was
+  18.8%.(<xref alt="Andriulli et al. 2007" rid="ref-andriulli2007-nb-article" ref-type="bibr">Andriulli
+  et al. 2007</xref>)</p>
+        <p>In summary, prophylactic rectal indomethacin significantly reduced
+  the incidence and severity of post-ERCP pancreatitis in patients at
+  elevated risk for this complication, particularly in those with a
+  clinical suspicion of sphincter of Oddi dysfunction.</p>
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title/>
+        <ref id="ref-freeman2004-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Freeman</surname>
+                <given-names>Martin L</given-names>
+              </name>
+              <name>
+                <surname>Guda</surname>
+                <given-names>Nalini M</given-names>
+              </name>
+            </person-group>
+            <article-title>Prevention of post-ERCP pancreatitis: a comprehensive review</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2004-06">2004</year>
+            <month>06</month>
+            <volume>59</volume>
+            <issue>7</issue>
+            <uri>http://dx.doi.org/10.1016/S0016-5107(04)00353-0</uri>
+            <pub-id pub-id-type="doi">10.1016/s0016-5107(04)00353-0</pub-id>
+            <fpage>845</fpage>
+            <lpage>864</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-freeman1996-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Freeman</surname>
+                <given-names>Martin L.</given-names>
+              </name>
+              <name>
+                <surname>Nelson</surname>
+                <given-names>Douglas B.</given-names>
+              </name>
+              <name>
+                <surname>Sherman</surname>
+                <given-names>Stuart</given-names>
+              </name>
+              <name>
+                <surname>Haber</surname>
+                <given-names>Gregory B.</given-names>
+              </name>
+              <name>
+                <surname>Herman</surname>
+                <given-names>Mary E.</given-names>
+              </name>
+              <name>
+                <surname>Dorsher</surname>
+                <given-names>Paul J.</given-names>
+              </name>
+              <name>
+                <surname>Moore</surname>
+                <given-names>Joseph P.</given-names>
+              </name>
+              <name>
+                <surname>Fennerty</surname>
+                <given-names>M. Brian</given-names>
+              </name>
+              <name>
+                <surname>Ryan</surname>
+                <given-names>Michael E.</given-names>
+              </name>
+              <name>
+                <surname>Shaw</surname>
+                <given-names>Michael J.</given-names>
+              </name>
+              <name>
+                <surname>Lande</surname>
+                <given-names>Jeffrey D.</given-names>
+              </name>
+              <name>
+                <surname>Pheley</surname>
+                <given-names>Alfred M.</given-names>
+              </name>
+            </person-group>
+            <article-title>Complications of Endoscopic Biliary Sphincterotomy</article-title>
+            <source>New England Journal of Medicine</source>
+            <year iso-8601-date="1996-09-26">1996</year>
+            <month>09</month>
+            <day>26</day>
+            <volume>335</volume>
+            <issue>13</issue>
+            <uri>http://dx.doi.org/10.1056/NEJM199609263351301</uri>
+            <pub-id pub-id-type="doi">10.1056/nejm199609263351301</pub-id>
+            <fpage>909</fpage>
+            <lpage>919</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-hcupnet2019utilization-nb-article">
+          <element-citation>
+            <person-group person-group-type="author">
+              <name>
+                <surname>HCUPnet</surname>
+                <given-names>Healthcare Cost</given-names>
+              </name>
+            </person-group>
+            <article-title>Utilization project. Rockville, MD: Agency for healthcare research and quality, 2016</article-title>
+            <year iso-8601-date="2019">2019</year>
+          </element-citation>
+        </ref>
+        <ref id="ref-gross1993inflammatory-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Gross</surname>
+                <given-names>V</given-names>
+              </name>
+              <name>
+                <surname>Leser</surname>
+                <given-names>HG</given-names>
+              </name>
+              <name>
+                <surname>Heinisch</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Schölmerich</surname>
+                <given-names>J</given-names>
+              </name>
+            </person-group>
+            <article-title>Inflammatory mediators and cytokines–new aspects of the pathophysiology and assessment of severity of acute pancreatitis?</article-title>
+            <source>Hepato-gastroenterology</source>
+            <year iso-8601-date="1993">1993</year>
+            <volume>40</volume>
+            <issue>6</issue>
+            <fpage>522</fpage>
+            <lpage>530</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-makela1997inhibition-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mäkelä</surname>
+                <given-names>A</given-names>
+              </name>
+              <name>
+                <surname>Kuusi</surname>
+                <given-names>T</given-names>
+              </name>
+              <name>
+                <surname>Schröder</surname>
+                <given-names>T</given-names>
+              </name>
+            </person-group>
+            <article-title>Inhibition of serum phospholipase-A2 in acute pancreatitis by pharmacological agents in vitro</article-title>
+            <source>Scandinavian journal of clinical and laboratory investigation</source>
+            <publisher-name>Taylor &amp; Francis</publisher-name>
+            <year iso-8601-date="1997">1997</year>
+            <volume>57</volume>
+            <issue>5</issue>
+            <fpage>401</fpage>
+            <lpage>407</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-murray2003diclofenac-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Murray</surname>
+                <given-names>Bill</given-names>
+              </name>
+              <name>
+                <surname>Carter</surname>
+                <given-names>Ross</given-names>
+              </name>
+              <name>
+                <surname>Imrie</surname>
+                <given-names>Clem</given-names>
+              </name>
+              <name>
+                <surname>Evans</surname>
+                <given-names>Susan</given-names>
+              </name>
+              <name>
+                <surname>O’suilleabhain</surname>
+                <given-names>Criostoir</given-names>
+              </name>
+            </person-group>
+            <article-title>Diclofenac reduces the incidence of acute pancreatitis after endoscopic retrograde cholangiopancreatography</article-title>
+            <source>Gastroenterology</source>
+            <publisher-name>Elsevier</publisher-name>
+            <year iso-8601-date="2003">2003</year>
+            <volume>124</volume>
+            <issue>7</issue>
+            <fpage>1786</fpage>
+            <lpage>1791</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-sotoudehmanesh2007indomethacin-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Sotoudehmanesh</surname>
+                <given-names>Rasoul</given-names>
+              </name>
+              <name>
+                <surname>Khatibian</surname>
+                <given-names>Morteza</given-names>
+              </name>
+              <name>
+                <surname>Kolahdoozan</surname>
+                <given-names>Shadi</given-names>
+              </name>
+              <name>
+                <surname>Ainechi</surname>
+                <given-names>Sanaz</given-names>
+              </name>
+              <name>
+                <surname>Malboosbaf</surname>
+                <given-names>Ramin</given-names>
+              </name>
+              <name>
+                <surname>Nouraie</surname>
+                <given-names>Mehdi</given-names>
+              </name>
+            </person-group>
+            <article-title>Indomethacin may reduce the incidence and severity of acute pancreatitis after ERCP</article-title>
+            <source>Official journal of the American College of Gastroenterology| ACG</source>
+            <publisher-name>LWW</publisher-name>
+            <year iso-8601-date="2007">2007</year>
+            <volume>102</volume>
+            <issue>5</issue>
+            <fpage>978</fpage>
+            <lpage>983</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-khoshbaten2008role-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Khoshbaten</surname>
+                <given-names>Manouchehr</given-names>
+              </name>
+              <name>
+                <surname>Khorram</surname>
+                <given-names>Homayoun</given-names>
+              </name>
+              <name>
+                <surname>Madad</surname>
+                <given-names>Leili</given-names>
+              </name>
+              <name>
+                <surname>Ehsani Ardakani</surname>
+                <given-names>Mohammad Javad</given-names>
+              </name>
+              <name>
+                <surname>Farzin</surname>
+                <given-names>Haleh</given-names>
+              </name>
+              <name>
+                <surname>Zali</surname>
+                <given-names>Mohammmad Reza</given-names>
+              </name>
+            </person-group>
+            <article-title>Role of diclofenac in reducing post-endoscopic retrograde cholangiopancreatography pancreatitis</article-title>
+            <source>Journal of gastroenterology and hepatology</source>
+            <publisher-name>Wiley Online Library</publisher-name>
+            <year iso-8601-date="2008">2008</year>
+            <volume>23</volume>
+            <issue>7pt2</issue>
+            <fpage>e11</fpage>
+            <lpage>e16</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-je2007effect-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>JE</surname>
+                <given-names>Garcı́a Correa</given-names>
+              </name>
+              <etal/>
+            </person-group>
+            <article-title>Effect of the administration of rectal indomethacin on amylase serum levels after endoscopic retrograde cholangiopancreatography, and its impact on the development of secondary pancreatitis episodes</article-title>
+            <source>Revista espanola de enfermedades digestivas: organo oficial de la Sociedad Espanola de Patologia Digestiva</source>
+            <year iso-8601-date="2007">2007</year>
+            <volume>99</volume>
+            <issue>6</issue>
+            <fpage>330</fpage>
+            <lpage>336</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-elmunzer2008-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Elmunzer</surname>
+                <given-names>B J</given-names>
+              </name>
+              <name>
+                <surname>Waljee</surname>
+                <given-names>A K</given-names>
+              </name>
+              <name>
+                <surname>Elta</surname>
+                <given-names>G H</given-names>
+              </name>
+              <name>
+                <surname>Taylor</surname>
+                <given-names>J R</given-names>
+              </name>
+              <name>
+                <surname>Fehmi</surname>
+                <given-names>S M A</given-names>
+              </name>
+              <name>
+                <surname>Higgins</surname>
+                <given-names>P D R</given-names>
+              </name>
+            </person-group>
+            <article-title>A meta-analysis of rectal NSAIDs in the prevention of post-ERCP pancreatitis</article-title>
+            <source>Gut</source>
+            <year iso-8601-date="2008-03-28">2008</year>
+            <month>03</month>
+            <day>28</day>
+            <volume>57</volume>
+            <issue>9</issue>
+            <uri>http://dx.doi.org/10.1136/gut.2007.140756</uri>
+            <pub-id pub-id-type="doi">10.1136/gut.2007.140756</pub-id>
+            <fpage>1262</fpage>
+            <lpage>1267</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-tarnasky1998-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Tarnasky</surname>
+                <given-names>Paul R.</given-names>
+              </name>
+              <name>
+                <surname>Palesch</surname>
+                <given-names>Yuko Y.</given-names>
+              </name>
+              <name>
+                <surname>Cunningham</surname>
+                <given-names>John T.</given-names>
+              </name>
+              <name>
+                <surname>Mauldin</surname>
+                <given-names>Patrick D.</given-names>
+              </name>
+              <name>
+                <surname>Cotton</surname>
+                <given-names>Peter B.</given-names>
+              </name>
+              <name>
+                <surname>Hawes</surname>
+                <given-names>Robert H.</given-names>
+              </name>
+            </person-group>
+            <article-title>Pancreatic stenting prevents pancreatitis after biliary sphincterotomy in patients with sphincter of Oddi dysfunction</article-title>
+            <source>Gastroenterology</source>
+            <year iso-8601-date="1998-12">1998</year>
+            <month>12</month>
+            <volume>115</volume>
+            <issue>6</issue>
+            <uri>http://dx.doi.org/10.1016/S0016-5085(98)70031-9</uri>
+            <pub-id pub-id-type="doi">10.1016/s0016-5085(98)70031-9</pub-id>
+            <fpage>1518</fpage>
+            <lpage>1524</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-fazel2003-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Fazel</surname>
+                <given-names>Ali</given-names>
+              </name>
+              <name>
+                <surname>Quadri</surname>
+                <given-names>Affan</given-names>
+              </name>
+              <name>
+                <surname>Catalano</surname>
+                <given-names>Marc F.</given-names>
+              </name>
+              <name>
+                <surname>Meyerson</surname>
+                <given-names>Scott M.</given-names>
+              </name>
+              <name>
+                <surname>Geenen</surname>
+                <given-names>Joseph E.</given-names>
+              </name>
+            </person-group>
+            <article-title>Does a pancreatic duct stent prevent post-ERCP pancreatitis? A prospective randomized study</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2003-03">2003</year>
+            <month>03</month>
+            <volume>57</volume>
+            <issue>3</issue>
+            <uri>http://dx.doi.org/10.1067/mge.2003.124</uri>
+            <pub-id pub-id-type="doi">10.1067/mge.2003.124</pub-id>
+            <fpage>291</fpage>
+            <lpage>294</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-singh2004-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Singh</surname>
+                <given-names>Pankaj</given-names>
+              </name>
+              <name>
+                <surname>Das</surname>
+                <given-names>Ananya</given-names>
+              </name>
+              <name>
+                <surname>Isenberg</surname>
+                <given-names>Gerard</given-names>
+              </name>
+              <name>
+                <surname>Wong</surname>
+                <given-names>Richard C. K.</given-names>
+              </name>
+              <name>
+                <surname>Sivak</surname>
+                <given-names>Michael V.</given-names>
+              </name>
+              <name>
+                <surname>Agrawal</surname>
+                <given-names>Deepak</given-names>
+              </name>
+              <name>
+                <surname>Chak</surname>
+                <given-names>Amitabh</given-names>
+              </name>
+            </person-group>
+            <article-title>Does prophylactic pancreatic stent placement reduce the risk of post-ERCP acute pancreatitis? A meta-analysis of controlled trials</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2004-10">2004</year>
+            <month>10</month>
+            <volume>60</volume>
+            <issue>4</issue>
+            <uri>http://dx.doi.org/10.1016/S0016-5107(04)02013-9</uri>
+            <pub-id pub-id-type="doi">10.1016/s0016-5107(04)02013-9</pub-id>
+            <fpage>544</fpage>
+            <lpage>550</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-dumonceau2010-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Dumonceau</surname>
+                <given-names>Jean-Marc</given-names>
+              </name>
+              <name>
+                <surname>Rigaux</surname>
+                <given-names>Johanne</given-names>
+              </name>
+              <name>
+                <surname>Kahaleh</surname>
+                <given-names>Michel</given-names>
+              </name>
+              <name>
+                <surname>Gomez</surname>
+                <given-names>Carlos Macias</given-names>
+              </name>
+              <name>
+                <surname>Vandermeeren</surname>
+                <given-names>Alain</given-names>
+              </name>
+              <name>
+                <surname>Devière</surname>
+                <given-names>Jacques</given-names>
+              </name>
+            </person-group>
+            <article-title>Prophylaxis of post-ERCP pancreatitis: a practice survey</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2010-05">2010</year>
+            <month>05</month>
+            <volume>71</volume>
+            <issue>6</issue>
+            <uri>http://dx.doi.org/10.1016/j.gie.2009.10.055</uri>
+            <pub-id pub-id-type="doi">10.1016/j.gie.2009.10.055</pub-id>
+            <fpage>934</fpage>
+            <lpage>939.e2</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-andriulli2000-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Andriulli</surname>
+                <given-names>Angelo</given-names>
+              </name>
+              <name>
+                <surname>Leandro</surname>
+                <given-names>Gioacchino</given-names>
+              </name>
+              <name>
+                <surname>Niro</surname>
+                <given-names>Grazia</given-names>
+              </name>
+              <name>
+                <surname>Mangia</surname>
+                <given-names>Alessandra</given-names>
+              </name>
+              <name>
+                <surname>Festa</surname>
+                <given-names>Virginia</given-names>
+              </name>
+              <name>
+                <surname>Gambassi</surname>
+                <given-names>Giovanni</given-names>
+              </name>
+              <name>
+                <surname>Villani</surname>
+                <given-names>Maria Rosaria</given-names>
+              </name>
+              <name>
+                <surname>Facciorusso</surname>
+                <given-names>Domenico</given-names>
+              </name>
+              <name>
+                <surname>Conoscitore</surname>
+                <given-names>Pasquale</given-names>
+              </name>
+              <name>
+                <surname>Spirito</surname>
+                <given-names>Fulvio</given-names>
+              </name>
+              <name>
+                <surname>De Maio</surname>
+                <given-names>Giovanni</given-names>
+              </name>
+            </person-group>
+            <article-title>Pharmacologic treatment can prevent pancreatic injury after ERCP: a meta-analysis</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2000-01">2000</year>
+            <month>01</month>
+            <volume>51</volume>
+            <issue>1</issue>
+            <uri>http://dx.doi.org/10.1016/S0016-5107(00)70377-4</uri>
+            <pub-id pub-id-type="doi">10.1016/s0016-5107(00)70377-4</pub-id>
+            <fpage>1</fpage>
+            <lpage>7</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-andriulli2007-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Andriulli</surname>
+                <given-names>Angelo</given-names>
+              </name>
+              <name>
+                <surname>Leandro</surname>
+                <given-names>Gioacchino</given-names>
+              </name>
+              <name>
+                <surname>Federici</surname>
+                <given-names>Telemaco</given-names>
+              </name>
+              <name>
+                <surname>Ippolito</surname>
+                <given-names>Antonio</given-names>
+              </name>
+              <name>
+                <surname>Forlano</surname>
+                <given-names>Rosario</given-names>
+              </name>
+              <name>
+                <surname>Iacobellis</surname>
+                <given-names>Angelo</given-names>
+              </name>
+              <name>
+                <surname>Annese</surname>
+                <given-names>Vito</given-names>
+              </name>
+            </person-group>
+            <article-title>Prophylactic administration of somatostatin or gabexate does not prevent pancreatitis after ERCP: an updated meta-analysis</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2007-04">2007</year>
+            <month>04</month>
+            <volume>65</volume>
+            <issue>4</issue>
+            <uri>http://dx.doi.org/10.1016/j.gie.2006.10.030</uri>
+            <pub-id pub-id-type="doi">10.1016/j.gie.2006.10.030</pub-id>
+            <fpage>624</fpage>
+            <lpage>632</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-freeman2007-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Freeman</surname>
+                <given-names>Martin L.</given-names>
+              </name>
+            </person-group>
+            <article-title>Pancreatic Stents for Prevention of PostEndoscopic Retrograde Cholangiopancreatography Pancreatitis</article-title>
+            <source>Clinical Gastroenterology and Hepatology</source>
+            <year iso-8601-date="2007-11">2007</year>
+            <month>11</month>
+            <volume>5</volume>
+            <issue>11</issue>
+            <uri>http://dx.doi.org/10.1016/j.cgh.2007.09.007</uri>
+            <pub-id pub-id-type="doi">10.1016/j.cgh.2007.09.007</pub-id>
+            <fpage>1354</fpage>
+            <lpage>1365</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-vandermarel2004-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Marel</surname>
+                <given-names>Caroline D. van der</given-names>
+              </name>
+              <name>
+                <surname>Anderson</surname>
+                <given-names>Brian J.</given-names>
+              </name>
+              <name>
+                <surname>Rømsing</surname>
+                <given-names>Janne</given-names>
+              </name>
+              <name>
+                <surname>Jacqz-Aigrain</surname>
+                <given-names>Evelyne</given-names>
+              </name>
+              <name>
+                <surname>Tibboel</surname>
+                <given-names>Dick</given-names>
+              </name>
+            </person-group>
+            <article-title>Diclofenac and metabolite pharmacokinetics in children</article-title>
+            <source>Pediatric Anesthesia</source>
+            <year iso-8601-date="2004-05-20">2004</year>
+            <month>05</month>
+            <day>20</day>
+            <volume>14</volume>
+            <issue>6</issue>
+            <uri>http://dx.doi.org/10.1111/j.1460-9592.2004.01232.x</uri>
+            <pub-id pub-id-type="doi">10.1111/j.1460-9592.2004.01232.x</pub-id>
+            <fpage>443</fpage>
+            <lpage>451</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-cotton1991-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Cotton</surname>
+                <given-names>P. B.</given-names>
+              </name>
+              <name>
+                <surname>Lehman</surname>
+                <given-names>G.</given-names>
+              </name>
+              <name>
+                <surname>Vennes</surname>
+                <given-names>J.</given-names>
+              </name>
+              <name>
+                <surname>Geenen</surname>
+                <given-names>J. E.</given-names>
+              </name>
+              <name>
+                <surname>Russell</surname>
+                <given-names>R. C. G.</given-names>
+              </name>
+              <name>
+                <surname>Meyers</surname>
+                <given-names>W. C.</given-names>
+              </name>
+              <name>
+                <surname>Liguory</surname>
+                <given-names>C.</given-names>
+              </name>
+              <name>
+                <surname>Nickl</surname>
+                <given-names>N.</given-names>
+              </name>
+            </person-group>
+            <article-title>Endoscopic sphincterotomy complications and their management: an attempt at consensus</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="1991-05">1991</year>
+            <month>05</month>
+            <volume>37</volume>
+            <issue>3</issue>
+            <uri>http://dx.doi.org/10.1016/S0016-5107(91)70740-2</uri>
+            <pub-id pub-id-type="doi">10.1016/s0016-5107(91)70740-2</pub-id>
+            <fpage>383</fpage>
+            <lpage>393</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-mallery2003-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Mallery</surname>
+                <given-names>J.Shawn</given-names>
+              </name>
+              <name>
+                <surname>Baron</surname>
+                <given-names>Todd H.</given-names>
+              </name>
+              <name>
+                <surname>Dominitz</surname>
+                <given-names>Jason A.</given-names>
+              </name>
+              <name>
+                <surname>Goldstein</surname>
+                <given-names>Jay L.</given-names>
+              </name>
+              <name>
+                <surname>Hirota</surname>
+                <given-names>William K.</given-names>
+              </name>
+              <name>
+                <surname>Jacobson</surname>
+                <given-names>Brian C.</given-names>
+              </name>
+              <name>
+                <surname>Leighton</surname>
+                <given-names>Jonathan A.</given-names>
+              </name>
+              <name>
+                <surname>Raddawi</surname>
+                <given-names>Hareth M.</given-names>
+              </name>
+              <name>
+                <surname>Varg</surname>
+                <given-names>John J.</given-names>
+              </name>
+              <name>
+                <surname>Waring</surname>
+                <given-names>J.Patrick</given-names>
+              </name>
+              <name>
+                <surname>Fanelli</surname>
+                <given-names>Robert D.</given-names>
+              </name>
+              <name>
+                <surname>Wheeler-Harbough</surname>
+                <given-names>Jo</given-names>
+              </name>
+              <name>
+                <surname>Eisen</surname>
+                <given-names>Glenn M.</given-names>
+              </name>
+              <name>
+                <surname>Faigel</surname>
+                <given-names>Douglas O.</given-names>
+              </name>
+            </person-group>
+            <article-title>Complications of ERCP</article-title>
+            <source>Gastrointestinal Endoscopy</source>
+            <year iso-8601-date="2003-05">2003</year>
+            <month>05</month>
+            <volume>57</volume>
+            <issue>6</issue>
+            <uri>http://dx.doi.org/10.1053/ge.2003.v57.amge030576633</uri>
+            <pub-id pub-id-type="doi">10.1053/ge.2003.v57.amge030576633</pub-id>
+            <fpage>633</fpage>
+            <lpage>638</lpage>
+          </element-citation>
+        </ref>
+        <ref id="ref-kent2010-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Kent</surname>
+                <given-names>David M</given-names>
+              </name>
+              <name>
+                <surname>Rothwell</surname>
+                <given-names>Peter M</given-names>
+              </name>
+              <name>
+                <surname>Ioannidis</surname>
+                <given-names>John PA</given-names>
+              </name>
+              <name>
+                <surname>Altman</surname>
+                <given-names>Doug G</given-names>
+              </name>
+              <name>
+                <surname>Hayward</surname>
+                <given-names>Rodney A</given-names>
+              </name>
+            </person-group>
+            <article-title>Assessing and reporting heterogeneity in treatment effects in clinical trials: a proposal</article-title>
+            <source>Trials</source>
+            <year iso-8601-date="2010-08-12">2010</year>
+            <month>08</month>
+            <day>12</day>
+            <volume>11</volume>
+            <issue>1</issue>
+            <uri>http://dx.doi.org/10.1186/1745-6215-11-85</uri>
+            <pub-id pub-id-type="doi">10.1186/1745-6215-11-85</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="ref-nelson1994major-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Nelson</surname>
+                <given-names>Douglas B</given-names>
+              </name>
+              <name>
+                <surname>Freeman</surname>
+                <given-names>Martin L</given-names>
+              </name>
+            </person-group>
+            <article-title>Major hemorrhage from endoscopic sphincterotomy: Risk factor analysis</article-title>
+            <source>Journal of clinical gastroenterology</source>
+            <publisher-name>LWW</publisher-name>
+            <year iso-8601-date="1994">1994</year>
+            <volume>19</volume>
+            <issue>4</issue>
+            <fpage>283</fpage>
+            <lpage>287</lpage>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-2-nb-1">
+    <front-stub>
+      <title-group>
+        <article-title>Incidence of the Primary and Secondary End Points and
+Adverse Events</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <p>Bar plots.</p>
+      <sec id="nb-code-cell-1-nb-1" specific-use="notebook-code">
+        <code language="r script">library(tidyverse)
+</code>
+        <code language="r script">library(medicaldata)
+library(patchwork)
+</code>
+        <sec id="nb-code-cell-1-output-0-nb-1" specific-use="notebook-output">
+          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
+        </sec>
+      </sec>
+      <sec id="cell-fig-incidences-adverse-events-nb-1" specific-use="notebook-code">
+        <code language="r script">
+# A - moderate to severe missing
+plot_a &lt;- indo_rct |&gt; 
+  count(rx, outcome) |&gt;
+  group_by(rx) |&gt;
+  mutate(p = n / sum(n)) |&gt;
+  filter(outcome == "1_yes") |&gt;
+  ungroup() |&gt;
+  mutate(
+    rx = case_match(
+      rx, 
+      "0_placebo" ~ "Placebo",
+      "1_indomethacin" ~ "Indomethacin"
+    ),
+    rx = fct_relevel(rx, "Placebo", "Indomethacin"),
+    p = p*100
+  ) |&gt;
+  ggplot(aes(x = rx, y = p, fill = rx)) +
+  geom_col(color = "black") +
+  scale_fill_manual(
+    values = c(
+      "Placebo" = "azure2", 
+      "Indomethacin" =  "deepskyblue4"
+    )
+  ) + 
+  theme_classic() +
+  theme(
+    legend.position = "top",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  ) +
+  ylim(0, 20) +
+  labs(
+    x = "All Post-ERCP\nPancreatitis",
+    y = "Patients (%)",
+    fill = NULL
+  )
+
+# renal failure missing
+plot_b &lt;- indo_rct |&gt;
+  filter(bleed == 1) |&gt;
+  mutate(
+    rx = case_match(
+      rx, 
+      "0_placebo" ~ "Placebo",
+      "1_indomethacin" ~ "Indomethacin"
+      ),
+    rx = fct_relevel(rx, "Placebo", "Indomethacin")
+  ) |&gt;
+  count(rx, bleed) |&gt;
+  ggplot(aes(x = rx, y = n, fill = rx)) +
+  geom_col(color = "black") +
+  scale_fill_manual(
+    values = c(
+      "Placebo" = "azure2", 
+      "Indomethacin" =  "deepskyblue4"
+    )
+  ) + 
+  theme_classic() +
+  theme(
+    legend.position = "top",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  ) +
+  ylim(0, 8) +
+  labs(
+    x = "Gastrointestinal\nBleeding",
+    y = "No. of Adverse Events",
+    fill = NULL
+  )
+
+plot_a + plot_b
+</code>
+        <fig id="fig-incidences-adverse-events-nb-1">
+          <caption>
+            <p>Incidence of the Primary and Secondary End Points and
+  Adverse Events</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="incidences_files/figure-jats/fig-incidences-adverse-events-1.png"/>
+        </fig>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-4-nb-2">
+    <front-stub>
+      <title-group>
+        <article-title>Enrollment and Outcomes</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <p>Consort diagram.</p>
+      <sec id="nb-code-cell-1-nb-2" specific-use="notebook-code">
+        <code language="r script">
+library(consort)
+</code>
+      </sec>
+      <sec id="cell-fig-enrollment-outcomes-nb-2" specific-use="notebook-code">
+        <code language="r script">
+# use https://github.com/adayim/consort 
+# use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below
+N &lt;- 799
+trialno &lt;- sample(c(1000:2000), N)
+exc1 &lt;- rep(NA, N)
+exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion criteria", "Met exclusion criteria", "Did not undergo ERCP"),  15, replace = TRUE, prob = c(0.858, 0.0558, 0.086))
+</code>
+        <code language="r script">
+induc &lt;- rep(NA, N)
+induc[is.na(exc1)] &lt;- trialno[is.na(exc1)]
+
+exc2 &lt;- rep(NA, N)
+exc2[sample(1:N, 1)] &lt;- sample(c( "Could not hold suppository"), 1, replace = TRUE, prob = c(0.0039))
+exc2[is.na(induc)] &lt;- NA
+
+arm &lt;- rep(NA, N)
+arm[is.na(exc1)] &lt;- sample(c("Conc", "Seq"), sum(is.na(exc1)), replace = TRUE)
+arm3 &lt;- sample(c("Indomethacin", "Placebo"), N, replace = TRUE)
+arm3[is.na(arm)] &lt;- NA
+
+df_consort &lt;- data.frame(trialno, exc1, induc, exc2, exc1, arm, arm3)
+rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N)
+</code>
+        <code language="r script">
+consort_plot(
+  data = df_consort,
+  order = list(
+  trialno = "Population",
+  exc1 = "Excluded",
+  induc = "Induction",
+  exc2 = "Excluded",
+  arm3 = "Randomized patient",
+  trialno = "Finished Followup",
+  trialno = "Final Analysis"
+),
+  side_box = c("exc1", "exc2"),
+  allocation = "arm3",
+  labels = c(
+  "1" = "Screening", "2" = "Randomization",
+  "3" = "Assignment", "5" = "End of study"
+  ),
+ cex = 0.7
+)
+</code>
+        <fig id="fig-enrollment-outcomes-nb-2">
+          <caption>
+            <p>Enrollment and Outcomes.</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="consort_files/figure-jats/fig-enrollment-outcomes-1.png"/>
+        </fig>
+        <sec id="cell-fig-enrollment-outcomes-output-0-nb-2" specific-use="notebook-output">
+          <preformat>Warning in exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion
+criteria", : number of items to replace is not a multiple of replacement length</preformat>
+        </sec>
+        <sec id="cell-fig-enrollment-outcomes-output-1-nb-2" specific-use="notebook-output">
+          <preformat>Warning in rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N): object 'exc1'
+not found</preformat>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+</article>

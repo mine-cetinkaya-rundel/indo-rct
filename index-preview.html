@@ -1,0 +1,1985 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.5.25">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+      /* CSS for syntax highlighting */
+      pre > code.sourceCode { white-space: pre; position: relative; }
+      pre > code.sourceCode > span { line-height: 1.25; }
+      pre > code.sourceCode > span:empty { height: 1.2em; }
+      .sourceCode { overflow: visible; }
+      code.sourceCode > span { color: inherit; text-decoration: inherit; }
+      div.sourceCode { margin: 1em 0; }
+      pre.sourceCode { margin: 0; }
+      @media screen {
+      div.sourceCode { overflow: auto; }
+      }
+      @media print {
+      pre > code.sourceCode { white-space: pre-wrap; }
+      pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+      }
+      pre.numberSource code
+        { counter-reset: source-line 0; }
+      pre.numberSource code > span
+        { position: relative; left: -4em; counter-increment: source-line; }
+      pre.numberSource code > span > a:first-child::before
+        { content: counter(source-line);
+          position: relative; left: -1em; text-align: right; vertical-align: baseline;
+          border: none; display: inline-block;
+          -webkit-touch-callout: none; -webkit-user-select: none;
+          -khtml-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+          padding: 0 4px; width: 4em;
+        }
+      pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+      div.sourceCode
+        {   }
+      @media screen {
+      pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+      }
+      /* CSS for citations */
+      div.csl-bib-body { }
+      div.csl-entry {
+        clear: both;
+        margin-bottom: 0em;
+      }
+      .hanging-indent div.csl-entry {
+        margin-left:2em;
+        text-indent:-2em;
+      }
+      div.csl-left-margin {
+        min-width:2em;
+        float:left;
+      }
+      div.csl-right-inline {
+        margin-left:2em;
+        padding-left:1em;
+      }
+      div.csl-indent {
+        margin-left: 2em;
+      }    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "index.html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+     <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script> 
+      <meta name="citation_title" content="A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis">
+<meta name="citation_abstract" content="**BACKGROUND**
+Preliminary research suggests that rectally administered nonsteroidal antiinflammatory drugs may reduce the incidence of pancreatitis after endoscopic retrograde cholangiopancreatography (ERCP).
+
+**METHODS**
+In this multicenter, randomized, placebo-controlled, double-blind clinical trial, we assigned patients at elevated risk for post-ERCP pancreatitis to receive a single dose of rectal indomethacin or placebo immediately after ERCP. Patients were determined to be at high risk on the basis of validated patient- and procedure-related risk factors. The primary outcome was post-ERCP pancreatitis, which was defined as new upper abdominal pain, an elevation in pancreatic enzymes to at least three times the upper limit of the normal range 24 hours after the procedure, and hospitalization for at least 2 nights.
+
+**RESULTS**
+A total of 602 patients were enrolled and completed follow-up. The majority of patients (82%) had a clinical suspicion of sphincter of Oddi dysfunction. Post-ERCP pancreatitis developed in 27 of 295 patients (9.2%) in the indomethacin group and in 52 of 307 patients (16.9%) in the placebo group (P=0.005). Moderate-to-severe pancreatitis developed in 13 patients (4.4%) in the indomethacin group and in 27 patients (8.8%) in the placebo group (P=0.03).
+
+**CONCLUSIONS**
+Among patients at high risk for post-ERCP pancreatitis, rectal indomethacin significantly reduced the incidence of the condition. (Funded by the National Institutes of Health; ClinicalTrials.gov number, NCT00820612. opens in new tab.)
+">
+<meta name="citation_author" content="B. Joseph Elmunzer, M.D.">
+<meta name="citation_author" content="James M. Scheiman, M.D.">
+<meta name="citation_author" content="Glen A. Lehman, M.D.">
+<meta name="citation_author" content="Amitabh Chak, M.D.">
+<meta name="citation_author" content="Patrick Mosler, M.D., Ph.D.">
+<meta name="citation_author" content="Peter D.R. Higgins, M.D., Ph.D.">
+<meta name="citation_author" content="Rodney A. Hayward, M.D.">
+<meta name="citation_author" content="Joseph Romagnuolo, M.D.">
+<meta name="citation_author" content="Grace H. Elta, M.D.">
+<meta name="citation_author" content="Stuart Sherman, M.D.">
+<meta name="citation_author" content="Akbar K. Waljee, M.D.">
+<meta name="citation_author" content="Aparna Repaka, M.D.">
+<meta name="citation_author" content="Matthew R. Atkinson, M.D.">
+<meta name="citation_author" content="Gregory A. Cote, M.D.">
+<meta name="citation_author" content="Richard S. Kwon, M.D.">
+<meta name="citation_author" content="Lee McHenry, M.D.">
+<meta name="citation_author" content="Cyrus R. Piraka, M.D.">
+<meta name="citation_author" content="Erik J. Wamsteker, M.D.">
+<meta name="citation_author" content="James L. Watkins, M.D.">
+<meta name="citation_author" content="Sheryl J. Korsnes, M.A.">
+<meta name="citation_author" content="Suzette E. Schmidt, B.S.N., C.C.R.P.">
+<meta name="citation_author" content="Sarah M. Turner, B.S.">
+<meta name="citation_author" content="Sylvia Nicholson, C.C.R.C.">
+<meta name="citation_author" content="Evan L. Fogel, M.D.">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Prevention of post-ERCP pancreatitis: a comprehensive review;,citation_author=Martin L Freeman;,citation_author=Nalini M Guda;,citation_publication_date=2004-06;,citation_cover_date=2004-06;,citation_year=2004;,citation_fulltext_html_url=http://dx.doi.org/10.1016/S0016-5107(04)00353-0;,citation_issue=7;,citation_doi=10.1016/s0016-5107(04)00353-0;,citation_volume=59;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Complications of Endoscopic Biliary Sphincterotomy;,citation_author=Martin L. Freeman;,citation_author=Douglas B. Nelson;,citation_author=Stuart Sherman;,citation_author=Gregory B. Haber;,citation_author=Mary E. Herman;,citation_author=Paul J. Dorsher;,citation_author=Joseph P. Moore;,citation_author=M. Brian Fennerty;,citation_author=Michael E. Ryan;,citation_author=Michael J. Shaw;,citation_author=Jeffrey D. Lande;,citation_author=Alfred M. Pheley;,citation_publication_date=1996-09-26;,citation_cover_date=1996-09-26;,citation_year=1996;,citation_fulltext_html_url=http://dx.doi.org/10.1056/NEJM199609263351301;,citation_issue=13;,citation_doi=10.1056/nejm199609263351301;,citation_volume=335;,citation_language=en;,citation_journal_title=New England Journal of Medicine;">
+<meta name="citation_reference" content="citation_title=Utilization project. Rockville, MD: Agency for healthcare research and quality, 2016;,citation_author=Healthcare Cost HCUPnet;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;">
+<meta name="citation_reference" content="citation_title=Inflammatory mediators and cytokines–new aspects of the pathophysiology and assessment of severity of acute pancreatitis?;,citation_author=V Gross;,citation_author=HG Leser;,citation_author=A Heinisch;,citation_author=J Schölmerich;,citation_publication_date=1993;,citation_cover_date=1993;,citation_year=1993;,citation_issue=6;,citation_volume=40;,citation_journal_title=Hepato-gastroenterology;">
+<meta name="citation_reference" content="citation_title=Inhibition of serum phospholipase-A2 in acute pancreatitis by pharmacological agents in vitro;,citation_author=A Mäkelä;,citation_author=T Kuusi;,citation_author=T Schröder;,citation_publication_date=1997;,citation_cover_date=1997;,citation_year=1997;,citation_issue=5;,citation_volume=57;,citation_journal_title=Scandinavian journal of clinical and laboratory investigation;,citation_publisher=Taylor &amp;amp;amp; Francis;">
+<meta name="citation_reference" content="citation_title=Diclofenac reduces the incidence of acute pancreatitis after endoscopic retrograde cholangiopancreatography;,citation_author=Bill Murray;,citation_author=Ross Carter;,citation_author=Clem Imrie;,citation_author=Susan Evans;,citation_author=Criostoir O’suilleabhain;,citation_publication_date=2003;,citation_cover_date=2003;,citation_year=2003;,citation_issue=7;,citation_volume=124;,citation_journal_title=Gastroenterology;,citation_publisher=Elsevier;">
+<meta name="citation_reference" content="citation_title=Indomethacin may reduce the incidence and severity of acute pancreatitis after ERCP;,citation_author=Rasoul Sotoudehmanesh;,citation_author=Morteza Khatibian;,citation_author=Shadi Kolahdoozan;,citation_author=Sanaz Ainechi;,citation_author=Ramin Malboosbaf;,citation_author=Mehdi Nouraie;,citation_publication_date=2007;,citation_cover_date=2007;,citation_year=2007;,citation_issue=5;,citation_volume=102;,citation_journal_title=Official journal of the American College of Gastroenterology| ACG;,citation_publisher=LWW;">
+<meta name="citation_reference" content="citation_title=Role of diclofenac in reducing post-endoscopic retrograde cholangiopancreatography pancreatitis;,citation_author=Manouchehr Khoshbaten;,citation_author=Homayoun Khorram;,citation_author=Leili Madad;,citation_author=Mohammad Javad Ehsani Ardakani;,citation_author=Haleh Farzin;,citation_author=Mohammmad Reza Zali;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;,citation_issue=7pt2;,citation_volume=23;,citation_journal_title=Journal of gastroenterology and hepatology;,citation_publisher=Wiley Online Library;">
+<meta name="citation_reference" content="citation_title=Effect of the administration of rectal indomethacin on amylase serum levels after endoscopic retrograde cholangiopancreatography, and its impact on the development of secondary pancreatitis episodes;,citation_author=Garcı́a Correa JE;,citation_author=others;,citation_publication_date=2007;,citation_cover_date=2007;,citation_year=2007;,citation_issue=6;,citation_volume=99;,citation_journal_title=Revista espanola de enfermedades digestivas: organo oficial de la Sociedad Espanola de Patologia Digestiva;">
+<meta name="citation_reference" content="citation_title=A meta-analysis of rectal NSAIDs in the prevention of post-ERCP pancreatitis;,citation_author=B J Elmunzer;,citation_author=A K Waljee;,citation_author=G H Elta;,citation_author=J R Taylor;,citation_author=S M A Fehmi;,citation_author=P D R Higgins;,citation_publication_date=2008-03-28;,citation_cover_date=2008-03-28;,citation_year=2008;,citation_fulltext_html_url=http://dx.doi.org/10.1136/gut.2007.140756;,citation_issue=9;,citation_doi=10.1136/gut.2007.140756;,citation_volume=57;,citation_language=en;,citation_journal_title=Gut;">
+<meta name="citation_reference" content="citation_title=Pancreatic stenting prevents pancreatitis after biliary sphincterotomy in patients with sphincter of Oddi dysfunction;,citation_author=Paul R. Tarnasky;,citation_author=Yuko Y. Palesch;,citation_author=John T. Cunningham;,citation_author=Patrick D. Mauldin;,citation_author=Peter B. Cotton;,citation_author=Robert H. Hawes;,citation_publication_date=1998-12;,citation_cover_date=1998-12;,citation_year=1998;,citation_fulltext_html_url=http://dx.doi.org/10.1016/S0016-5085(98)70031-9;,citation_issue=6;,citation_doi=10.1016/s0016-5085(98)70031-9;,citation_volume=115;,citation_language=en;,citation_journal_title=Gastroenterology;">
+<meta name="citation_reference" content="citation_title=Does a pancreatic duct stent prevent post-ERCP pancreatitis? A prospective randomized study;,citation_author=Ali Fazel;,citation_author=Affan Quadri;,citation_author=Marc F. Catalano;,citation_author=Scott M. Meyerson;,citation_author=Joseph E. Geenen;,citation_publication_date=2003-03;,citation_cover_date=2003-03;,citation_year=2003;,citation_fulltext_html_url=http://dx.doi.org/10.1067/mge.2003.124;,citation_issue=3;,citation_doi=10.1067/mge.2003.124;,citation_volume=57;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Does prophylactic pancreatic stent placement reduce the risk of post-ERCP acute pancreatitis? A meta-analysis of controlled trials;,citation_author=Pankaj Singh;,citation_author=Ananya Das;,citation_author=Gerard Isenberg;,citation_author=Richard C. K. Wong;,citation_author=Michael V. Sivak;,citation_author=Deepak Agrawal;,citation_author=Amitabh Chak;,citation_publication_date=2004-10;,citation_cover_date=2004-10;,citation_year=2004;,citation_fulltext_html_url=http://dx.doi.org/10.1016/S0016-5107(04)02013-9;,citation_issue=4;,citation_doi=10.1016/s0016-5107(04)02013-9;,citation_volume=60;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Prophylaxis of post-ERCP pancreatitis: a practice survey;,citation_author=Jean-Marc Dumonceau;,citation_author=Johanne Rigaux;,citation_author=Michel Kahaleh;,citation_author=Carlos Macias Gomez;,citation_author=Alain Vandermeeren;,citation_author=Jacques Devière;,citation_publication_date=2010-05;,citation_cover_date=2010-05;,citation_year=2010;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.gie.2009.10.055;,citation_issue=6;,citation_doi=10.1016/j.gie.2009.10.055;,citation_volume=71;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Pharmacologic treatment can prevent pancreatic injury after ERCP: a meta-analysis;,citation_author=Angelo Andriulli;,citation_author=Gioacchino Leandro;,citation_author=Grazia Niro;,citation_author=Alessandra Mangia;,citation_author=Virginia Festa;,citation_author=Giovanni Gambassi;,citation_author=Maria Rosaria Villani;,citation_author=Domenico Facciorusso;,citation_author=Pasquale Conoscitore;,citation_author=Fulvio Spirito;,citation_author=Giovanni De Maio;,citation_publication_date=2000-01;,citation_cover_date=2000-01;,citation_year=2000;,citation_fulltext_html_url=http://dx.doi.org/10.1016/S0016-5107(00)70377-4;,citation_issue=1;,citation_doi=10.1016/s0016-5107(00)70377-4;,citation_volume=51;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Prophylactic administration of somatostatin or gabexate does not prevent pancreatitis after ERCP: an updated meta-analysis;,citation_author=Angelo Andriulli;,citation_author=Gioacchino Leandro;,citation_author=Telemaco Federici;,citation_author=Antonio Ippolito;,citation_author=Rosario Forlano;,citation_author=Angelo Iacobellis;,citation_author=Vito Annese;,citation_publication_date=2007-04;,citation_cover_date=2007-04;,citation_year=2007;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.gie.2006.10.030;,citation_issue=4;,citation_doi=10.1016/j.gie.2006.10.030;,citation_volume=65;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Pancreatic Stents for Prevention of PostEndoscopic Retrograde Cholangiopancreatography Pancreatitis;,citation_author=Martin L. Freeman;,citation_publication_date=2007-11;,citation_cover_date=2007-11;,citation_year=2007;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.cgh.2007.09.007;,citation_issue=11;,citation_doi=10.1016/j.cgh.2007.09.007;,citation_volume=5;,citation_language=en;,citation_journal_title=Clinical Gastroenterology and Hepatology;">
+<meta name="citation_reference" content="citation_title=Diclofenac and metabolite pharmacokinetics in children;,citation_author=Caroline D. Marel;,citation_author=Brian J. Anderson;,citation_author=Janne Rømsing;,citation_author=Evelyne Jacqz-Aigrain;,citation_author=Dick Tibboel;,citation_publication_date=2004-05-20;,citation_cover_date=2004-05-20;,citation_year=2004;,citation_fulltext_html_url=http://dx.doi.org/10.1111/j.1460-9592.2004.01232.x;,citation_issue=6;,citation_doi=10.1111/j.1460-9592.2004.01232.x;,citation_volume=14;,citation_language=en;,citation_journal_title=Pediatric Anesthesia;">
+<meta name="citation_reference" content="citation_title=Endoscopic sphincterotomy complications and their management: an attempt at consensus;,citation_author=P. B. Cotton;,citation_author=G. Lehman;,citation_author=J. Vennes;,citation_author=J. E. Geenen;,citation_author=R. C. G. Russell;,citation_author=W. C. Meyers;,citation_author=C. Liguory;,citation_author=N. Nickl;,citation_publication_date=1991-05;,citation_cover_date=1991-05;,citation_year=1991;,citation_fulltext_html_url=http://dx.doi.org/10.1016/S0016-5107(91)70740-2;,citation_issue=3;,citation_doi=10.1016/s0016-5107(91)70740-2;,citation_volume=37;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Complications of ERCP;,citation_author=J.Shawn Mallery;,citation_author=Todd H. Baron;,citation_author=Jason A. Dominitz;,citation_author=Jay L. Goldstein;,citation_author=William K. Hirota;,citation_author=Brian C. Jacobson;,citation_author=Jonathan A. Leighton;,citation_author=Hareth M. Raddawi;,citation_author=John J. Varg;,citation_author=J.Patrick Waring;,citation_author=Robert D. Fanelli;,citation_author=Jo Wheeler-Harbough;,citation_author=Glenn M. Eisen;,citation_author=Douglas O. Faigel;,citation_publication_date=2003-05;,citation_cover_date=2003-05;,citation_year=2003;,citation_fulltext_html_url=http://dx.doi.org/10.1053/ge.2003.v57.amge030576633;,citation_issue=6;,citation_doi=10.1053/ge.2003.v57.amge030576633;,citation_volume=57;,citation_language=en;,citation_journal_title=Gastrointestinal Endoscopy;">
+<meta name="citation_reference" content="citation_title=Assessing and reporting heterogeneity in treatment effects in clinical trials: a proposal;,citation_author=David M Kent;,citation_author=Peter M Rothwell;,citation_author=John PA Ioannidis;,citation_author=Doug G Altman;,citation_author=Rodney A Hayward;,citation_publication_date=2010-08-12;,citation_cover_date=2010-08-12;,citation_year=2010;,citation_fulltext_html_url=http://dx.doi.org/10.1186/1745-6215-11-85;,citation_issue=1;,citation_doi=10.1186/1745-6215-11-85;,citation_volume=11;,citation_language=en;,citation_journal_title=Trials;">
+<meta name="citation_reference" content="citation_title=Major hemorrhage from endoscopic sphincterotomy: Risk factor analysis;,citation_author=Douglas B Nelson;,citation_author=Martin L Freeman;,citation_publication_date=1994;,citation_cover_date=1994;,citation_year=1994;,citation_issue=4;,citation_volume=19;,citation_journal_title=Journal of clinical gastroenterology;,citation_publisher=LWW;">
+</head>
+
+  <body class="quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Article Notebook</h6>
+
+            <a href="./index.qmd" class="btn btn-primary quarto-download-embed" download="index.qmd">Download Source</a>
+          </div>
+
+     <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis</h1>
+            <p class="subtitle lead">Reproduction</p>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliations</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">B. Joseph Elmunzer, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">James M. Scheiman, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Glen A. Lehman, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Amitabh Chak, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University Hospitals Case Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Patrick Mosler, M.D., Ph.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Kentucky Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Peter D.R. Higgins, M.D., Ph.D. <a href="mailto:phiggins@umich.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-1602-4341" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Rodney A. Hayward, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Joseph Romagnuolo, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Medical University of South Carolina
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Grace H. Elta, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Stuart Sherman, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Akbar K. Waljee, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Aparna Repaka, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University Hospitals Case Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Matthew R. Atkinson, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University Hospitals Case Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Gregory A. Cote, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Richard S. Kwon, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Lee McHenry, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Cyrus R. Piraka, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Erik J. Wamsteker, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">James L. Watkins, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Sheryl J. Korsnes, M.A. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Michigan Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Suzette E. Schmidt, B.S.N., C.C.R.P. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Sarah M. Turner, B.S. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Kentucky Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Sylvia Nicholson, C.C.R.C. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        University of Kentucky Medical Center
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Evan L. Fogel, M.D. </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Indiana University Medical Center
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">Abstract</div>
+        <p><strong>BACKGROUND</strong> Preliminary research suggests that rectally administered nonsteroidal antiinflammatory drugs may reduce the incidence of pancreatitis after endoscopic retrograde cholangiopancreatography (ERCP).</p>
+        <p><strong>METHODS</strong> In this multicenter, randomized, placebo-controlled, double-blind clinical trial, we assigned patients at elevated risk for post-ERCP pancreatitis to receive a single dose of rectal indomethacin or placebo immediately after ERCP. Patients were determined to be at high risk on the basis of validated patient- and procedure-related risk factors. The primary outcome was post-ERCP pancreatitis, which was defined as new upper abdominal pain, an elevation in pancreatic enzymes to at least three times the upper limit of the normal range 24 hours after the procedure, and hospitalization for at least 2 nights.</p>
+        <p><strong>RESULTS</strong> A total of 602 patients were enrolled and completed follow-up. The majority of patients (82%) had a clinical suspicion of sphincter of Oddi dysfunction. Post-ERCP pancreatitis developed in 27 of 295 patients (9.2%) in the indomethacin group and in 52 of 307 patients (16.9%) in the placebo group (P=0.005). Moderate-to-severe pancreatitis developed in 13 patients (4.4%) in the indomethacin group and in 27 patients (8.8%) in the placebo group (P=0.03).</p>
+        <p><strong>CONCLUSIONS</strong> Among patients at high risk for post-ERCP pancreatitis, rectal indomethacin significantly reduced the incidence of the condition. (Funded by the National Institutes of Health; ClinicalTrials.gov number, NCT00820612. opens in new tab.)</p>
+      </div>
+    </div>
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#methods" id="toc-methods" class="nav-link active" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design">Study design</a></li>
+  <li><a href="#patients" id="toc-patients" class="nav-link" data-scroll-target="#patients">Patients</a></li>
+  <li><a href="#intervention" id="toc-intervention" class="nav-link" data-scroll-target="#intervention">Intervention</a></li>
+  <li><a href="#outcomes" id="toc-outcomes" class="nav-link" data-scroll-target="#outcomes">Outcomes</a></li>
+  <li><a href="#adverse-events" id="toc-adverse-events" class="nav-link" data-scroll-target="#adverse-events">Adverse events</a></li>
+  <li><a href="#statistical-analysis" id="toc-statistical-analysis" class="nav-link" data-scroll-target="#statistical-analysis">Statistical analysis</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#patients-1" id="toc-patients-1" class="nav-link" data-scroll-target="#patients-1">Patients</a></li>
+  <li><a href="#study-outcomes" id="toc-study-outcomes" class="nav-link" data-scroll-target="#study-outcomes">Study outcomes</a>
+  <ul class="collapse">
+  <li><a href="#heterogeneity-in-treatment-effects" id="toc-heterogeneity-in-treatment-effects" class="nav-link" data-scroll-target="#heterogeneity-in-treatment-effects">Heterogeneity in Treatment Effects</a></li>
+  </ul></li>
+  <li><a href="#exploratory-subgroup-analyses" id="toc-exploratory-subgroup-analyses" class="nav-link" data-scroll-target="#exploratory-subgroup-analyses">Exploratory Subgroup Analyses</a></li>
+  <li><a href="#adverse-events-1" id="toc-adverse-events-1" class="nav-link" data-scroll-target="#adverse-events-1">Adverse Events</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">      
+
+       <div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a Quarto reproduction of a paper published in the New England Journal of Medicine in 2012, which you can find at <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1111103" class="uri">https://www.nejm.org/doi/full/10.1056/NEJMoa1111103</a>. Some of the reproduction code was provided by Peter Higgins.</p>
+</div>
+</div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(medicaldata)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(consort)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gtsummary)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<p>Acute pancreatitis is the most common major complication of endoscopic retrograde cholangiopancreatography (ERCP),<span class="citation" data-cites="freeman2004">(<a href="#ref-freeman2004" role="doc-biblioref">Martin L. Freeman and Guda 2004</a>)</span> accounting for substantial morbidity, occasional death, and estimated health care expenditures of approximately $150 million annually in the United States.<span class="citation" data-cites="freeman1996 hcupnet2019utilization">(<a href="#ref-freeman1996" role="doc-biblioref">Martin L. Freeman et al. 1996</a>; <a href="#ref-hcupnet2019utilization" role="doc-biblioref">HCUPnet 2019</a>)</span> Given the magnitude of this problem, more than 35 pharmacologic agents have been studied for the prophylaxis of post-ERCP pancreatitis, and many prospective clinical trials addressing chemoprevention have been conducted. To date, however, no medication has proved to be consistently effective in preventing post-ERCP pancreatitis on the basis of data from high-quality clinical trials, and no pharmacologic prophylaxis for post-ERCP pancreatitis is in widespread clinical use.</p>
+<p>Nonsteroidal antiinflammatory drugs (NSAIDs) are potent inhibitors of phospholipase A2, cyclooxygenase, and neutrophil–endothelial interactions, all believed to play an important role in the pathogenesis of acute pancreatitis.<span class="citation" data-cites="gross1993inflammatory makela1997inhibition">(<a href="#ref-gross1993inflammatory" role="doc-biblioref">Gross et al. 1993</a>; <a href="#ref-makela1997inhibition" role="doc-biblioref">Mäkelä, Kuusi, and Schröder 1997</a>)</span> NSAIDs are inexpensive and easily administered and have a favorable risk profile when given as a single dose, making them an attractive option in the prevention of post-ERCP pancreatitis. Preliminary studies evaluating the protective effects of single-dose rectal indomethacin or diclofenac in post-ERCP pancreatitis have been conducted,<span class="citation" data-cites="murray2003diclofenac sotoudehmanesh2007indomethacin khoshbaten2008role je2007effect">(<a href="#ref-murray2003diclofenac" role="doc-biblioref">Murray et al. 2003</a>; <a href="#ref-sotoudehmanesh2007indomethacin" role="doc-biblioref">Sotoudehmanesh et al. 2007</a>; <a href="#ref-khoshbaten2008role" role="doc-biblioref">Khoshbaten et al. 2008</a>; <a href="#ref-je2007effect" role="doc-biblioref">JE et al. 2007</a>)</span> and a meta-analysis suggests benefit.<span class="citation" data-cites="elmunzer2008">(<a href="#ref-elmunzer2008" role="doc-biblioref">Elmunzer et al. 2008</a>)</span></p>
+<p>Despite these data, rectal NSAIDs are seldom used in clinical practice because there is no conclusive evidence from randomized, controlled trials<span class="citation" data-cites="dumonceau2010">(<a href="#ref-dumonceau2010" role="doc-biblioref">Dumonceau et al. 2010</a>)</span> and because previous positive meta-analyses of other agents for the prevention of post-ERCP pancreatitis have been disproved by further investigation.<span class="citation" data-cites="andriulli2000 andriulli2007">(<a href="#ref-andriulli2000" role="doc-biblioref">Andriulli et al. 2000</a>, <a href="#ref-andriulli2007" role="doc-biblioref">2007</a>)</span> Moreover, it remains unclear whether NSAIDs provide incremental benefit over temporary pancreatic stents, the only proven prophylactic intervention for post-ERCP pancreatitis.<span class="citation" data-cites="tarnasky1998 fazel2003 singh2004">(<a href="#ref-tarnasky1998" role="doc-biblioref">Tarnasky et al. 1998</a>; <a href="#ref-fazel2003" role="doc-biblioref">Fazel et al. 2003</a>; <a href="#ref-singh2004" role="doc-biblioref">Singh et al. 2004</a>)</span> Therefore, we conducted a multicenter, randomized, controlled clinical trial to evaluate the efficacy of prophylactic rectal indomethacin for the prevention of post-ERCP pancreatitis in high-risk patients.</p>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<section id="study-design" class="level2">
+<h2 class="anchored" data-anchor-id="study-design">Study design</h2>
+<p>We enrolled patients at four university-affiliated medical centers in the United States after approval from the human studies review committee at each institution. An independent data and safety monitoring board provided regulatory oversight by reviewing blinded subject data quarterly and conducting the a priori scheduled interim analysis. The complete study <a href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_protocol.pdf"><strong>protocol</strong></a> is available with the full text of this article at NEJM.org.</p>
+</section>
+<section id="patients" class="level2">
+<h2 class="anchored" data-anchor-id="patients">Patients</h2>
+<p>The inclusion criteria selected patients with an elevated baseline risk of post-ERCP pancreatitis on the basis of prospectively validated patient- and procedure-related independent risk factors.<span class="citation" data-cites="freeman2007">(<a href="#ref-freeman2007" role="doc-biblioref">Martin L. Freeman 2007</a>)</span> Patients were eligible if they met one or more of the following major criteria: clinical suspicion of sphincter of Oddi dysfunction (as defined in the <a href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><strong>Supplementary Appendix</strong></a>, available at NEJM.org), a history of post-ERCP pancreatitis, pancreatic sphincterotomy, precut sphincterotomy (a procedure performed to facilitate biliary access when standard cannulation techniques are unsuccessful), more than eight cannulation attempts (as determined by the endoscopist), pneumatic dilatation of an intact biliary sphincter, or ampullectomy. Patients were also eligible for inclusion if they met two or more of the following minor criteria: an age of less than 50 years and female sex, a history of recurrent pancreatitis (<span class="math inline">\(\ge\)</span> 2 episodes), three or more injections of contrast agent into the pancreatic duct with at least one injection to the tail of the pancreas, excessive injection of contrast agent into the pancreatic duct resulting in opacification of pancreatic acini, or the acquisition of a cytologic specimen from the pancreatic duct with the use of a brush.</p>
+<p>The exclusion criteria are listed in the <a href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><strong>Supplementary Appendix</strong></a> and were intended to exclude patients in whom ERCP was unsuitable and those who had active pancreatitis, had a contraindication to the use of NSAIDs (e.g., creatinine level, &gt;1.4 mg per deciliter [124 <span class="math inline">\(\mu\)</span>mol per liter] or active peptic ulcer disease), were already taking NSAIDs (other than cardioprotective aspirin), or had an anticipated low risk of post-ERCP pancreatitis (e.g., those with chronic calcific pancreatitis or a pancreatic-head mass or those undergoing routine biliary-stent exchange).</p>
+<p>Eligible patients who provided written informed consent underwent randomization at the conclusion of the ERCP procedure, because patients without risk factors could be included in the study on the basis of procedure-related factors alone.</p>
+</section>
+<section id="intervention" class="level2">
+<h2 class="anchored" data-anchor-id="intervention">Intervention</h2>
+<p>All procedure-related interventions were dictated by the performing endoscopist. Immediately after the procedure, if the endoscopist and research coordinator determined that inclusion criteria had been met, patients were randomly assigned to receive either two 50-mg indomethacin suppositories or two identical-appearing placebo suppositories. The randomization schedule, which was stratified according to study center, was generated centrally at the University of Michigan.</p>
+<p>The suppositories were administered immediately after ERCP while the patient was still in the procedure room. The rectal route was selected on the basis of available pilot data suggesting that only rectal NSAIDs are effective in preventing post-ERCP pancreatitis, perhaps owing to more rapid and complete bioavailability than with oral administration.<span class="citation" data-cites="elmunzer2008 vandermarel2004">(<a href="#ref-elmunzer2008" role="doc-biblioref">Elmunzer et al. 2008</a>; <a href="#ref-vandermarel2004" role="doc-biblioref">Marel et al. 2004</a>)</span> The indomethacin suppositories were purchased from two vendors: G&amp;W Laboratories and Custom Med Apothecary. Formal potency testing confirmed that the vendors provided indomethacin suppositories that were pharmacodynamically equivalent (Analytic Research Laboratories).</p>
+</section>
+<section id="outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes">Outcomes</h2>
+<p>The primary outcome of the study was the development of post-ERCP pancreatitis, which was defined according to consensus criteria<span class="citation" data-cites="cotton1991">(<a href="#ref-cotton1991" role="doc-biblioref">Cotton et al. 1991</a>)</span> (details are provided in the <a href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><strong>Supplementary Appendix</strong></a>). Briefly, post-ERCP pancreatitis was diagnosed if there was a new onset of pain in the upper abdomen, an elevation in pancreatic enzymes of at least three times the upper limit of the normal range 24 hours after the procedure, and hospitalization for at least 2 nights. The secondary outcome was the development of moderate or severe post-ERCP pancreatitis (see the <a href="https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf"><strong>Supplementary Appendix</strong></a>). Data regarding the length of hospital stay for patients with post-ERCP pancreatitis were collected prospectively, but the duration of hospitalization was not a prespecified outcome measure and was therefore analyzed post hoc.</p>
+<p>Patients were observed in the recovery area for at least 90 minutes after the procedure. Patients in whom abdominal pain developed during this observation period were admitted to the hospital (or for current inpatients, kept in the hospital). Decisions regarding evaluation of complications after the procedure and in-hospital care were left to the discretion of the endoscopist and clinical-service staff members, who were unaware of study-group assignments. Serum amylase and lipase were measured in hospitalized patients at least once 24 hours after the procedure and subsequently at clinical discretion.</p>
+<p>Patients who were discharged after an uneventful ERCP were contacted by telephone within 5 days to capture delayed occurrence of the primary end point. Patients were again contacted at 30 days to assess for delayed adverse events and to determine the severity of post-ERCP pancreatitis, which was defined in part by the length of hospitalization for pancreatitis. The original study protocol stated that the primary end point would be assessed within 48 hours after the procedure. Although post-ERCP pancreatitis generally occurs within this period, we contacted patients up to 5 days after ERCP to ensure capture of delayed cases of the primary end point.</p>
+<p>Patient demographics, risk factors, ERCP procedural elements, and follow-up data were recorded on standardized data-collection forms by an investigator or coordinator who was unaware of study-group assignments. All data were subsequently entered into a Web-based database, Velos eResearch, and managed by an independent data-management service.</p>
+</section>
+<section id="adverse-events" class="level2">
+<h2 class="anchored" data-anchor-id="adverse-events">Adverse events</h2>
+<p>Adverse events were defined as reported previously.<span class="citation" data-cites="cotton1991 mallery2003">(<a href="#ref-cotton1991" role="doc-biblioref">Cotton et al. 1991</a>; <a href="#ref-mallery2003" role="doc-biblioref">Mallery et al. 2003</a>)</span> Any cases of post-ERCP pancreatitis, other complications of the procedure, and adverse events that were potentially attributable to the study drug were reported to the local institutional review board and the data and safety monitoring board. These reportable adverse events were gastrointestinal bleeding, perforation, infection, renal failure, allergic reaction, myocardial infarction, cerebrovascular accident, and death.</p>
+</section>
+<section id="statistical-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-analysis">Statistical analysis</h2>
+<p>The prophylactic placement of pancreatic stents has been shown to reduce the rate of post-ERCP pancreatitis to 5 to 10% among high-risk patients.<span class="citation" data-cites="tarnasky1998 fazel2003 singh2004">(<a href="#ref-tarnasky1998" role="doc-biblioref">Tarnasky et al. 1998</a>; <a href="#ref-fazel2003" role="doc-biblioref">Fazel et al. 2003</a>; <a href="#ref-singh2004" role="doc-biblioref">Singh et al. 2004</a>)</span> An internal audit of high-risk ERCPs at participating institutions revealed a post-ERCP rate of pancreatitis of approximately 10%, despite routine prophylactic stent placement in appropriate patients. We estimated that 948 patients (474 per study group) would provide a power of at least 80% to detect a 50% reduction in the incidence of post-ERCP pancreatitis, from 10% in the placebo group to 5% in the indomethacin group, on the basis of Fisher’s exact test, with a two-sided significance level of 0.05.</p>
+<p>For the analysis of the primary end point, we used a two-tailed Fisher’s exact test to analyze the difference in the proportion of patients with post-ERCP pancreatitis in the indomethacin group and the placebo group, with a final two-sided P value of less than 0.041 indicating statistical significance. This P value reflects the partial spending of degrees of freedom of statistical testing that resulted from conducting two interim analyses on the basis of the O’Brien–Fleming approach and the Lan–DeMets alpha spending function. Results for the primary end point were reported in terms of absolute and relative risk reduction. The secondary end point, the proportion of patients with moderate or severe post-ERCP pancreatitis in each study group, was similarly calculated, with a P value of less than 0.05 indicating statistical significance. Hospital length of stay was found to have a skewed distribution, and therefore we used the Kruskal–Wallis equality-of-populations rank test to compare median values.</p>
+<p>When information for the first 400 patients could be evaluated, an ad hoc rule was used to trigger an interim analysis by the data and safety monitoring board: if more than 66% of cases of pancreatitis or bleeding were in a particular study group, a formal comparison between groups would be performed with the use of a two-sided stopping boundary of 0.005. On the basis of the results of the first analysis, the data and safety monitoring board recommended a second interim analysis after an additional 200 patients were enrolled.</p>
+<p>According to a previously proposed framework for evaluating the heterogeneity in treatment effects on the primary end point,<span class="citation" data-cites="kent2010">(<a href="#ref-kent2010" role="doc-biblioref">Kent et al. 2010</a>)</span> a post hoc analysis (not described in the protocol) was performed on data from enrolled patients according to their pretreatment risk of post-ERCP pancreatitis. In this analysis, we assessed whether the relative treatment effect was consistent across the spectrum of risk of post-ERCP pancreatitis. Individual patient risk scores were determined by assigning one point for each major inclusion criterion and 0.5 points for each minor inclusion criterion.</p>
+<p>We performed additional exploratory subgroup analyses on the following prespecified characteristics: age, sex, suspicion of sphincter of Oddi dysfunction, a history of post-ERCP pancreatitis, a history of recurrent pancreatitis, sphincter of Oddi dysfunction as documented on manometry, more than eight cannulation attempts, precut sphincterotomy, pancreatic sphincterotomy, pancreatic acinarization, biliary sphincterotomy, ampullectomy, placement of a pancreatic stent, and trainee involvement in the ERCP. We performed additional post hoc subgroup analyses on the type of sphincter of Oddi dysfunction, inpatient versus outpatient status, and participating medical center. All subgroup statistical analyses were evaluated for interaction effects with indomethacin by testing for significance of a corresponding interaction term in a multiple logistic-regression model.<span class="citation" data-cites="kent2010">(<a href="#ref-kent2010" role="doc-biblioref">Kent et al. 2010</a>)</span></p>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="patients-1" class="level2">
+<h2 class="anchored" data-anchor-id="patients-1">Patients</h2>
+<p>From February 2009 through July 2011, a total of 602 subjects were enrolled (<a href="#fig-enrollment-outcomes" class="quarto-xref">Figure&nbsp;1</a>). In July 2011, the data and safety monitoring board performed an interim analysis to assess the outcomes of the first 600 patients and recommended that the study be terminated early on the basis of the benefit of indomethacin as compared with placebo. Thus, we terminated the study according to the a priori stopping rule.</p>
+<div class="quarto-embed-nb-cell" data-notebook="/Users/mine/Desktop/talks/2024-quarto-manuscripts-rmed/indo-rct/notebooks/consort.qmd" data-notebook-title="Enrollment and Outcomes" data-notebook-cellid="cell-fig-enrollment-outcomes">
+<div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="cell-fig-enrollment-outcomes" class="cell" data-fig-width="10" data-fig-asp="1" data-fig-dpi="300">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use https://github.com/adayim/consort </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>N <span class="op">&lt;-</span> <span class="dv">799</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>trialno <span class="op">&lt;-</span> sample(c(<span class="dv">1000</span>:<span class="dv">2000</span>), N)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>exc1 <span class="op">&lt;-</span> rep(NA, N)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>exc1[sample(<span class="dv">1</span>:N, <span class="dv">197</span>)] <span class="op">&lt;-</span> sample(c(<span class="st">"Did not meet inclusion criteria"</span>, <span class="st">"Met exclusion criteria"</span>, <span class="st">"Did not undergo ERCP"</span>),  <span class="dv">15</span>, replace <span class="op">=</span> TRUE, prob <span class="op">=</span> c(<span class="fl">0.858</span>, <span class="fl">0.0558</span>, <span class="fl">0.086</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in exc1[sample(1:N, 197)] &lt;- sample(c("Did not meet inclusion
+criteria", : number of items to replace is not a multiple of replacement lengthWarning in rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N): object 'exc1'
+not found</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div id="fig-enrollment-outcomes" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-enrollment-outcomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="">
+<a href="index_files/figure-html/notebooks-consort-fig-enrollment-outcomes-output-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Enrollment and Outcomes."><img src="index_files/figure-html/notebooks-consort-fig-enrollment-outcomes-output-2.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-enrollment-outcomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Enrollment and Outcomes.
+</figcaption>
+</figure>
+</div>
+</div>
+</div></div>
+</div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>indo_rct_rx <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(rx)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>n_indomethacin <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"1_indomethacin"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>n_placebo <span class="ot">&lt;-</span> indo_rct_rx <span class="sc">|&gt;</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(rx <span class="sc">==</span> <span class="st">"0_placebo"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(n)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [4]:</pre></div><div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>p_oddi <span class="ot">&lt;-</span> indo_rct <span class="sc">|&gt;</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">type =</span> <span class="fu">if_else</span>(type <span class="sc">!=</span> <span class="st">"0_no SOD"</span>, <span class="st">"oddi"</span>, <span class="st">"no oddi"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(type) <span class="sc">|&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">p =</span> <span class="fu">round</span>(n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(type <span class="sc">==</span> <span class="st">"oddi"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(p)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<p>A total of 295 patients received indomethacin, and 307 patients received placebo. One patient in the indomethacin group could not retain the suppositories but was included in the intention-to-treat analysis. Follow-up of all patients for the primary and secondary end points was complete (<a href="#fig-enrollment-outcomes" class="quarto-xref">Figure&nbsp;1</a>). Baseline characteristics were similar in the two study groups (<a href="#tbl-characteristics-baseline" class="quarto-xref">Table&nbsp;1</a>). Notably, 82.2% of patients had a clinical suspicion of sphincter of Oddi dysfunction.</p>
+<div class="cell-container"><div class="cell-decorator"><pre>In [5]:</pre></div><div class="cell">
+
+<div class="cell-container"><div class="cell-decorator"><pre>In [6]:</pre></div><div><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tbl_summary</span>(</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  indo_rct,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">include =</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"gender"</span>, <span class="st">"sod"</span>, <span class="st">"pep"</span>, <span class="st">"recpanc"</span>, <span class="st">"difcan"</span>, <span class="st">"precut"</span>, <span class="st">"paninj"</span>, <span class="st">"psphinc"</span>, <span class="st">"acinar"</span>, <span class="st">"bsphinc"</span>, <span class="st">"amp"</span>, <span class="st">"pdstent"</span>, <span class="st">"train"</span>),</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>   <span class="at">by =</span> rx,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing =</span> <span class="st">"no"</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>)   <span class="sc">|&gt;</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_n</span>() <span class="sc">|&gt;</span> <span class="co"># add column with total number of non-missing observations</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_p</span>() <span class="sc">|&gt;</span> <span class="co"># test for a difference between groups</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">modify_header</span>(<span class="at">label =</span> <span class="st">"**Variable**"</span>) <span class="sc">|&gt;</span> <span class="co"># update the column header</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bold_labels</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-characteristics-baseline" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-characteristics-baseline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Characteristics of the Patients at Baseline.
+</figcaption>
+<div aria-describedby="tbl-characteristics-baseline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="wxsynzwyji" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#wxsynzwyji table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#wxsynzwyji thead, #wxsynzwyji tbody, #wxsynzwyji tfoot, #wxsynzwyji tr, #wxsynzwyji td, #wxsynzwyji th {
+  border-style: none;
+}
+
+#wxsynzwyji p {
+  margin: 0;
+  padding: 0;
+}
+
+#wxsynzwyji .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#wxsynzwyji .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#wxsynzwyji .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#wxsynzwyji .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#wxsynzwyji .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#wxsynzwyji .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#wxsynzwyji .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#wxsynzwyji .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#wxsynzwyji .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#wxsynzwyji .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#wxsynzwyji .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#wxsynzwyji .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#wxsynzwyji .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#wxsynzwyji .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#wxsynzwyji .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wxsynzwyji .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#wxsynzwyji .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#wxsynzwyji .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#wxsynzwyji .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wxsynzwyji .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#wxsynzwyji .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wxsynzwyji .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#wxsynzwyji .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wxsynzwyji .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wxsynzwyji .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wxsynzwyji .gt_left {
+  text-align: left;
+}
+
+#wxsynzwyji .gt_center {
+  text-align: center;
+}
+
+#wxsynzwyji .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#wxsynzwyji .gt_font_normal {
+  font-weight: normal;
+}
+
+#wxsynzwyji .gt_font_bold {
+  font-weight: bold;
+}
+
+#wxsynzwyji .gt_font_italic {
+  font-style: italic;
+}
+
+#wxsynzwyji .gt_super {
+  font-size: 65%;
+}
+
+#wxsynzwyji .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#wxsynzwyji .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#wxsynzwyji .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#wxsynzwyji .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#wxsynzwyji .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#wxsynzwyji .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#wxsynzwyji .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="<strong>Variable</strong>"><strong>Variable</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>N</strong>"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>0_placebo</strong>, N = 307<span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>"><strong>0_placebo</strong>, N = 307<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>1_indomethacin</strong>, N = 295<span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>"><strong>1_indomethacin</strong>, N = 295<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>p-value</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>2</sup></span>"><strong>p-value</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>2</sup></span></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">age</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center">46 (36, 55)</td>
+<td headers="stat_2" class="gt_row gt_center">44 (33, 54)</td>
+<td headers="p.value" class="gt_row gt_center">0.2</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">gender</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.4</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_female</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">247 (80%)</td>
+<td headers="stat_2" class="gt_row gt_center">229 (78%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;2_male</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">60 (20%)</td>
+<td headers="stat_2" class="gt_row gt_center">66 (22%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">sod</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.2</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">60 (20%)</td>
+<td headers="stat_2" class="gt_row gt_center">47 (16%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">247 (80%)</td>
+<td headers="stat_2" class="gt_row gt_center">248 (84%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">pep</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">&gt;0.9</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">258 (84%)</td>
+<td headers="stat_2" class="gt_row gt_center">248 (84%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">49 (16%)</td>
+<td headers="stat_2" class="gt_row gt_center">47 (16%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">recpanc</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.7</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">213 (69%)</td>
+<td headers="stat_2" class="gt_row gt_center">209 (71%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">94 (31%)</td>
+<td headers="stat_2" class="gt_row gt_center">86 (29%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">difcan</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.6</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">230 (75%)</td>
+<td headers="stat_2" class="gt_row gt_center">215 (73%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">77 (25%)</td>
+<td headers="stat_2" class="gt_row gt_center">80 (27%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">precut</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.8</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">290 (94%)</td>
+<td headers="stat_2" class="gt_row gt_center">280 (95%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">17 (5.5%)</td>
+<td headers="stat_2" class="gt_row gt_center">15 (5.1%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">paninj</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.2</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">271 (88%)</td>
+<td headers="stat_2" class="gt_row gt_center">270 (92%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">36 (12%)</td>
+<td headers="stat_2" class="gt_row gt_center">25 (8.5%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">psphinc</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.4</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">137 (45%)</td>
+<td headers="stat_2" class="gt_row gt_center">122 (41%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">170 (55%)</td>
+<td headers="stat_2" class="gt_row gt_center">173 (59%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">acinar</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.5</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">295 (96%)</td>
+<td headers="stat_2" class="gt_row gt_center">280 (95%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">12 (3.9%)</td>
+<td headers="stat_2" class="gt_row gt_center">15 (5.1%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">bsphinc</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.5</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">136 (44%)</td>
+<td headers="stat_2" class="gt_row gt_center">122 (41%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">171 (56%)</td>
+<td headers="stat_2" class="gt_row gt_center">173 (59%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">amp</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">&gt;0.9</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">298 (97%)</td>
+<td headers="stat_2" class="gt_row gt_center">286 (97%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">9 (2.9%)</td>
+<td headers="stat_2" class="gt_row gt_center">9 (3.1%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">pdstent</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.4</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">58 (19%)</td>
+<td headers="stat_2" class="gt_row gt_center">48 (16%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">249 (81%)</td>
+<td headers="stat_2" class="gt_row gt_center">247 (84%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">train</td>
+<td headers="n" class="gt_row gt_center">602</td>
+<td headers="stat_1" class="gt_row gt_center"><br></td>
+<td headers="stat_2" class="gt_row gt_center"><br></td>
+<td headers="p.value" class="gt_row gt_center">0.5</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0_no</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">167 (54%)</td>
+<td headers="stat_2" class="gt_row gt_center">152 (52%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1_yes</td>
+<td headers="n" class="gt_row gt_center"><br></td>
+<td headers="stat_1" class="gt_row gt_center">140 (46%)</td>
+<td headers="stat_2" class="gt_row gt_center">143 (48%)</td>
+<td headers="p.value" class="gt_row gt_center"><br></td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="5"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> Median (IQR); n (%)</td>
+    </tr>
+    <tr>
+      <td class="gt_footnote" colspan="5"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>2</sup></span> Wilcoxon rank sum test; Pearson’s Chi-squared test</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+</figure>
+</div></div></div>
+</div></div>
+</section>
+<section id="study-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="study-outcomes">Study outcomes</h2>
+<p>The primary outcome of post-ERCP pancreatitis occurred in 79 of 602 patients (13.1%). Of these events, 27 of 295 (9.2%) occurred in the indomethacin group and 52 of 307 (16.9%) occurred in the placebo group (P=0.005), corresponding to an absolute risk reduction of 7.7 percentage points (number needed to treat [NNT] to prevent one episode of post-ERCP pancreatitis, 13) and a relative risk reduction of 46% (<a href="#fig-incidences-adverse-events" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<div class="quarto-embed-nb-cell" data-notebook="/Users/mine/Desktop/talks/2024-quarto-manuscripts-rmed/indo-rct/notebooks/incidences.qmd" data-notebook-title="Incidence of the Primary and Secondary End Points and Adverse Events" data-notebook-cellid="cell-fig-incidences-adverse-events">
+<div class="cell-container"><div class="cell-decorator"><pre>In [7]:</pre></div><div id="cell-fig-incidences-adverse-events" class="cell" data-fig-width="4" data-fig-asp="0.681">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A - moderate to severe missing</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  count(rx, outcome) <span class="op">|&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  group_by(rx) <span class="op">|&gt;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  mutate(p <span class="op">=</span> n <span class="op">/</span> <span class="bu">sum</span>(n)) <span class="op">|&gt;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(outcome <span class="op">==</span> <span class="st">"1_yes"</span>) <span class="op">|&gt;</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  ungroup() <span class="op">|&gt;</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>      rx, </span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>),</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    p <span class="op">=</span> p<span class="op">*</span><span class="dv">100</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> p, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>  theme(</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">20</span>) <span class="op">+</span></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>  labs(</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"All Post-ERCP</span><span class="ch">\n</span><span class="st">Pancreatitis"</span>,</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"Patients (%)"</span>,</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a><span class="co"># renal failure missing</span></span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>plot_b <span class="op">&lt;-</span> indo_rct <span class="op">|&gt;</span></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>  <span class="bu">filter</span>(bleed <span class="op">==</span> <span class="dv">1</span>) <span class="op">|&gt;</span></span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>  mutate(</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> case_match(</span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>      rx, </span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>      <span class="st">"0_placebo"</span> <span class="op">~</span> <span class="st">"Placebo"</span>,</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">"1_indomethacin"</span> <span class="op">~</span> <span class="st">"Indomethacin"</span></span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>    rx <span class="op">=</span> fct_relevel(rx, <span class="st">"Placebo"</span>, <span class="st">"Indomethacin"</span>)</span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">|&gt;</span></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>  count(rx, bleed) <span class="op">|&gt;</span></span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>  ggplot(aes(x <span class="op">=</span> rx, y <span class="op">=</span> n, fill <span class="op">=</span> rx)) <span class="op">+</span></span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>  geom_col(color <span class="op">=</span> <span class="st">"black"</span>) <span class="op">+</span></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>  scale_fill_manual(</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    values <span class="op">=</span> c(</span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Placebo"</span> <span class="op">=</span> <span class="st">"azure2"</span>, </span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Indomethacin"</span> <span class="op">=</span>  <span class="st">"deepskyblue4"</span></span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span> </span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>  theme_classic() <span class="op">+</span></span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a>  theme(</span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a>    axis.text.x <span class="op">=</span> element_blank(),</span>
+<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a>    axis.ticks.x <span class="op">=</span> element_blank()</span>
+<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a>  ) <span class="op">+</span></span>
+<span id="cb9-64"><a href="#cb9-64" aria-hidden="true" tabindex="-1"></a>  ylim(<span class="dv">0</span>, <span class="dv">8</span>) <span class="op">+</span></span>
+<span id="cb9-65"><a href="#cb9-65" aria-hidden="true" tabindex="-1"></a>  labs(</span>
+<span id="cb9-66"><a href="#cb9-66" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> <span class="st">"Gastrointestinal</span><span class="ch">\n</span><span class="st">Bleeding"</span>,</span>
+<span id="cb9-67"><a href="#cb9-67" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> <span class="st">"No. of Adverse Events"</span>,</span>
+<span id="cb9-68"><a href="#cb9-68" aria-hidden="true" tabindex="-1"></a>    fill <span class="op">=</span> NULL</span>
+<span id="cb9-69"><a href="#cb9-69" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a>plot_a <span class="op">+</span> plot_b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="fig-incidences-adverse-events" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-incidences-adverse-events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="">
+<a href="index_files/figure-html/notebooks-incidences-fig-incidences-adverse-events-output-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Incidence of the Primary and Secondary End Points and Adverse Events"><img src="index_files/figure-html/notebooks-incidences-fig-incidences-adverse-events-output-1.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-incidences-adverse-events-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Incidence of the Primary and Secondary End Points and Adverse Events
+</figcaption>
+</figure>
+</div>
+</div>
+</div></div>
+</div>
+<p>All 79 patients with post-ERCP pancreatitis completed the 30-day follow-up necessary to determine the severity of post-ERCP pancreatitis. The secondary outcome of moderate or severe post-ERCP pancreatitis occurred in 40 patients: 13 (4.4%) in the indomethacin group and 27 (8.8%) in the placebo group (P=0.03) (<a href="#fig-incidences-adverse-events" class="quarto-xref">Figure&nbsp;2</a>). Three patients in each group had severe post-ERCP pancreatitis, and one patient in the placebo group had pancreatic necrosis.</p>
+<p>Among patients with post-ERCP pancreatitis, the median length of hospital stay was 0.5 days shorter in the indomethacin group than in the placebo group (3.5 vs.&nbsp;4.0 days, P&lt;0.001).</p>
+<section id="heterogeneity-in-treatment-effects" class="level3">
+<h3 class="anchored" data-anchor-id="heterogeneity-in-treatment-effects">Heterogeneity in Treatment Effects</h3>
+<p>The relative benefit of indomethacin did not vary significantly according to patients’ pretreatment risk score, although the absolute risk reduction varied from an NNT of 21 for those with a risk score of 1 (one major or two minor inclusion criteria) to an NNT of 6 for those with a risk score of 5 (e.g., four major and two minor inclusion criteria) (<a href="#fig-heterogeneity" class="quarto-xref">Figure&nbsp;3</a>).</p>
+<div id="fig-heterogeneity" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-heterogeneity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/clipboard-2828008318.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Analysis of the Heterogeneity in Treatment Effects."><img src="images/clipboard-2828008318.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-heterogeneity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Analysis of the Heterogeneity in Treatment Effects.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="exploratory-subgroup-analyses" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-subgroup-analyses">Exploratory Subgroup Analyses</h2>
+<p>The beneficial effect of indomethacin on the primary outcome was also consistent across the other prespecified and post hoc secondary subgroups (<a href="#fig-exploratory-subgroup" class="quarto-xref">Figure&nbsp;4</a>). In particular, indomethacin appeared to be protective regardless of whether patients had undergone pancreatic stenting or had a clinical suspicion of sphincter of Oddi dysfunction; indomethacin was also protective in all three subtypes of sphincter of Oddi dysfunction and in the two study sites enrolling the largest number of patients.</p>
+<div id="fig-exploratory-subgroup" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exploratory-subgroup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/clipboard-1822931444.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;4: Exploratory Subgroup Analyses"><img src="images/clipboard-1822931444.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exploratory-subgroup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Exploratory Subgroup Analyses
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="adverse-events-1" class="level2">
+<h2 class="anchored" data-anchor-id="adverse-events-1">Adverse Events</h2>
+<p>There were 13 adverse events that were potentially attributable to the study intervention (<a href="#fig-incidences-adverse-events" class="quarto-xref">Figure&nbsp;2</a>). Clinically significant bleeding occurred in 11 patients (1.8%): 4 in the indomethacin group and 7 in the placebo group (P=0.72). None of the bleeding events resulted in transfusion of more than 2 units of packed red cells or required angiography or surgery for treatment. Two cases of acute renal failure occurred, both in the placebo group. There were no myocardial infarctions, strokes, or deaths at 30-day follow-up.</p>
+</section>
+</section>
+<section id="discussion" class="level1">
+<h1>Discussion</h1>
+<p>Our findings showed that one dose of rectal indomethacin given immediately after ERCP significantly reduced the incidence of post-ERCP pancreatitis in patients at elevated risk for this complication. Moreover, we found that prophylactic indomethacin decreased the severity of post-ERCP pancreatitis and was associated with a shorter hospital stay. In this trial, the number of high-risk ERCP patients who would need to be treated to prevent one episode of pancreatitis was 13.</p>
+<p>The majority of patients in this study had a clinical suspicion of sphincter of Oddi dysfunction, and more than half had sphincter hypertension, as documented on manometry, which suggests that the results are particularly applicable to this challenging patient population. However, among patients who received indomethacin, there was a trend toward benefit with respect to rates of post-ERCP pancreatitis for those who did not have a clinical suspicion of sphincter of Oddi dysfunction (8.5% vs.&nbsp;20.0%, P=0.11). Moreover, in a subgroup analysis, the relative treatment effect of indomethacin was consistent across the spectrum of patients’ risk of post-ERCP pancreatitis. Additional studies will be necessary to reproduce our results in different patient populations and to determine whether indomethacin is effective in low-risk patients, as suggested by our previous meta-analysis.<span class="citation" data-cites="andriulli2007">(<a href="#ref-andriulli2007" role="doc-biblioref">Andriulli et al. 2007</a>)</span></p>
+<p>Although more than 80% of the patients in this clinical trial underwent pancreatic stenting on the basis of their elevated risk of post-ERCP pancreatitis, certain patients did not receive stents, either because the endoscopist did not deem it indicated (e.g., difficult cannulation not requiring a precut sphincterotomy) or because placement was not technically feasible (failed pancreatic access). Among patients who received a pancreatic stent, indomethacin reduced the risk of post-ERCP pancreatitis from 16.1% to 9.7% (P=0.04). Indomethacin conferred similar benefit in patients who did not receive a pancreatic stent, reducing the risk of post-ERCP pancreatitis from 20.6% to 6.3% (P=0.049).</p>
+<p>Congruent with previous clinical trials evaluating NSAIDs in the prevention of post-ERCP pancreatitis, the risk of adverse events that were potentially attributable to indomethacin in this study was similar in the two study groups. Specifically, there was no significant between-group difference in the frequency or severity of bleeding events. This finding is consistent with previously published data suggesting that NSAIDs in standard doses do not increase the risk of bleeding after biliary sphincterotomy.<span class="citation" data-cites="freeman1996 nelson1994major">(<a href="#ref-freeman1996" role="doc-biblioref">Martin L. Freeman et al. 1996</a>; <a href="#ref-nelson1994major" role="doc-biblioref">Nelson and Freeman 1994</a>)</span> Of note, patients with contraindications to NSAIDs, such as renal failure and active peptic-ulcer disease, were excluded from this study.</p>
+<p>The rate of post-ERCP pancreatitis in the placebo group (16.9%) exceeded that revealed by the internal audit of high-risk ERCP patients at participating institutions (16.9% vs.&nbsp;10%). (These audit results had been used to calculate the sample size.) This difference may be due to the increased capture of complications that occurs in randomized, controlled trials. Nevertheless, the incidence of post-ERCP pancreatitis in the placebo group of this trial was similar to that in previous studies of NSAID pharmacoprevention in high-risk subjects, in which the mean rate of post-ERCP pancreatitis was 18.8%.<span class="citation" data-cites="andriulli2007">(<a href="#ref-andriulli2007" role="doc-biblioref">Andriulli et al. 2007</a>)</span></p>
+<p>In summary, prophylactic rectal indomethacin significantly reduced the incidence and severity of post-ERCP pancreatitis in patients at elevated risk for this complication, particularly in those with a clinical suspicion of sphincter of Oddi dysfunction.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-andriulli2007" class="csl-entry" role="listitem">
+Andriulli, Angelo, Gioacchino Leandro, Telemaco Federici, Antonio Ippolito, Rosario Forlano, Angelo Iacobellis, and Vito Annese. 2007. <span>“Prophylactic Administration of Somatostatin or Gabexate Does Not Prevent Pancreatitis After ERCP: An Updated Meta-Analysis.”</span> <em>Gastrointestinal Endoscopy</em> 65 (4): 624–32. <a href="https://doi.org/10.1016/j.gie.2006.10.030">https://doi.org/10.1016/j.gie.2006.10.030</a>.
+</div>
+<div id="ref-andriulli2000" class="csl-entry" role="listitem">
+Andriulli, Angelo, Gioacchino Leandro, Grazia Niro, Alessandra Mangia, Virginia Festa, Giovanni Gambassi, Maria Rosaria Villani, et al. 2000. <span>“Pharmacologic Treatment Can Prevent Pancreatic Injury After ERCP: A Meta-Analysis.”</span> <em>Gastrointestinal Endoscopy</em> 51 (1): 1–7. <a href="https://doi.org/10.1016/s0016-5107(00)70377-4">https://doi.org/10.1016/s0016-5107(00)70377-4</a>.
+</div>
+<div id="ref-cotton1991" class="csl-entry" role="listitem">
+Cotton, P. B., G. Lehman, J. Vennes, J. E. Geenen, R. C. G. Russell, W. C. Meyers, C. Liguory, and N. Nickl. 1991. <span>“Endoscopic Sphincterotomy Complications and Their Management: An Attempt at Consensus.”</span> <em>Gastrointestinal Endoscopy</em> 37 (3): 383–93. <a href="https://doi.org/10.1016/s0016-5107(91)70740-2">https://doi.org/10.1016/s0016-5107(91)70740-2</a>.
+</div>
+<div id="ref-dumonceau2010" class="csl-entry" role="listitem">
+Dumonceau, Jean-Marc, Johanne Rigaux, Michel Kahaleh, Carlos Macias Gomez, Alain Vandermeeren, and Jacques Devière. 2010. <span>“Prophylaxis of Post-ERCP Pancreatitis: A Practice Survey.”</span> <em>Gastrointestinal Endoscopy</em> 71 (6): 934–939.e2. <a href="https://doi.org/10.1016/j.gie.2009.10.055">https://doi.org/10.1016/j.gie.2009.10.055</a>.
+</div>
+<div id="ref-elmunzer2008" class="csl-entry" role="listitem">
+Elmunzer, B J, A K Waljee, G H Elta, J R Taylor, S M A Fehmi, and P D R Higgins. 2008. <span>“A Meta-Analysis of Rectal NSAIDs in the Prevention of Post-ERCP Pancreatitis.”</span> <em>Gut</em> 57 (9): 1262–67. <a href="https://doi.org/10.1136/gut.2007.140756">https://doi.org/10.1136/gut.2007.140756</a>.
+</div>
+<div id="ref-fazel2003" class="csl-entry" role="listitem">
+Fazel, Ali, Affan Quadri, Marc F. Catalano, Scott M. Meyerson, and Joseph E. Geenen. 2003. <span>“Does a Pancreatic Duct Stent Prevent Post-ERCP Pancreatitis? A Prospective Randomized Study.”</span> <em>Gastrointestinal Endoscopy</em> 57 (3): 291–94. <a href="https://doi.org/10.1067/mge.2003.124">https://doi.org/10.1067/mge.2003.124</a>.
+</div>
+<div id="ref-freeman2007" class="csl-entry" role="listitem">
+Freeman, Martin L. 2007. <span>“Pancreatic Stents for Prevention of Post<span></span>Endoscopic Retrograde Cholangiopancreatography Pancreatitis.”</span> <em>Clinical Gastroenterology and Hepatology</em> 5 (11): 1354–65. <a href="https://doi.org/10.1016/j.cgh.2007.09.007">https://doi.org/10.1016/j.cgh.2007.09.007</a>.
+</div>
+<div id="ref-freeman2004" class="csl-entry" role="listitem">
+Freeman, Martin L, and Nalini M Guda. 2004. <span>“Prevention of Post-ERCP Pancreatitis: A Comprehensive Review.”</span> <em>Gastrointestinal Endoscopy</em> 59 (7): 845–64. <a href="https://doi.org/10.1016/s0016-5107(04)00353-0">https://doi.org/10.1016/s0016-5107(04)00353-0</a>.
+</div>
+<div id="ref-freeman1996" class="csl-entry" role="listitem">
+Freeman, Martin L., Douglas B. Nelson, Stuart Sherman, Gregory B. Haber, Mary E. Herman, Paul J. Dorsher, Joseph P. Moore, et al. 1996. <span>“Complications of Endoscopic Biliary Sphincterotomy.”</span> <em>New England Journal of Medicine</em> 335 (13): 909–19. <a href="https://doi.org/10.1056/nejm199609263351301">https://doi.org/10.1056/nejm199609263351301</a>.
+</div>
+<div id="ref-gross1993inflammatory" class="csl-entry" role="listitem">
+Gross, V, HG Leser, A Heinisch, and J Schölmerich. 1993. <span>“Inflammatory Mediators and Cytokines–New Aspects of the Pathophysiology and Assessment of Severity of Acute Pancreatitis?”</span> <em>Hepato-Gastroenterology</em> 40 (6): 522–30.
+</div>
+<div id="ref-hcupnet2019utilization" class="csl-entry" role="listitem">
+HCUPnet, Healthcare Cost. 2019. <span>“Utilization Project. Rockville, MD: Agency for Healthcare Research and Quality, 2016.”</span>
+</div>
+<div id="ref-je2007effect" class="csl-entry" role="listitem">
+JE, Garcı́a Correa et al. 2007. <span>“Effect of the Administration of Rectal Indomethacin on Amylase Serum Levels After Endoscopic Retrograde Cholangiopancreatography, and Its Impact on the Development of Secondary Pancreatitis Episodes.”</span> <em>Revista Espanola de Enfermedades Digestivas: Organo Oficial de La Sociedad Espanola de Patologia Digestiva</em> 99 (6): 330–36.
+</div>
+<div id="ref-kent2010" class="csl-entry" role="listitem">
+Kent, David M, Peter M Rothwell, John PA Ioannidis, Doug G Altman, and Rodney A Hayward. 2010. <span>“Assessing and Reporting Heterogeneity in Treatment Effects in Clinical Trials: A Proposal.”</span> <em>Trials</em> 11 (1). <a href="https://doi.org/10.1186/1745-6215-11-85">https://doi.org/10.1186/1745-6215-11-85</a>.
+</div>
+<div id="ref-khoshbaten2008role" class="csl-entry" role="listitem">
+Khoshbaten, Manouchehr, Homayoun Khorram, Leili Madad, Mohammad Javad Ehsani Ardakani, Haleh Farzin, and Mohammmad Reza Zali. 2008. <span>“Role of Diclofenac in Reducing Post-Endoscopic Retrograde Cholangiopancreatography Pancreatitis.”</span> <em>Journal of Gastroenterology and Hepatology</em> 23 (7pt2): e11–16.
+</div>
+<div id="ref-makela1997inhibition" class="csl-entry" role="listitem">
+Mäkelä, A, T Kuusi, and T Schröder. 1997. <span>“Inhibition of Serum Phospholipase-A2 in Acute Pancreatitis by Pharmacological Agents in Vitro.”</span> <em>Scandinavian Journal of Clinical and Laboratory Investigation</em> 57 (5): 401–7.
+</div>
+<div id="ref-mallery2003" class="csl-entry" role="listitem">
+Mallery, J.Shawn, Todd H. Baron, Jason A. Dominitz, Jay L. Goldstein, William K. Hirota, Brian C. Jacobson, Jonathan A. Leighton, et al. 2003. <span>“Complications of ERCP.”</span> <em>Gastrointestinal Endoscopy</em> 57 (6): 633–38. <a href="https://doi.org/10.1053/ge.2003.v57.amge030576633">https://doi.org/10.1053/ge.2003.v57.amge030576633</a>.
+</div>
+<div id="ref-vandermarel2004" class="csl-entry" role="listitem">
+Marel, Caroline D. van der, Brian J. Anderson, Janne Rømsing, Evelyne Jacqz-Aigrain, and Dick Tibboel. 2004. <span>“Diclofenac and Metabolite Pharmacokinetics in Children.”</span> <em>Pediatric Anesthesia</em> 14 (6): 443–51. <a href="https://doi.org/10.1111/j.1460-9592.2004.01232.x">https://doi.org/10.1111/j.1460-9592.2004.01232.x</a>.
+</div>
+<div id="ref-murray2003diclofenac" class="csl-entry" role="listitem">
+Murray, Bill, Ross Carter, Clem Imrie, Susan Evans, and Criostoir O’suilleabhain. 2003. <span>“Diclofenac Reduces the Incidence of Acute Pancreatitis After Endoscopic Retrograde Cholangiopancreatography.”</span> <em>Gastroenterology</em> 124 (7): 1786–91.
+</div>
+<div id="ref-nelson1994major" class="csl-entry" role="listitem">
+Nelson, Douglas B, and Martin L Freeman. 1994. <span>“Major Hemorrhage from Endoscopic Sphincterotomy: Risk Factor Analysis.”</span> <em>Journal of Clinical Gastroenterology</em> 19 (4): 283–87.
+</div>
+<div id="ref-singh2004" class="csl-entry" role="listitem">
+Singh, Pankaj, Ananya Das, Gerard Isenberg, Richard C. K. Wong, Michael V. Sivak, Deepak Agrawal, and Amitabh Chak. 2004. <span>“Does Prophylactic Pancreatic Stent Placement Reduce the Risk of Post-ERCP Acute Pancreatitis? A Meta-Analysis of Controlled Trials.”</span> <em>Gastrointestinal Endoscopy</em> 60 (4): 544–50. <a href="https://doi.org/10.1016/s0016-5107(04)02013-9">https://doi.org/10.1016/s0016-5107(04)02013-9</a>.
+</div>
+<div id="ref-sotoudehmanesh2007indomethacin" class="csl-entry" role="listitem">
+Sotoudehmanesh, Rasoul, Morteza Khatibian, Shadi Kolahdoozan, Sanaz Ainechi, Ramin Malboosbaf, and Mehdi Nouraie. 2007. <span>“Indomethacin May Reduce the Incidence and Severity of Acute Pancreatitis After ERCP.”</span> <em>Official Journal of the American College of Gastroenterology| ACG</em> 102 (5): 978–83.
+</div>
+<div id="ref-tarnasky1998" class="csl-entry" role="listitem">
+Tarnasky, Paul R., Yuko Y. Palesch, John T. Cunningham, Patrick D. Mauldin, Peter B. Cotton, and Robert H. Hawes. 1998. <span>“Pancreatic Stenting Prevents Pancreatitis After Biliary Sphincterotomy in Patients with Sphincter of Oddi Dysfunction.”</span> <em>Gastroenterology</em> 115 (6): 1518–24. <a href="https://doi.org/10.1016/s0016-5085(98)70031-9">https://doi.org/10.1016/s0016-5085(98)70031-9</a>.
+</div>
+</div>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>  </div> <!-- /content -->  <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script> 
+  
+</body></html>

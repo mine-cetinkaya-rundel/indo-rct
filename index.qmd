@@ -1,0 +1,287 @@
+---
+title: A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis
+subtitle: Reproduction
+authors:
+  - name: B. Joseph Elmunzer, M.D.
+    affiliation: University of Michigan Medical Center
+    roles: writing
+    corresponding: true
+  - name: James M. Scheiman, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Glen A. Lehman, M.D.
+    affiliation:  Indiana University Medical Center
+  - name: Amitabh Chak, M.D.
+    affiliation: University Hospitals Case Medical Center
+  - name: Patrick Mosler, M.D., Ph.D.
+    affiliation: University of Kentucky Medical Center
+  - name: Peter D.R. Higgins, M.D., Ph.D.
+    affiliation: University of Michigan Medical Center
+    orcid: 0000-0003-1602-4341
+    email: phiggins@umich.edu
+  - name: Rodney A. Hayward, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Joseph Romagnuolo, M.D.
+    affiliation: Medical University of South Carolina
+  - name: Grace H. Elta, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Stuart Sherman, M.D.
+    affiliation:  Indiana University Medical Center
+  - name: Akbar K. Waljee, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Aparna Repaka, M.D.
+    affiliation: University Hospitals Case Medical Center
+  - name: Matthew R. Atkinson, M.D.
+    affiliation: University Hospitals Case Medical Center
+  - name: Gregory A. Cote, M.D.
+    affiliation:  Indiana University Medical Center
+  - name: Richard S. Kwon, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Lee McHenry, M.D.
+    affiliation:  Indiana University Medical Center
+  - name: Cyrus R. Piraka, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: Erik J. Wamsteker, M.D.
+    affiliation: University of Michigan Medical Center
+  - name: James L. Watkins, M.D.
+    affiliation:  Indiana University Medical Center
+  - name: Sheryl J. Korsnes, M.A.
+    affiliation: University of Michigan Medical Center
+  - name: Suzette E. Schmidt, B.S.N., C.C.R.P.
+    affiliation:  Indiana University Medical Center
+  - name: Sarah M. Turner, B.S.
+    affiliation: University of Kentucky Medical Center
+  - name: Sylvia Nicholson, C.C.R.C.
+    affiliation: University of Kentucky Medical Center
+  - name: Evan L. Fogel, M.D.
+    affiliation:  Indiana University Medical Center
+bibliography: references.bib
+abstract: |
+  **BACKGROUND**
+  Preliminary research suggests that rectally administered nonsteroidal antiinflammatory drugs may reduce the incidence of pancreatitis after endoscopic retrograde cholangiopancreatography (ERCP).
+  
+  **METHODS**
+  In this multicenter, randomized, placebo-controlled, double-blind clinical trial, we assigned patients at elevated risk for post-ERCP pancreatitis to receive a single dose of rectal indomethacin or placebo immediately after ERCP. Patients were determined to be at high risk on the basis of validated patient- and procedure-related risk factors. The primary outcome was post-ERCP pancreatitis, which was defined as new upper abdominal pain, an elevation in pancreatic enzymes to at least three times the upper limit of the normal range 24 hours after the procedure, and hospitalization for at least 2 nights.
+  
+  **RESULTS**
+  A total of 602 patients were enrolled and completed follow-up. The majority of patients (82%) had a clinical suspicion of sphincter of Oddi dysfunction. Post-ERCP pancreatitis developed in 27 of 295 patients (9.2%) in the indomethacin group and in 52 of 307 patients (16.9%) in the placebo group (P=0.005). Moderate-to-severe pancreatitis developed in 13 patients (4.4%) in the indomethacin group and in 27 patients (8.8%) in the placebo group (P=0.03).
+  
+  **CONCLUSIONS**
+  Among patients at high risk for post-ERCP pancreatitis, rectal indomethacin significantly reduced the incidence of the condition. (Funded by the National Institutes of Health; ClinicalTrials.gov number, NCT00820612. opens in new tab.)
+html-table-processing: none
+editor_options: 
+  chunk_output_type: console
+---
+
+::: callout-important
+This is a Quarto reproduction of a paper published in the New England Journal of Medicine in 2012, which you can find at <https://www.nejm.org/doi/full/10.1056/NEJMoa1111103>.
+Some of the reproduction code was provided by Peter Higgins.
+:::
+
+```{r}
+#| label: load-pkgs
+#| include: false
+library(tidyverse)
+library(medicaldata)
+library(consort)
+library(gtsummary)
+```
+
+Acute pancreatitis is the most common major complication of endoscopic retrograde cholangiopancreatography (ERCP),[@freeman2004] accounting for substantial morbidity, occasional death, and estimated health care expenditures of approximately \$150 million annually in the United States.[@freeman1996; @hcupnet2019utilization] Given the magnitude of this problem, more than 35 pharmacologic agents have been studied for the prophylaxis of post-ERCP pancreatitis, and many prospective clinical trials addressing chemoprevention have been conducted.
+To date, however, no medication has proved to be consistently effective in preventing post-ERCP pancreatitis on the basis of data from high-quality clinical trials, and no pharmacologic prophylaxis for post-ERCP pancreatitis is in widespread clinical use.
+
+Nonsteroidal antiinflammatory drugs (NSAIDs) are potent inhibitors of phospholipase A2, cyclooxygenase, and neutrophil–endothelial interactions, all believed to play an important role in the pathogenesis of acute pancreatitis.[@gross1993inflammatory; @makela1997inhibition] NSAIDs are inexpensive and easily administered and have a favorable risk profile when given as a single dose, making them an attractive option in the prevention of post-ERCP pancreatitis.
+Preliminary studies evaluating the protective effects of single-dose rectal indomethacin or diclofenac in post-ERCP pancreatitis have been conducted,[@murray2003diclofenac; @sotoudehmanesh2007indomethacin; @khoshbaten2008role; @je2007effect] and a meta-analysis suggests benefit.[@elmunzer2008]
+
+Despite these data, rectal NSAIDs are seldom used in clinical practice because there is no conclusive evidence from randomized, controlled trials[@dumonceau2010] and because previous positive meta-analyses of other agents for the prevention of post-ERCP pancreatitis have been disproved by further investigation.[@andriulli2000; @andriulli2007] Moreover, it remains unclear whether NSAIDs provide incremental benefit over temporary pancreatic stents, the only proven prophylactic intervention for post-ERCP pancreatitis.[@tarnasky1998; @fazel2003; @singh2004] Therefore, we conducted a multicenter, randomized, controlled clinical trial to evaluate the efficacy of prophylactic rectal indomethacin for the prevention of post-ERCP pancreatitis in high-risk patients.
+
+# Methods
+
+## Study design
+
+We enrolled patients at four university-affiliated medical centers in the United States after approval from the human studies review committee at each institution.
+An independent data and safety monitoring board provided regulatory oversight by reviewing blinded subject data quarterly and conducting the a priori scheduled interim analysis.
+The complete study [**protocol**](https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_protocol.pdf) is available with the full text of this article at NEJM.org.
+
+## Patients
+
+The inclusion criteria selected patients with an elevated baseline risk of post-ERCP pancreatitis on the basis of prospectively validated patient- and procedure-related independent risk factors.[@freeman2007] Patients were eligible if they met one or more of the following major criteria: clinical suspicion of sphincter of Oddi dysfunction (as defined in the [**Supplementary Appendix**](https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf), available at NEJM.org), a history of post-ERCP pancreatitis, pancreatic sphincterotomy, precut sphincterotomy (a procedure performed to facilitate biliary access when standard cannulation techniques are unsuccessful), more than eight cannulation attempts (as determined by the endoscopist), pneumatic dilatation of an intact biliary sphincter, or ampullectomy.
+Patients were also eligible for inclusion if they met two or more of the following minor criteria: an age of less than 50 years and female sex, a history of recurrent pancreatitis ($\ge$ 2 episodes), three or more injections of contrast agent into the pancreatic duct with at least one injection to the tail of the pancreas, excessive injection of contrast agent into the pancreatic duct resulting in opacification of pancreatic acini, or the acquisition of a cytologic specimen from the pancreatic duct with the use of a brush.
+
+The exclusion criteria are listed in the [**Supplementary Appendix**](https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf) and were intended to exclude patients in whom ERCP was unsuitable and those who had active pancreatitis, had a contraindication to the use of NSAIDs (e.g., creatinine level, \>1.4 mg per deciliter \[124 $\mu$mol per liter\] or active peptic ulcer disease), were already taking NSAIDs (other than cardioprotective aspirin), or had an anticipated low risk of post-ERCP pancreatitis (e.g., those with chronic calcific pancreatitis or a pancreatic-head mass or those undergoing routine biliary-stent exchange).
+
+Eligible patients who provided written informed consent underwent randomization at the conclusion of the ERCP procedure, because patients without risk factors could be included in the study on the basis of procedure-related factors alone.
+
+## Intervention
+
+All procedure-related interventions were dictated by the performing endoscopist.
+Immediately after the procedure, if the endoscopist and research coordinator determined that inclusion criteria had been met, patients were randomly assigned to receive either two 50-mg indomethacin suppositories or two identical-appearing placebo suppositories.
+The randomization schedule, which was stratified according to study center, was generated centrally at the University of Michigan.
+
+The suppositories were administered immediately after ERCP while the patient was still in the procedure room.
+The rectal route was selected on the basis of available pilot data suggesting that only rectal NSAIDs are effective in preventing post-ERCP pancreatitis, perhaps owing to more rapid and complete bioavailability than with oral administration.[@elmunzer2008; @vandermarel2004] The indomethacin suppositories were purchased from two vendors: G&W Laboratories and Custom Med Apothecary.
+Formal potency testing confirmed that the vendors provided indomethacin suppositories that were pharmacodynamically equivalent (Analytic Research Laboratories).
+
+## Outcomes
+
+The primary outcome of the study was the development of post-ERCP pancreatitis, which was defined according to consensus criteria[@cotton1991] (details are provided in the [**Supplementary Appendix**](https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf)).
+Briefly, post-ERCP pancreatitis was diagnosed if there was a new onset of pain in the upper abdomen, an elevation in pancreatic enzymes of at least three times the upper limit of the normal range 24 hours after the procedure, and hospitalization for at least 2 nights.
+The secondary outcome was the development of moderate or severe post-ERCP pancreatitis (see the [**Supplementary Appendix**](https://www.nejm.org/doi/suppl/10.1056/NEJMoa1111103/suppl_file/nejmoa1111103_appendix.pdf)).
+Data regarding the length of hospital stay for patients with post-ERCP pancreatitis were collected prospectively, but the duration of hospitalization was not a prespecified outcome measure and was therefore analyzed post hoc.
+
+Patients were observed in the recovery area for at least 90 minutes after the procedure.
+Patients in whom abdominal pain developed during this observation period were admitted to the hospital (or for current inpatients, kept in the hospital).
+Decisions regarding evaluation of complications after the procedure and in-hospital care were left to the discretion of the endoscopist and clinical-service staff members, who were unaware of study-group assignments.
+Serum amylase and lipase were measured in hospitalized patients at least once 24 hours after the procedure and subsequently at clinical discretion.
+
+Patients who were discharged after an uneventful ERCP were contacted by telephone within 5 days to capture delayed occurrence of the primary end point.
+Patients were again contacted at 30 days to assess for delayed adverse events and to determine the severity of post-ERCP pancreatitis, which was defined in part by the length of hospitalization for pancreatitis.
+The original study protocol stated that the primary end point would be assessed within 48 hours after the procedure.
+Although post-ERCP pancreatitis generally occurs within this period, we contacted patients up to 5 days after ERCP to ensure capture of delayed cases of the primary end point.
+
+Patient demographics, risk factors, ERCP procedural elements, and follow-up data were recorded on standardized data-collection forms by an investigator or coordinator who was unaware of study-group assignments.
+All data were subsequently entered into a Web-based database, Velos eResearch, and managed by an independent data-management service.
+
+## Adverse events
+
+Adverse events were defined as reported previously.[@cotton1991; @mallery2003] Any cases of post-ERCP pancreatitis, other complications of the procedure, and adverse events that were potentially attributable to the study drug were reported to the local institutional review board and the data and safety monitoring board.
+These reportable adverse events were gastrointestinal bleeding, perforation, infection, renal failure, allergic reaction, myocardial infarction, cerebrovascular accident, and death.
+
+## Statistical analysis
+
+The prophylactic placement of pancreatic stents has been shown to reduce the rate of post-ERCP pancreatitis to 5 to 10% among high-risk patients.[@tarnasky1998; @fazel2003; @singh2004] An internal audit of high-risk ERCPs at participating institutions revealed a post-ERCP rate of pancreatitis of approximately 10%, despite routine prophylactic stent placement in appropriate patients.
+We estimated that 948 patients (474 per study group) would provide a power of at least 80% to detect a 50% reduction in the incidence of post-ERCP pancreatitis, from 10% in the placebo group to 5% in the indomethacin group, on the basis of Fisher's exact test, with a two-sided significance level of 0.05.
+
+For the analysis of the primary end point, we used a two-tailed Fisher's exact test to analyze the difference in the proportion of patients with post-ERCP pancreatitis in the indomethacin group and the placebo group, with a final two-sided P value of less than 0.041 indicating statistical significance.
+This P value reflects the partial spending of degrees of freedom of statistical testing that resulted from conducting two interim analyses on the basis of the O'Brien–Fleming approach and the Lan–DeMets alpha spending function.
+Results for the primary end point were reported in terms of absolute and relative risk reduction.
+The secondary end point, the proportion of patients with moderate or severe post-ERCP pancreatitis in each study group, was similarly calculated, with a P value of less than 0.05 indicating statistical significance.
+Hospital length of stay was found to have a skewed distribution, and therefore we used the Kruskal–Wallis equality-of-populations rank test to compare median values.
+
+When information for the first 400 patients could be evaluated, an ad hoc rule was used to trigger an interim analysis by the data and safety monitoring board: if more than 66% of cases of pancreatitis or bleeding were in a particular study group, a formal comparison between groups would be performed with the use of a two-sided stopping boundary of 0.005.
+On the basis of the results of the first analysis, the data and safety monitoring board recommended a second interim analysis after an additional 200 patients were enrolled.
+
+According to a previously proposed framework for evaluating the heterogeneity in treatment effects on the primary end point,[@kent2010] a post hoc analysis (not described in the protocol) was performed on data from enrolled patients according to their pretreatment risk of post-ERCP pancreatitis.
+In this analysis, we assessed whether the relative treatment effect was consistent across the spectrum of risk of post-ERCP pancreatitis.
+Individual patient risk scores were determined by assigning one point for each major inclusion criterion and 0.5 points for each minor inclusion criterion.
+
+We performed additional exploratory subgroup analyses on the following prespecified characteristics: age, sex, suspicion of sphincter of Oddi dysfunction, a history of post-ERCP pancreatitis, a history of recurrent pancreatitis, sphincter of Oddi dysfunction as documented on manometry, more than eight cannulation attempts, precut sphincterotomy, pancreatic sphincterotomy, pancreatic acinarization, biliary sphincterotomy, ampullectomy, placement of a pancreatic stent, and trainee involvement in the ERCP.
+We performed additional post hoc subgroup analyses on the type of sphincter of Oddi dysfunction, inpatient versus outpatient status, and participating medical center.
+All subgroup statistical analyses were evaluated for interaction effects with indomethacin by testing for significance of a corresponding interaction term in a multiple logistic-regression model.[@kent2010]
+
+# Results
+
+## Patients
+
+From February 2009 through July 2011, a total of `{r} nrow(indo_rct)` subjects were enrolled (@fig-enrollment-outcomes).
+In July 2011, the data and safety monitoring board performed an interim analysis to assess the outcomes of the first 600 patients and recommended that the study be terminated early on the basis of the benefit of indomethacin as compared with placebo.
+Thus, we terminated the study according to the a priori stopping rule.
+
+{{< embed notebooks/consort.qmd#fig-enrollment-outcomes >}}
+
+```{r}
+#| label: n-rx
+
+indo_rct_rx <- indo_rct |>
+  count(rx)
+
+n_indomethacin <- indo_rct_rx |>
+  filter(rx == "1_indomethacin") |>
+  pull(n)
+
+n_placebo <- indo_rct_rx |>
+  filter(rx == "0_placebo") |>
+  pull(n)
+```
+
+```{r}
+#| label: p-oddi
+
+p_oddi <- indo_rct |> 
+  mutate(type = if_else(type != "0_no SOD", "oddi", "no oddi")) |>
+  count(type) |>
+  mutate(p = round(n / sum(n) * 100, 1)) |>
+  filter(type == "oddi") |>
+  pull(p)
+```
+
+A total of `{r} n_indomethacin` patients received indomethacin, and `{r} n_placebo` patients received placebo.
+One patient in the indomethacin group could not retain the suppositories but was included in the intention-to-treat analysis.
+Follow-up of all patients for the primary and secondary end points was complete (@fig-enrollment-outcomes).
+Baseline characteristics were similar in the two study groups (@tbl-characteristics-baseline).
+Notably, `{r} p_oddi`% of patients had a clinical suspicion of sphincter of Oddi dysfunction.
+
+```{r}
+#| label: tbl-characteristics-baseline
+#| tbl-cap: Characteristics of the Patients at Baseline.
+
+# reproduction of https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2012/nejm_2012.366.issue-15/nejmoa1111103/production/images/img_medium/nejmoa1111103_t1.jpeg
+tbl_summary(
+  indo_rct,
+  include = c("age", "gender", "sod", "pep", "recpanc", "difcan", "precut", "paninj", "psphinc", "acinar", "bsphinc", "amp", "pdstent", "train"),
+   by = rx,
+  missing = "no"
+)   |>
+  add_n() |> # add column with total number of non-missing observations
+  add_p() |> # test for a difference between groups
+  modify_header(label = "**Variable**") |> # update the column header
+  bold_labels()
+```
+
+## Study outcomes
+
+The primary outcome of post-ERCP pancreatitis occurred in 79 of 602 patients (13.1%).
+Of these events, 27 of 295 (9.2%) occurred in the indomethacin group and 52 of 307 (16.9%) occurred in the placebo group (P=0.005), corresponding to an absolute risk reduction of 7.7 percentage points (number needed to treat \[NNT\] to prevent one episode of post-ERCP pancreatitis, 13) and a relative risk reduction of 46% (@fig-incidences-adverse-events).
+
+{{< embed notebooks/incidences.qmd#fig-incidences-adverse-events >}}
+
+All 79 patients with post-ERCP pancreatitis completed the 30-day follow-up necessary to determine the severity of post-ERCP pancreatitis.
+The secondary outcome of moderate or severe post-ERCP pancreatitis occurred in 40 patients: 13 (4.4%) in the indomethacin group and 27 (8.8%) in the placebo group (P=0.03) (@fig-incidences-adverse-events).
+Three patients in each group had severe post-ERCP pancreatitis, and one patient in the placebo group had pancreatic necrosis.
+
+Among patients with post-ERCP pancreatitis, the median length of hospital stay was 0.5 days shorter in the indomethacin group than in the placebo group (3.5 vs. 4.0 days, P\<0.001).
+
+### Heterogeneity in Treatment Effects
+
+The relative benefit of indomethacin did not vary significantly according to patients' pretreatment risk score, although the absolute risk reduction varied from an NNT of 21 for those with a risk score of 1 (one major or two minor inclusion criteria) to an NNT of 6 for those with a risk score of 5 (e.g., four major and two minor inclusion criteria) (@fig-heterogeneity).
+
+![Analysis of the Heterogeneity in Treatment Effects.](images/clipboard-2828008318.png){#fig-heterogeneity}
+
+## Exploratory Subgroup Analyses
+
+The beneficial effect of indomethacin on the primary outcome was also consistent across the other prespecified and post hoc secondary subgroups (@fig-exploratory-subgroup).
+In particular, indomethacin appeared to be protective regardless of whether patients had undergone pancreatic stenting or had a clinical suspicion of sphincter of Oddi dysfunction; indomethacin was also protective in all three subtypes of sphincter of Oddi dysfunction and in the two study sites enrolling the largest number of patients.
+
+![Exploratory Subgroup Analyses](images/clipboard-1822931444.png){#fig-exploratory-subgroup}
+
+## Adverse Events
+
+There were 13 adverse events that were potentially attributable to the study intervention (@fig-incidences-adverse-events).
+Clinically significant bleeding occurred in 11 patients (1.8%): 4 in the indomethacin group and 7 in the placebo group (P=0.72).
+None of the bleeding events resulted in transfusion of more than 2 units of packed red cells or required angiography or surgery for treatment.
+Two cases of acute renal failure occurred, both in the placebo group.
+There were no myocardial infarctions, strokes, or deaths at 30-day follow-up.
+
+# Discussion
+
+Our findings showed that one dose of rectal indomethacin given immediately after ERCP significantly reduced the incidence of post-ERCP pancreatitis in patients at elevated risk for this complication.
+Moreover, we found that prophylactic indomethacin decreased the severity of post-ERCP pancreatitis and was associated with a shorter hospital stay.
+In this trial, the number of high-risk ERCP patients who would need to be treated to prevent one episode of pancreatitis was 13.
+
+The majority of patients in this study had a clinical suspicion of sphincter of Oddi dysfunction, and more than half had sphincter hypertension, as documented on manometry, which suggests that the results are particularly applicable to this challenging patient population.
+However, among patients who received indomethacin, there was a trend toward benefit with respect to rates of post-ERCP pancreatitis for those who did not have a clinical suspicion of sphincter of Oddi dysfunction (8.5% vs. 20.0%, P=0.11).
+Moreover, in a subgroup analysis, the relative treatment effect of indomethacin was consistent across the spectrum of patients' risk of post-ERCP pancreatitis.
+Additional studies will be necessary to reproduce our results in different patient populations and to determine whether indomethacin is effective in low-risk patients, as suggested by our previous meta-analysis.[@andriulli2007]
+
+Although more than 80% of the patients in this clinical trial underwent pancreatic stenting on the basis of their elevated risk of post-ERCP pancreatitis, certain patients did not receive stents, either because the endoscopist did not deem it indicated (e.g., difficult cannulation not requiring a precut sphincterotomy) or because placement was not technically feasible (failed pancreatic access).
+Among patients who received a pancreatic stent, indomethacin reduced the risk of post-ERCP pancreatitis from 16.1% to 9.7% (P=0.04).
+Indomethacin conferred similar benefit in patients who did not receive a pancreatic stent, reducing the risk of post-ERCP pancreatitis from 20.6% to 6.3% (P=0.049).
+
+Congruent with previous clinical trials evaluating NSAIDs in the prevention of post-ERCP pancreatitis, the risk of adverse events that were potentially attributable to indomethacin in this study was similar in the two study groups.
+Specifically, there was no significant between-group difference in the frequency or severity of bleeding events.
+This finding is consistent with previously published data suggesting that NSAIDs in standard doses do not increase the risk of bleeding after biliary sphincterotomy.[@freeman1996; @nelson1994major] Of note, patients with contraindications to NSAIDs, such as renal failure and active peptic-ulcer disease, were excluded from this study.
+
+The rate of post-ERCP pancreatitis in the placebo group (16.9%) exceeded that revealed by the internal audit of high-risk ERCP patients at participating institutions (16.9% vs. 10%).
+(These audit results had been used to calculate the sample size.) This difference may be due to the increased capture of complications that occurs in randomized, controlled trials.
+Nevertheless, the incidence of post-ERCP pancreatitis in the placebo group of this trial was similar to that in previous studies of NSAID pharmacoprevention in high-risk subjects, in which the mean rate of post-ERCP pancreatitis was 18.8%.[@andriulli2007]
+
+In summary, prophylactic rectal indomethacin significantly reduced the incidence and severity of post-ERCP pancreatitis in patients at elevated risk for this complication, particularly in those with a clinical suspicion of sphincter of Oddi dysfunction.

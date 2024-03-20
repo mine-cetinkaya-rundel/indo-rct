@@ -1,0 +1,60 @@
+---
+title: Enrollment and Outcomes
+---
+
+Consort diagram.
+
+```{r}
+#| label: load-pkgs
+
+library(consort)
+```
+
+```{r}
+#| label: fig-enrollment-outcomes
+#| fig-cap: Enrollment and Outcomes.
+#| fig-width: 10
+#| fig-asp: 1
+#| fig-dpi: 300
+
+# use https://github.com/adayim/consort 
+# use the consort package to generate a CONSORT diagram using the indo_rct dataset, much like the picture below
+N <- 799
+trialno <- sample(c(1000:2000), N)
+exc1 <- rep(NA, N)
+exc1[sample(1:N, 197)] <- sample(c("Did not meet inclusion criteria", "Met exclusion criteria", "Did not undergo ERCP"),  15, replace = TRUE, prob = c(0.858, 0.0558, 0.086))
+induc <- rep(NA, N)
+induc[is.na(exc1)] <- trialno[is.na(exc1)]
+
+exc2 <- rep(NA, N)
+exc2[sample(1:N, 1)] <- sample(c( "Could not hold suppository"), 1, replace = TRUE, prob = c(0.0039))
+exc2[is.na(induc)] <- NA
+
+arm <- rep(NA, N)
+arm[is.na(exc1)] <- sample(c("Conc", "Seq"), sum(is.na(exc1)), replace = TRUE)
+arm3 <- sample(c("Indomethacin", "Placebo"), N, replace = TRUE)
+arm3[is.na(arm)] <- NA
+
+df_consort <- data.frame(trialno, exc1, induc, exc2, exc1, arm, arm3)
+rm(trialno, exc1, induc, exc2, exc1, arm, arm3, N)
+
+consort_plot(
+  data = df_consort,
+  order = list(
+  trialno = "Population",
+  exc1 = "Excluded",
+  induc = "Induction",
+  exc2 = "Excluded",
+  arm3 = "Randomized patient",
+  trialno = "Finished Followup",
+  trialno = "Final Analysis"
+),
+  side_box = c("exc1", "exc2"),
+  allocation = "arm3",
+  labels = c(
+  "1" = "Screening", "2" = "Randomization",
+  "3" = "Assignment", "5" = "End of study"
+  ),
+ cex = 0.7
+)
+```
